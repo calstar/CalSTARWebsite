@@ -1,57 +1,43 @@
-/*@font-face {
-  font-family: 'moon';
-  src: url('http://stars.berkeley.edu/assets/fonts/Moon%20Light.otf');
-}*/
+@font-face {
+    font-family: "Didact Gothic";
+    src: url("../fonts/Didact_Gothic/DidactGothicRegular.ttf");
+}
 
-@import url('https://fonts.googleapis.com/css?family=News+Cycle');
+@font-face {
+    font-family: "Gugi";
+    src: url("../fonts/Gugi/Gugi-Regular.ttf");
+}
 
 * {
-  box-sizing: border-box;
-  /*font-family: 'moon';*/
-  font-family: 'News Cycle';
+  font-family: 'Didact Gothic', sans-serif;
 }
 
-.wrapper {
-  position: absolute;
-  height: 40px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+.navbar {
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-bottom: 0px;
 }
 
-nav{
+.navbar-brand{
+  margin-bottom: 0px;
+}
+
+.navbar-static-top {
   position: fixed;
-  width: 100%;
-  margin: 0 auto;
-  height: 60px;
-  border-bottom: thin solid black;
-  left: 0;
-  top: 0;
-  text-align: right;
-  background: rgba(0, 0, 0, 0.9);
-  z-index: 10;
+  font-size: 16px;
+  font-weight: 300;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);*/
+  border: 0;
+  margin-bottom: 0px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
-
-.burger{
-  display: none;
-}
-
-.top {
-  margin-top: 18px;
-}
-
-/*.burger-nav ul {
-  margin-top: 18px;
-}*/
 
 .logo {
-  position: fixed;
-  width: 72.92px;
-  float: left;
+  width: 72px;
   height: auto;
-  top: 8px;
-  left: 30px;
-  z-index: 12;
+  position: center;
+  margin: 0;
+  margin-top: -12px;
 }
 
 .star {
@@ -60,50 +46,121 @@ nav{
   object-fit: cover;
 }
 
-ul {
-  float: right;
-  position: relative;
-  vertical-align: middle;
-  color: white;
-  letter-spacing: 2px;
-  font-weight: lighter;
-  font-size: 15px;
-  margin-right: 20px;
-}
-
 .tab {
-  margin: 0 15px;
   display: inline-block;
   position: relative;
-  color: white;
 }
 
 .tab a{
-  text-decoration: none;
-  color: lightgrey;
-  cursor: pointer;
+  color: rgba(0, 0, 0, 0.9);
+  letter-spacing: 0.5;
 }
 
 .tab:hover {
-  transform: scale(1.2);
-  transition: 200ms;
-  font-weight: bold;
-  cursor: pointer;
+  color: white;
+}
+
+.custom-break {
+  height: 108px;
+}
+
+.team {
+  background: rgba(0, 0, 0, 0.05);
 }
 
 .team-title {
   position: relative;
-  margin-top: 96px;
   text-align: center;
+  font-family: 'Gugi', cursive;
+  margin-top: -20px;
+  padding-top: 24px;
+}
+
+.team-title h1 {
+  font-size: 64px;
 }
 
 .team-icon-grid {
   position: relative;
-  
 }
 
 .team-icon-grid-subtitle {
   text-align: center;
+  padding-bottom: 24px;
+  font-size: 20px;
 }
+
+.team-icon-grid-subtitle p {
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+
+.team-icon-grid-box {
+  /*background-color: blue;*/
+}
+
+.team-icon {
+  text-align: center;
+  padding: 48px 24px;
+}
+
+.team-icon img {
+  height: 200px;
+  width: 200px;
+}
+
+.team-icon p {
+  /*font-family: 'Gugi', cursive;*/
+  /*position: relative;*/
+/*  padding-left: 25%;
+  padding-right: 25%;*/
+  padding-top: 24px;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0.03px;
+}
+
+#box1 {
+  background-color: lightblue;
+}
+
+.subteam-box {
+  padding: 24px 0px 48px 0px;
+}
+
+.subteam-content .lead-img {
+  text-align: center;
+}
+
+.subteam-content .lead-img img {
+  width: 300px;
+  height: 300px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+
+.subteam-content h2 {
+  font-family: 'Gugi', cursive;
+  font-size: 48px;
+  padding: 0px 0px 12px 0px;
+}
+
+.subteam-content p {
+  font-size: 24px;
+  font-weight: 300;
+  padding-bottom: 12px;
+}
+
+.subteam-content .team-lead-info h3 {
+  font-family: 'Gugi', cursive;
+  font-size: 24px;
+}
+
+.subteam-content .team-lead-info p {
+  font-size: 18px;
+}
+
+
 
 

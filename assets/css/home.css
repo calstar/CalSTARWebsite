@@ -3,12 +3,22 @@
   src: url('http://stars.berkeley.edu/assets/fonts/Moon%20Light.otf');
 }*/
 
-@import url('https://fonts.googleapis.com/css?family=News+Cycle');
+/*font-family: 'Gugi', cursive;
+font-family: 'Didact Gothic', sans-serif;*/
+
+@font-face {
+    font-family: "Didact Gothic";
+    src: url("../fonts/Didact_Gothic/DidactGothicRegular.ttf");
+}
+
+@font-face {
+    font-family: "Gugi";
+    src: url("../fonts/Gugi/Gugi-Regular.ttf");
+}
 
 * {
   box-sizing: border-box;
-  /*font-family: 'moon';*/
-  font-family: 'News Cycle';
+  font-family: 'Gugi', cursive;
 }
 
 .wrapper {
