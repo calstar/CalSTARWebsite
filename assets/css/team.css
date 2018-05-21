@@ -13,8 +13,9 @@
 }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 250, 0.5);
   margin-bottom: 0px;
+  height: auto;
 }
 
 .navbar-brand{
@@ -165,6 +166,14 @@
     border: 0 !important;
     text-align: center;
     font-size: 25px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+.table-style td:hover{
+    background-color: rgba(0,0,250,0.05);
 }
 
 p {
