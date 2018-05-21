@@ -161,6 +161,12 @@
   font-size: 18px;
 }
 
+.table-style td{
+    border: 0 !important;
+    text-align: center;
+    font-size: 25px;
+}
 
-
-
+p {
+  font-family: "Didact_Gothic", sans-serif;
+}
