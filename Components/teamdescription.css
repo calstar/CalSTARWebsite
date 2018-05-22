@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Didact Gothic";
+    src: url("../assets/fonts/Didact_Gothic/DidactGothicRegular.ttf");
+}
+
+@font-face {
+    font-family: "Gugi";
+    src: url("../assets/fonts/Gugi/Gugi-Regular.ttf");
+}
+
+.teambox {
+  color: #def6ff;
+  background-color: #000a47;
+  width: 100%;
+  height: auto;
+}
+
+.teambox h2 {
+  font-family: 'Gugi', cursive;
+  font-size: 50px;
+}
+
+.teambox p {
+  font-family: 'Didact Gothic',sans-serif;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.round {
+  border-radius: 100%;
+}
+
+.team-leads ul {
+  list-style-type: none;
+  padding-top: 35px;
+  line-height: 400%;
+}
+
+.team-leads li {
+  font-family: 'Didact_Gothic', sans-serif;
+  font-size: 20px;
+  font-weight: 250;
+}
