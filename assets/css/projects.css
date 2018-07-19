@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Didact Gothic";
+    src: url("../fonts/Didact_Gothic/DidactGothicRegular.ttf");
+}
+
+@font-face {
+    font-family: "Gugi";
+    src: url("../fonts/Gugi/Gugi-Regular.ttf");
+}
+
+* {
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.navbar {
+  background-color: #000035;
+  margin-bottom: 0px;
+  height: auto;
+}
+
+.navbar-brand{
+  margin-bottom: 0px;
+}
+
+.navbar-static-top {
+  position: fixed;
+  font-size: 16px;
+  font-weight: 300;
+  border: 0;
+  margin-bottom: 0px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.logo {
+  width: 72px;
+  height: auto;
+  position: center;
+  margin: 0;
+  margin-top: -12px;
+}
+
+.star {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.tab {
+  display: inline-block;
+  position: relative;
+}
+
+.tab a{
+  color:#FDFFCC;
+  letter-spacing: 0.5;
+}
+
+.tab:hover {
+  color: white;
+}
+
+.projects {
+    background: linear-gradient(#000035, #15E4FA);
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    text-align: center;
+    color: #FDFFCC;
+    font-size: 60px;
+    font-family: 'Gugi', cursive;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
