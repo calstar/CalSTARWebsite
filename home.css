@@ -1,366 +1,132 @@
-/*@font-face {
-  font-family: 'moon';
-  src: url('http://stars.berkeley.edu/assets/fonts/Moon%20Light.otf');
-}*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
 
-@import url('https://fonts.googleapis.com/css?family=News+Cycle');
-
-* {
-  box-sizing: border-box;
-  /*font-family: 'moon';*/
-  font-family: 'News Cycle';
+.main-picture {
+  height: 100vh;
+  min-height: 400px;
+  background-size:cover;
+  background-image:url('starlaunch.jpg');
 }
 
-.wrapper {
-  position: absolute;
-  height: 40px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+.navbar {
+	position: relative;
+	margin-bottom: 0;
+	font-family: "Open Sans", sans-serif;
+	min-height: 72px;
 }
 
-nav{
-  position: fixed;
-  width: 100%;
-  margin: 0 auto;
-  height: 60px;
-  border-bottom: thin solid black;
-  left: 0;
-  top: 0;
-  text-align: right;
-  background: rgba(0, 0, 0, 0.9);
-  z-index: 10;
+.navbar-brand {
+	position: relative;
+	top: 8px;
+	transition: color 0.5s;
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #999999;
 }
 
-.burger{
-  display: none;
+.navbar-brand:hover {
+	color: #f4f4f4;
 }
 
-.logo {
-  position: fixed;
-  width: 72.92px;
-  float: left;
-  height: auto;
-  top: 8px;
-  left: 30px;
-  z-index: 12;
+.navbar-light {
+	position: fixed;
+	margin-bottom: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+	border: 0;
+	height: 36px;
 }
 
-.star {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+.navbar-light li a {
+	color: #999999;
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	transition: color 0.5s;
 }
 
-ul {
-  float: right;
-  position: relative;
-  vertical-align: middle;
-  color: white;
-  letter-spacing: 2px;
-  font-weight: lighter;
-  font-size: 15px;
-  margin-right: 20px;
+.navbar-light li a:hover {
+	color: #f4f4f4;
+	text-decoration: none;
+	background-color: transparent !important;
 }
 
-.tab {
-  margin: 0 15px;
-  display: inline-block;
-  position: relative;
-  color: white;
+.navbar ul {
+	position: relative;
+	top: 8px;
 }
 
-.tab a{
-  text-decoration: none;
-  color: lightgrey;
-  cursor: pointer;
+.main-content {
+	position: absolute;
+	top: 30vh;
+	font-family: 'Montserrat', sans-serif;
+	color: #f4f4f4;
 }
 
-.tab:hover {
-  transform: scale(1.2);
-  transition: 200ms;
-  font-weight: bold;
-  cursor: pointer;
+.main-content h1 {
+	font-size: 96px;
+	letter-spacing: 2px;
+	font-weight: 700;
 }
 
-body {
-  margin: 0;
+.main-content h4 {
+	/*font-size: 24px;*/
+	letter-spacing: 2px;
 }
 
-.picture-container:before {
-content: '';
-position: fixed;
-background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%);
-background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%);
-background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%);
-width: 100%;
-height: 100%;
-left: 0;
-top:  0;
-z-index: 5;
+.footer-content {
+	min-height: 360px;
+	background-color: #161738;
+	color: #f4f4f4;
 }
 
-.picture-main {
-  width: 100%;
-  height: 97.3%;
-  background: url("../images/starlaunch.jpg");
-  background-size: cover;
-  background-position: center bottom;
-  z-index:1;
+.footer-content .footer-content-box {
+	position: relative;
+	top: 72px;
+	width: 20vw;
 }
 
-.picture-maintext {
-  position: absolute;
-  top: calc(50% - 25px);
-  left: calc(50% - 80px);
-  color: white;
-  font-size: 30px;
-  float: left;
-  font-weight: 100;
-  color: #FFFFFF;
-  z-index: 10;
+.footer-content .footer-content-box h5 {
+	letter-spacing: 2px;
+	font-weight: 500;
+	line-height: 1.2;
+	border-bottom: 0.3px solid #6B6B6B;
+	padding-bottom: 16px;
 }
 
-.picture-text1 {
-  padding-bottom: 40px;
-  letter-spacing: 7px;
-  font-size: 35px;
-  line-height: 10px;
+.footer-content .footer-content-box p {
+	padding-top: 16px;
+	letter-spacing: 0.2px;
+	display: block;
+	font-weight: 200;
+	line-height: 1.8em;
+	color: #6B6B6B;
+	font-size: 13px;
 }
 
-.picture-text2 {
-  color: #FDB515;
-  font-size: 20px;
-  letter-spacing: 5px;
-  display: none;
-  line-height: 25px;
+.footer-content .footer-content-box i {
+	border-radius: 5px;
+	color: #0077B5;
+	font-size: 36px;
 }
 
-.picture-text3 {
-  font-weight: 400;
-  font-size: 35px;
-  display: none;
-  letter-spacing: 2px;
-  line-height: 40px;
+.footer-content .footer-content-box #icon {
+	color: #dd4b39;
 }
 
-.ocf {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  float: right;
-  font-size: 8px;
-  font-weight: 100;
-  color: #FFFFFF;
-  padding: 10px;
+.footer-content .footer-content-box i:hover, .footer-content .footer-content-box #icon:hover {
+	color: white;
 }
 
-.ocfpic {
-  position:relative;
-  margin-right: 2px;
-  bottom: -7px;
-  width:20px;
-  height: 20px;
-  z-index: 9;
+.footer-bar {
+	min-height: 72px;
+	background-color: #202040;
+	color: #f4f4f4;
+	font-family: "Open Sans", sans-serif;
+	letter-spacing: 2px;
+	font-size: 12px;
 }
 
-@media screen  and (max-width: 768px) /* Tablet */ {
-  .burger-nav {
-    display:block;
-    width: 100%;
-    height: 50px;
-    background: rgba(0, 0, 0, 1);
-    top: 0;
-    border-bottom: 1px solid #fdb515;
-  }
-
-  .logo {
-    display: absolute;
-    top: 7.5px;
-    width: 58px;
-    left: 10px;
-    z-index: 21;
-  }
-
-  .burger {
-    display: block;
-    position: absolute;
-    height: 20px;
-    width: auto;
-    right: 10px;
-    top: 15px;
-    cursor: pointer;
-  }
-
-  nav {
-    left: 0;
-    margin: 0;
-    padding: 0;
-    height: 0;
-    z-index: 20;
-    width: 100%;
-  }
-
-  header .wrapper {
-    width: 100%;
-    padding: 0;
-    left: 0;
-    margin: 0;
-  }
-
-  .tab{
-    margin-left: 0;
-  }
-
-  ul{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  header nav ul{
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    background: rgba(0, 0, 0, 1);
-  }
-
-  header nav ul.open{
-    height: auto;
-    transition: 200ms ease-in;
-  }
-
-  header nav ul li{
-    float: none;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-    padding-left: 0;
-  }
-
-  header nav ul li a{
-    color: #fbd515;
-    padding: 6.5px;
-    padding-left: 20px;
-    border-bottom: 1px solid #fdb515;
-    display: block;
-    margin: 0;
-    font-size: 16px;
-  }
-
-  .tab:hover {
-    transform:scale(1);
-  }
-}
-
-@media screen and (max-width: 680px) {
-
-  .picture-text1 {
-    padding-bottom: 25px;
-    padding-right: 180px;
-    letter-spacing: 7px;
-    font-size: 35px;
-    line-height: 40px;
-  }
-
-  .picture-text2 {
-    color: #FDB515;
-    font-size: 18px;
-    letter-spacing: 4px;
-    line-height: 25px;
-  }
-
-  .picture-text3 {
-    font-weight: 400;
-    font-size: 25px;
-    display: none;
-    letter-spacing: 1.2px;
-    line-height: 30px;
-  }
-}
-
-@media screen and (max-width: 500px) /* Mobile */ {
-
-  .picture-maintext {
-    top: calc(50% - 70px);
-    left: calc(50% - 110px);
-  }
-
-  .logo {
-    display: absolute;
-  }
-
-  .picture-text1 {
-    padding-bottom: 25px;
-    padding-right: 100px;
-    letter-spacing: 7px;
-    font-size: 35px;
-    line-height: 40px;
-  }
-
-  .picture-text2 {
-    color: #FDB515;
-    font-size: 18px;
-    letter-spacing: 4px;
-    display: none;
-    line-height: 25px;
-  }
-
-  .picture-text3 {
-    font-weight: 400;
-    font-size: 25px;
-    display: none;
-    letter-spacing: 1.2px;
-    line-height: 30px;
-  }
-
-  .ocf {
-    float: right;
-    font-size: 0.01in;
-    font-weight: 100;
-    color: #FFFFFF;
-    padding: 5px;
-    line-height: 7px;
-  }
-
-  .ocfpic {
-    position:relative;
-    margin-right: 2px;
-    bottom: -2px;
-    width: 10px;
-    height: 10px;
-    z-index: 9;
-  }
-}
-
-@media screen and (max-width: 500px) /* Mobile */ {
-
-  .picture-maintext {
-    left: calc(50% - 80px);
-  }
-
-  .picture-text1 {
-    padding-bottom: 25px;
-    padding-right: 100px;
-    letter-spacing: 7px;
-    font-size: 30px;
-    line-height: 35px;
-  }
-
-  .picture-text2 {
-    color: #FDB515;
-    font-size: 18px;
-    letter-spacing: 4px;
-    display: none;
-    line-height: 25px;
-  }
-
-  .picture-text3 {
-    font-weight: 400;
-    font-size: 20px;
-    display: none;
-    letter-spacing: 1.2px;
-    line-height: 25px;
-  }
-
+.footer-bar p {
+	position: relative;
+	top: 30px;
 }
