@@ -19,7 +19,7 @@
 	top: 8px;
 	transition: color 0.5s;
 	font-size: 20px;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	text-transform: uppercase;
 	color: #999999;
 }
@@ -31,7 +31,7 @@
 .navbar-light {
 	position: fixed;
 	margin-bottom: 0;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);*/
 	border: 0;
 	height: 36px;
 }
@@ -39,7 +39,7 @@
 .navbar-light li a {
 	color: #999999;
 	font-size: 16px;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	text-transform: uppercase;
 	transition: color 0.5s;
 }
@@ -70,7 +70,7 @@
 
 .main-content h4 {
 	/*font-size: 24px;*/
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 }
 
 .footer-content {
@@ -81,22 +81,38 @@
 
 .footer-content .footer-content-box {
 	position: relative;
-	top: 72px;
-	width: 20vw;
+	top: 48px;
+	width: 18vw;
+	display: inline-block;
+	margin-right: 2vw;
+	margin-left: 2vw;
 }
 
 .footer-content .footer-content-box h5 {
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	font-weight: 500;
 	line-height: 1.2;
 	border-bottom: 0.3px solid #6B6B6B;
 	padding-bottom: 16px;
 }
 
+.footer-content .footer-content-box a {
+	transition: color 0.5s;
+	color: #f4f4f4;
+}
+
+.footer-content .footer-content-box a:hover {
+	color: #6B6B6B;
+	text-decoration: none;
+}
+
+.footer-content .footer-content-box #flickr {
+	margin-bottom: 38px;
+}
+
 .footer-content .footer-content-box p {
 	padding-top: 16px;
 	letter-spacing: 0.2px;
-	display: block;
 	font-weight: 200;
 	line-height: 1.8em;
 	color: #6B6B6B;
@@ -104,13 +120,31 @@
 }
 
 .footer-content .footer-content-box i {
+	position: relative;
+	top: 10px;
+	padding-right: 16px;
 	border-radius: 5px;
-	color: #0077B5;
-	font-size: 36px;
+	color: #6B6B6B;
+	font-size: 32px;
+	transition: color 0.5s;
 }
 
-.footer-content .footer-content-box #icon {
-	color: #dd4b39;
+.footer-content .footer-content-box .flickr-img-tbl {
+	/*display: inline-block;*/
+	/*margin-top: 6px;*/
+	position: relative;
+	top: -4px;
+}
+
+.footer-content .footer-content-box .flickr-img-row {
+	display: inline-block;
+	margin-bottom: 6px;
+}
+
+.footer-content .footer-content-box img {
+	width: 72px;
+	height: 72px;
+	/*margin-right: 16px;*/
 }
 
 .footer-content .footer-content-box i:hover, .footer-content .footer-content-box #icon:hover {
