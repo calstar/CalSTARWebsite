@@ -75,7 +75,8 @@
 
 .welcome {
 	height: 132vh;
-	background: linear-gradient(white, #DCDCDC 95%)
+	/*background: linear-gradient(to bottom, #EFFBFF 0vh, #EFFBFF 75vh, #EFFBFF 75vh, #f4f4f4 100%);	*/
+	background: #EFFBFF;
 }
 
 .welcome h1 {
@@ -103,6 +104,63 @@
 	height: 80vh;
 	width: 68vw;
 	border-radius: 10px;
+}
+
+.three-tenets {
+	height: 100vh;
+	/*background: linear-gradient(#DCDCDC, white 95%);s*/
+	/*background: linear-gradient(#EFFBFF, #f4f4f4 95%);*/
+	background: #f8f8f8;
+ 
+}
+
+.three-tenets h1 {
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	top: 6vh;
+	text-align: center;
+	font-size: 64px;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+
+.three-tenets h3 {
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	top: 6vh;
+	text-align: center;
+	font-size: 24px;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+
+.three-tenets p {
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	text-align: center;
+	top: 10vh;
+	font-size: 18px;
+}
+
+.three-tenets .container .tenet-row {
+	display: inline;
+}
+
+.ready-to-launch {
+	margin-top: -20px;
+	height: 50vh;
+	background-image: url(assets/images/nebula2.jpg)
+}
+
+.ready-to-launch h1 {
+	text-align: center;
+	position: relative;
+	top: 20vh;
+	color: white;
+	font-weight: 700;
+	font-family: "Montserrat", sans-serif;
+	letter-spacing: 2px;
+	font-size: 120px;
 }
 
 .footer-content {
