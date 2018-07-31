@@ -76,13 +76,13 @@
 .welcome {
 	height: 132vh;
 	/*background: linear-gradient(to bottom, #EFFBFF 0vh, #EFFBFF 75vh, #EFFBFF 75vh, #f4f4f4 100%);	*/
-	background: #EFFBFF;
+	background: #f8f8f8;
 }
 
 .welcome h1 {
 	font-family: 'Montserrat', sans-serif;
 	position: relative;
-	top: 6vh;
+	top: 92px;
 	text-align: center;
 	font-size: 64px;
 	letter-spacing: 2px;
@@ -93,16 +93,18 @@
 	font-family: 'Open Sans', sans-serif;
 	position: relative;
 	text-align: center;
-	top: 10vh;
+	top: 120px;
 	font-size: 24px;
 }
 
 .welcome img {
 	position: relative;
 	text-align: center;
-	top: 18vh;
-	height: 80vh;
-	width: 68vw;
+	top: 172px;
+	max-height: 60%;
+	height: auto;
+	max-width: 100%;
+	width: auto;
 	border-radius: 10px;
 }
 
@@ -110,14 +112,13 @@
 	height: 100vh;
 	/*background: linear-gradient(#DCDCDC, white 95%);s*/
 	/*background: linear-gradient(#EFFBFF, #f4f4f4 95%);*/
-	background: #f8f8f8;
- 
+	background: #EFFBFF;
 }
 
 .three-tenets h1 {
 	font-family: 'Montserrat', sans-serif;
 	position: relative;
-	top: 6vh;
+	top: 92px;
 	text-align: center;
 	font-size: 64px;
 	letter-spacing: 2px;
@@ -127,7 +128,7 @@
 .three-tenets h3 {
 	font-family: 'Montserrat', sans-serif;
 	position: relative;
-	top: 6vh;
+	top: 92px;
 	text-align: center;
 	font-size: 24px;
 	letter-spacing: 2px;
@@ -135,6 +136,84 @@
 }
 
 .three-tenets p {
+	padding-left: 36px;
+	padding-right: 36px;
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	top: 96px;
+	font-size: 16px;
+}
+
+.three-tenets h4 {
+	padding-left: 36px;
+	padding-right: 36px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	position: relative;
+	top: 10vh;
+	font-size: 24px;
+	font-weight: 100px;
+	margin-bottom: 30px;
+}
+
+.three-tenets h5 {
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	top: 256px;
+	text-align: center;
+	font-size: 24px;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+
+.three-tenets .container .tenet-row {
+	position: relative;
+	text-align: center;
+	top: 72px;
+}
+
+.projects {
+	height: 100vh;
+	/*background: linear-gradient(#DCDCDC, white 95%);s*/
+	/*background: linear-gradient(#EFFBFF, #f4f4f4 95%);*/
+	background: #f8f8f8;
+ 
+}
+
+.projects .ursa {
+	height: 50vh;
+	background-image: url(assets/images/proj1.jpg);
+	background-size: cover;
+}
+.projects .arktos {
+	height: 50vh;
+	background-image: url(assets/images/proj2.jpg);
+	background-size: cover;
+}
+
+.projects h1 {
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	top: 92px;
+	text-align: center;
+	font-size: 64px;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+
+.projects h3 {
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	top: 150px;
+	text-align: center;
+	font-weight: 700;
+	font-family: "Montserrat", sans-serif;
+	letter-spacing: 2px;
+	font-size: 120px;
+	color: white;
+}
+
+.projects p {
 	font-family: 'Open Sans', sans-serif;
 	position: relative;
 	text-align: center;
@@ -142,8 +221,9 @@
 	font-size: 18px;
 }
 
-.three-tenets .container .tenet-row {
-	display: inline;
+.projects .projects-row {
+	position: relative;
+	top: 224px;
 }
 
 .ready-to-launch {
