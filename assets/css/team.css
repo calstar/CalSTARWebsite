@@ -125,14 +125,14 @@
 div[class^="subteam"] {
   height: 50vh;
   background: #f8f8f8;
-  padding-bottom: 576px;
+  padding-bottom: 62vh; /*576px*/
 }
 
 div[class^="subteam"] h3 {
   position: relative;
-  top: 64px;
-  font-size: 64px;
-  letter-spacing: 3px;
+  top: 6.55vh; /*64px*/
+  font-size: 6.55vh; /*64px;*/
+  letter-spacing: 0.18vw; /*3px;*/
   font-family: 'Montserrat', sans-serif;
   color: #999999;
   font-weight: 700;
@@ -148,9 +148,9 @@ div[class="subteam-one-right"] h3, div[class="subteam-two-right"] h3 {
 
 div[class^="subteam"] h4 {
   position: relative;
-  top: 64px;
-  font-size: 20px;
-  letter-spacing: 0.5px;
+  top: 6.55vh; /*64px*/
+  font-size: 2.04vh; /*20px;*/
+  letter-spacing: 0.06vw; /*0.5px;*/
   font-family: 'Ooen Sans', sans-serif;
   color: black;
   font-weight: 300;
@@ -158,9 +158,9 @@ div[class^="subteam"] h4 {
 
 div[class^="subteam"] h5 {
   position: relative;
-  top: 88px;
-  font-size: 24px;
-  letter-spacing: 0.5px;
+  top: 9.01vh; /*88px;*/
+  font-size: 2.45vh; /*24px;*/
+  letter-spacing: 0.06vw; /*0.5px;*/
   font-family: 'Open Sans', sans-serif;
   color: black;
   font-weight: 300;
@@ -168,9 +168,9 @@ div[class^="subteam"] h5 {
 
 div[class^="subteam"] p {
   position: relative;
-  top: 88px;
-  font-size: 16px;
-  letter-spacing: 0.5px;
+  top: 9.01vh; /*88px;*/
+  font-size: 1.63vh; /*16px;*/
+  letter-spacing: 0.06vw; /*0.5px;*/
   font-family: 'Ooen Sans', sans-serif;
   color: black;
   font-weight: 300;
@@ -178,7 +178,7 @@ div[class^="subteam"] p {
 
 .subteam-one-left img, .subteam-one-right img, .subteam-two-left img, .subteam-two-right img {
   position: relative;
-  top: 88px;
+  top: 9.01vh; /*88px;*/
   width: 25%;
   height: auto;
   border-radius: 50%;
@@ -187,11 +187,11 @@ div[class^="subteam"] p {
 div[class^="subteam"] i {
   border-radius: 5px;
   color: #0077B5;
-  font-size: 36px;
+  font-size:  3.68vh; /*36px;*/
   position: relative;
   /*left: 100%;*/
-  top: 92px;
-  margin-right: 2px;
+  top: 9.42vh; /*92px;*/
+  margin-right: 0.23vw; /*2px;*/
   opacity: 1;
   transition: opacity 0.5s;
 }
@@ -201,16 +201,16 @@ div[class^="subteam"] i:hover {
 }
 
 .subteam-one-right img {
-  margin-left: 96px;
+  margin-left: 5.71vw; /*96px;*/
 }
 
 .subteam-one-right h5, p {
-  margin-right: -96px;
+  margin-right: -5.71vw; /*-96px;*/
 }
 
 .subteam-two-right p {
   margin-right: 0px;
-  margin-left: -96px;
+  margin-left: -5.71vw; /*-96px;*/
 }
 
 div[class^="subteam"] .fa-envelope-square {
@@ -218,7 +218,7 @@ div[class^="subteam"] .fa-envelope-square {
 }
 
 .subteam-one-right .fa-linkedin {
-  margin-right: -96px;
+  margin-right: -5.71vw; /*-96px;*/
 }
 
 div[class="subteam-one-right"], div[class="subteam-two-right"] {
@@ -228,7 +228,7 @@ div[class="subteam-one-right"], div[class="subteam-two-right"] {
 }
 
 div[class="subteam-two-left"] h5, div[class="subteam-two-right"] h5 {
-  margin-bottom: 5px;
+  margin-bottom: 0.51vh; /*5px;*/
 }
 
 div[class="subteam-two-left"] p, div[class="subteam-two-right"] p {
@@ -236,8 +236,38 @@ div[class="subteam-two-left"] p, div[class="subteam-two-right"] p {
 }
 
 div[class="subteam-two-left"] i, div[class="subteam-two-right"] i {
-  font-size: 32px;
-  margin-bottom: 18px;
+  font-size: 3.27vh; /*32px;*/
+  margin-bottom: 1.84vh; /*18px;*/
+}
+
+@media only screen and (max-width: 1000px) {
+    /* For mobile phones and tablets: */
+  div[class^="subteam"] {
+    padding-bottom: 75vh; /*576px*/
+  }
+
+  div[class^="subteam"] h3, h4, h5, p {
+    width: 100%; /*576px*/
+  }
+
+  div[class="subteam-one-right"] .fa-linkedin {
+    margin-right: 0px;
+    margin-bottom: 12px;
+  }
+
+  div[class="subteam-one-right"] .fa-envelope-square {
+    margin-right: 2px;
+  }
+
+  div[class="subteam-two-right"] p {
+    margin-left: 0px;
+    /*margin-bottom: 12px;*/
+  }
+
+  div[class^="subteam-two"] {
+    padding-bottom: 80vh;
+  }
+  
 }
 
 /* as a note, you will need to adding padding at the bottom of the final subteam div */
