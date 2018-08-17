@@ -349,7 +349,7 @@
 .ready-to-launch {
 	margin-top: -20px;
 	height: 50vh;
-	background-image: url(assets/images/nebula2.jpg)
+	background-image: url(assets/images/nebula2.jpg);
 }
 
 .ready-to-launch h1 {
