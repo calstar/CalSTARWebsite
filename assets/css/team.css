@@ -79,6 +79,7 @@
   font-size: 2.04vh; /*20px;*/
   letter-spacing: 0.12vw; /*2px;*/
   font-weight: 400;
+  margin-right: -0.8vw;
 }
 
 .main-content .right p:hover {
