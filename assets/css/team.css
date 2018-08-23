@@ -125,7 +125,7 @@
 
 div[class^="subteam"] {
   height: 50vh;
-  background: #f8f8f8;
+  background: #EFFBFF;
   padding-bottom: 62vh; /*576px*/
 }
 
@@ -140,11 +140,11 @@ div[class^="subteam"] h3 {
 }
 
 div[class="subteam-one-left"] h3, div[class="subteam-two-left"] h3 {
-  color: #833300;
+  color: #344543;
 }
 
 div[class="subteam-one-right"] h3, div[class="subteam-two-right"] h3 {
-  color: #344543;
+  color: #833300;
 }
 
 div[class^="subteam"] h4 {
@@ -160,7 +160,7 @@ div[class^="subteam"] h4 {
 div[class^="subteam"] h5 {
   position: relative;
   top: 9.01vh; /*88px;*/
-  font-size: 2.45vh; /*24px;*/
+  font-size: 2.25vh; /*24px;*/
   letter-spacing: 0.06vw; /*0.5px;*/
   font-family: 'Open Sans', sans-serif;
   color: black;
@@ -224,7 +224,7 @@ div[class^="subteam"] .fa-envelope-square {
 
 div[class="subteam-one-right"], div[class="subteam-two-right"] {
   text-align: right;
-  background: #EFFBFF;
+  background: #f8f8f8;
   /*padding-bottom: 64px;*/
 }
 
@@ -239,6 +239,34 @@ div[class="subteam-two-left"] p, div[class="subteam-two-right"] p {
 div[class="subteam-two-left"] i, div[class="subteam-two-right"] i {
   font-size: 3.27vh; /*32px;*/
   margin-bottom: 1.84vh; /*18px;*/
+}
+
+#exec {
+  height: 145vh;
+  background: #f8f8f8;
+}
+
+#exec h3 {
+  text-align: center;
+  margin-bottom: 4.91vh; /*48px;*/
+  color: #833300;
+}
+
+#exec p {
+  width: 100%;
+  text-align: justify;
+}
+
+#exec .row {
+  margin-bottom: 7.37vh; /*72px;*/
+}
+
+#exec img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2.45vh; /*24px;*/
+  width: 50%
 }
 
 @media only screen and (max-width: 1000px) {
@@ -267,6 +295,18 @@ div[class="subteam-two-left"] i, div[class="subteam-two-right"] i {
 
   div[class^="subteam-two"] {
     padding-bottom: 80vh;
+  }
+
+  #exec {
+    height: 195vh;
+  }
+
+  #exec img {
+    width: 25%;
+  }
+
+  #exec .row {
+  margin-bottom: 0vh;
   }
   
 }
