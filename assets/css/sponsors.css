@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+.navbar {
+  position: relative;
+  margin-bottom: 0;
+  font-family: "Open Sans", sans-serif;
+  min-height: 7.37vh; /*72px;*/
+}
+
+.navbar-brand {
+  position: relative;
+  top: 8px;
+  transition: color 0.5s;
+  font-size: 2.04vh; /*20px;*/
+  letter-spacing: 0.18vw; /*3px;*/
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.navbar-brand:hover {
+  color: #f4f4f4;
+}
+
+.navbar-light {
+  position: fixed;
+  margin-bottom: 0;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);*/
+  border: 0;
+  height: 3.68vh; /*36px;*/
+}
+
+.navbar-light li a {
+  color: #999999;
+  font-size: 1.63vh; /*16px;*/
+  letter-spacing: 0.18vw; /*3px;*/
+  text-transform: uppercase;
+  transition: color 0.5s;
+}
+
+.navbar-light li a:hover {
+  color: #f4f4f4;
+  text-decoration: none;
+  background-color: transparent !important;
+}
+
+.navbar ul {
+  position: relative;
+  top: 8px;
+}
+
+.main-picture {
+  height: 100vh;
+  min-height: 400px;
+  background-size: cover;
+  background-image:url('../images/nebula3.jpg');
+}
+
+.main-content {
+  position: relative;
+  top: 30vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #f4f4f4;
+}
+
+.main-content h1 {
+  font-size: 10vh; /*96px;*/
+  letter-spacing: 0.12vw; /*2px;*/
+  font-weight: 700;
+  margin: -1.02vh 0px 0px 0px;
+}
+
+.main-content h2 {
+  /*font-size: 24px;*/
+  letter-spacing: 0.18vw; /*3px;*/
+  font-size: 1.84vh; /*18px;*/
+}
+
+.main-content .pitch {
+  position: relative;
+  top: 15vh;
+}
+
+.main-content .pitch h3 {
+  font-size: 1.5vh;
+}
+
+.main-content .pitch .packet-button {
+  text-align: center;
+  height: 6vh;
+  position: relative;
+  top: 2vh;
+  line-height: 6vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 10px;
+  color: white;
+  background: black;
+  font-size: 2.5vh;
+  font-weight: 700;
+  transition: color 0.5s;
+  transition: background 0.5s;
+}
+
+.main-content .pitch .packet-button:hover {
+  background: white;
+  color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .main-picture {
+    height: 120vh;
+  }
+
+  .main-content {
+    top: 12vh;
+    text-align: center; 
+  }
+
+}
+
+.corporate-sponsors {
+  height: 60vh;
+  margin-bottom: 8vh;
+}
+
+.corporate-sponsors h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5.73vh; /*56px;*/
+  letter-spacing: 0.12vw; /*2px;*/
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 8vh;
+}
+
+.corporate-sponsors .row {
+  height: 30vh;
+}
+
+.corporate-sponsors .row .col-md-4 .holder {
+  height: 30vh;
+  display: table-cell;
+  vertical-align: middle
+}
+
+.corporate-sponsors .row .col-md-4 img {
+  width: 75%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.corporate-sponsors .row .col-md-4 img:hover {
+  opacity: 0.5;
+}
+
+.individual-sponsors {
+    height: 82vh;
+    margin-bottom: 8vh;
+}
+
+.individual-sponsors h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5.73vh; /*56px;*/
+  letter-spacing: 0.12vw; /*2px;*/
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 8vh;
+}
+
+.individual-sponsors .row {
+  margin-top: 8vh;
+}
+
+.individual-sponsors li {
+  text-align: center;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.12vw;
+  font-size: 1.5vh;
+  line-height: 3vh;
+}
+
+
+.footer .footer-content {
+  height: 36vh;
+  background-color: #161738;
+  color: #f4f4f4;
+}
+
+.footer .footer-content-box {
+  position: relative;
+  padding-top: 6vh;
+  padding-left: 1.42vw; /*24px;*/
+  padding-right: 1.42vw; /*24px;*/
+}
+
+.footer .footer-content-box h5 {
+  letter-spacing: 0.18vw; /*3px;*/
+  font-weight: 500;
+  line-height: 1.2;
+  border-bottom: 0.03vh; /*0.3px*/ solid #6B6B6B;
+  padding-bottom: 1.63vh; /*16px;*/
+}
+
+.footer-content .footer-content-box a {
+  transition: color 0.5s;
+  color: #f4f4f4;
+}
+
+.footer-content .footer-content-box a:hover {
+  color: #6B6B6B;
+  text-decoration: none;
+}
+
+.footer .footer-content-box p {
+  padding-top: 1.63vh; /*16px;*/
+  letter-spacing: 0.011vw; /*0.2px;*/
+  font-weight: 200;
+  line-height: 1.8;
+  color: #6B6B6B;
+  font-size: 1.33vh; /*13px;*/
+  margin-right: 0px;
+}
+
+.footer-content .footer-content-box i {
+  position: relative;
+  top: 1.02vh; /*10px;*/
+  padding-right: 0.95vw; /*16px;*/
+  border-radius: 5px;
+  color: #6B6B6B;
+  font-size: 3.27vh; /*32px;*/
+  transition: color 0.5s;
+}
+
+.footer-content .footer-content-box i:hover {
+  color: #f4f4f4;
+}
+
+.footer-content .footer-content-box .flickr-img-tbl {
+  padding-top: 1.63vh; /*16px;*/
+}
+
+.footer-content .footer-content-box .flickr-img-tbl .flickr-img-row {
+  padding-top: 0.51vh; /*5px;*/
+}
+
+.footer-content .footer-content-box .flickr-img-tbl .flickr-img-row .col-md-4 {
+  padding: 0.20vh 0.11vw 0.20vh 0.11vw;
+}
+
+.footer-content .footer-content-box .flickr-img-tbl .flickr-img-row img {
+  width: 100%;
+  height: 12.29vh; /*120px;*/
+}
+
+.footer-bar {
+  min-height: 7.37vh; /*72px;*/
+  background-color: #202040;
+  color: #f4f4f4;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.12vw; /*2px;*/
+  font-size: 1.22vh; /*12px;*/
+}
+
+.footer-bar p {
+  position: relative;
+  top: 3.07vh; /*30px;*/
+}
+
+.footer-bar p a {
+  color: #f4f4f4;
+  transition: color 0.5s;
+}
+
+.footer-bar p a:hover {
+  color: #6B6B6B;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    /* For mobile phones and tablets: */
+    .footer .footer-content, .footer .footer-content-box, .footer .footer-content-box h5, .footer-content .footer-content-box a, .footer .footer-content-box p, .footer .footer-content-box i,
+    .footer-content .footer-content-box .flickr-img-tbl, .footer-content .footer-content-box .flickr-img-tbl .flickr-img-row, .footer-content .footer-content-box .flickr-img-tbl .flickr-img-row .col-md-4,
+    .footer-content .footer-content-box .flickr-img-tbl .flickr-img-row img {
+      height: 0px;
+      width: 0px;
+      position: relative;
+      top: 0px;
+      padding: 0px;
+      margin: 0px;
+      font-size: 0px;
+    }
+
+    .footer-bar {
+      background-color: #202040;
+    color: #f4f4f4; 
+    margin-top: 2.45vh; /*24px;*/
+    }
+}
