@@ -74,7 +74,7 @@
 }
 
 .welcome {
-	height: 100vh;
+	height: 110vh;
 	/*background: linear-gradient(to bottom, #EFFBFF 0vh, #EFFBFF 75vh, #EFFBFF 75vh, #f4f4f4 100%);	*/
 	background: #f8f8f8;
 }
@@ -98,14 +98,14 @@
 	font-size: 2.25vh; /*22px;*/
 	margin-bottom: -2vh; /*-12px;*/
 	margin-top: 0px;
-	color: #b266b2;;
+	color: #2f354a;
 }
 
 .welcome img {
 	position: relative;
-	top: 15.57vh; /*152px;*/
-	max-width: auto;
-	height: 64%;
+	top: 18vh; /*152px;*/
+	width: 100%;
+	height: auto;
 	border-radius: 10px;
 	display: block;
 	margin-left: auto;
@@ -152,7 +152,7 @@
 	font-size: 2.45vh; /*24px;*/
 	letter-spacing: 0.12vw; /*2px;*/
 	font-weight: 700;
-	color: #b266b2;
+	color: #2f354a;
 }
 
 .three-tenets i {
@@ -196,8 +196,8 @@
 }
 
 .tenet-image-row .tenet-image img {
-	width: auto;
-	height: 36%;
+	width: 90%;
+	height: auto;
 	border-radius: 10px;
 	display: block;
 	margin-left: auto;
@@ -283,7 +283,7 @@
 	font-size: 2.45vh; /*24px;*/
 	letter-spacing: 0.12vw; /*2px;*/
 	font-weight: 700;
-	color: #b266b2;
+	color: #2f354a;
 	padding-bottom: 8.60vh; /*84px;*/
 	border-bottom: 0.02vh solid grey;
 }
