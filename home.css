@@ -74,7 +74,7 @@
 }
 
 .welcome {
-	height: 110vh;
+	height: 125vh;
 	/*background: linear-gradient(to bottom, #EFFBFF 0vh, #EFFBFF 75vh, #EFFBFF 75vh, #f4f4f4 100%);	*/
 	background: #f8f8f8;
 }
@@ -114,6 +114,11 @@
 
 @media only screen and (max-width: 1000px) {
     /* For mobile phones and tablets: */
+
+    .main-content h1 {
+    	font-size: 9vh;
+    }
+
     .welcome h1 {
     	top: 16vh; /*152px;*/
     }
@@ -124,6 +129,10 @@
     	width: 100%;
 		height: auto;
 		top: 25vh;
+    }
+
+    .welcome {
+    	height: 110vh;
     }
 }
 
@@ -342,6 +351,12 @@
 
 	.projects .row {
 		margin: 0px;
+	}
+
+	.footer-bar {
+		position: relative;
+		bottom: 20px;
+		height: 9vh;
 	}
 
 }

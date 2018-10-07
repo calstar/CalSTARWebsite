@@ -72,6 +72,14 @@
   text-align: right;
 }
 
+.main-content .right a {
+  text-decoration: none;
+}
+
+.main-content .right a:hover{
+  text-decoration: none;
+}
+
 .main-content .right p {
   text-align: right;
   color: #999999;
@@ -429,5 +437,13 @@ will take up larger than 50% of vh */
       background-color: #202040;
     color: #f4f4f4; 
     margin-top: 2.45vh; /*24px;*/
+    }
+
+    #propulsion h3 {
+      font-size: 5vh;
+    }
+
+    #documentation h3 {
+      font-size: 4vh;
     }
 }
