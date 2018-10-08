@@ -233,7 +233,7 @@ nav li a:hover {
   height: 100vh;
   min-height: 400px;
   background-size:cover;
-  background-image:url('Ursa-Cover-Mobile.jpg');
+  background-image:url('URSA-Cover-Mobile.jpg');
 }
 
 .Ursa-Features {
@@ -361,7 +361,7 @@ nav li a:hover {
     height: 100vh;
     min-height: 400px;
     background-size:cover;
-    background-image:url('Ursa-Cover-Tablet.jpg');
+    background-image:url('URSA-Cover-Tablet.jpg');
   }
 
   .Ursa-Features {
@@ -501,7 +501,7 @@ nav li a:hover {
     height: 100vh;
     min-height: 400px;
     background-size:cover;
-    background-image:url('Ursa-Cover-Desktop.jpg');
+    background-image:url('URSA-Cover-Desktop.jpg');
   }
 
   .Ursa-Features {
