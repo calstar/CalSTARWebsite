@@ -1,55 +1,74 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
 
+.right-align-menu {
+  text-align: right;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,255,255);
+}
+
 .navbar {
-  position: relative;
-  margin-bottom: 0;
   font-family: "Open Sans", sans-serif;
-  min-height: 7.37vh; /*72px;*/
+}
+
+.navbar-dark {
+  background-color: transparent;
+  transition: background-color .5s ease 0s;
+}
+
+.navbar-dark.opaque {
+  background-color: rgb(80,80,80, 0.9);
+
 }
 
 .navbar-brand {
   position: relative;
-  top: 8px;
   transition: color 0.5s;
-  font-size: 2.04vh; /*20px;*/
+  font-size: 2vh; /*20px;*/
   letter-spacing: 0.18vw; /*3px;*/
   text-transform: uppercase;
-  color: #999999;
+  color: #999999 !important;
+}
+
+.navbar-brand.opaque {
+  position: relative;
+  transition: color 0.5s;
+  font-size: 2vh; /*20px;*/
+  letter-spacing: 0.18vw; /*3px;*/
+  text-transform: uppercase;
+  color: #F0FFF0 !important;
+}
+
+.navbar-brand:hover {
+  color: #f4f4f4 !important;
 }
 
 .navbar-brand:hover {
   color: #f4f4f4;
 }
 
-.navbar-light {
-  position: fixed;
-  margin-bottom: 0;
-  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);*/
-  border: 0;
-  height: 3.68vh; /*36px;*/
-}
-
-.navbar-light li a {
+.navbar-dark li a {
   color: #999999;
-  font-size: 1.63vh; /*16px;*/
+  font-size: 1.75vh; /*16px;*/
   letter-spacing: 0.18vw; /*3px;*/
+  font-weight: 1;
   text-transform: uppercase;
   transition: color 0.5s;
 }
 
-.navbar-light li a:hover {
+.navbar-dark li a:hover {
   color: #f4f4f4;
   text-decoration: none;
   background-color: transparent !important;
 }
 
-.navbar ul {
-  position: relative;
-  top: 8px;
-}
-
 .main-picture {
-  height: 100vh;
+  height: 101vh;
   min-height: 400px;
   background-size: cover;
   background-image:url('../images/nebula3.jpg');
@@ -82,16 +101,12 @@
 
 .main-content .pitch h3 {
   font-size: 1.5vh;
+  transition: color 0.5s;
 }
 
 .main-content .packet-button a {
+  text-decoration: none;
   color: white;
-  text-decoration: none;
-}
-
-.main-content .packet-button a:hover {
-  color: black;
-  text-decoration: none;
 }
 
 .main-content .pitch .packet-button {
@@ -126,14 +141,14 @@
 
   .main-content {
     top: 12vh;
-    text-align: center; 
+    text-align: center;
   }
 
 }
 
 .corporate-sponsors {
-  height: 60vh;
-  margin-bottom: 8vh;
+  height: auto;
+  /* margin-bottom: 8vh; */
 }
 
 .corporate-sponsors h1 {
@@ -147,7 +162,7 @@
 }
 
 .corporate-sponsors .row {
-  height: 30vh;
+  /* height: 30vh; */
 }
 
 .corporate-sponsors .row .col-md-4 .holder {
@@ -171,8 +186,8 @@
 }
 
 .individual-sponsors {
-    height: 82vh;
-    margin-bottom: 8vh;
+     height: 82vh; 
+     margin-bottom: 8vh; 
 }
 
 .individual-sponsors h1 {
@@ -297,6 +312,42 @@
 
 @media only screen and (max-width: 1000px) {
     /* For mobile phones and tablets: */
+
+    .main-content h1 {
+      font-size: 7vh; /*96px;*/
+      letter-spacing: 0.12vw; /*2px;*/
+      font-weight: 700;
+      margin: -1.02vh 0px 0px 0px;
+    }
+
+    .corporate-sponsors {
+      height: 60vh;
+      /* margin-bottom: 8vh; */
+      display: inline-block;
+    }
+
+    .individual-sponsors {
+      position: relative;
+      top: 80vh;
+      height: 240vh;
+    }
+
+    .individual-sponsors .row{
+      position: relative;
+      bottom: 5vh;
+    }
+
+    .corporate-sponsors .row .col-md-4 .holder {
+      height: 20vh;
+      display: table-cell;
+      vertical-align: middle
+    }
+
+    .footer {
+      position: relative;
+      top:75vh;
+    }
+
     .footer .footer-content, .footer .footer-content-box, .footer .footer-content-box h5, .footer-content .footer-content-box a, .footer .footer-content-box p, .footer .footer-content-box i,
     .footer-content .footer-content-box .flickr-img-tbl, .footer-content .footer-content-box .flickr-img-tbl .flickr-img-row, .footer-content .footer-content-box .flickr-img-tbl .flickr-img-row .col-md-4,
     .footer-content .footer-content-box .flickr-img-tbl .flickr-img-row img {
@@ -311,7 +362,7 @@
 
     .footer-bar {
       background-color: #202040;
-    color: #f4f4f4; 
+    color: #f4f4f4;
     margin-top: 2.45vh; /*24px;*/
     }
 }

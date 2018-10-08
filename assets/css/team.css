@@ -203,7 +203,15 @@ div[class^="subteam"] p {
   font-weight: 300;
 }
 
-.subteam-one-left img, .subteam-one-right img, .subteam-two-left img, .subteam-two-right img {
+.subteam-one-right img, .subteam-two-left img, .subteam-two-right img {
+  position: relative;
+  top: 9.01vh; /*88px;*/
+  width: 25%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.subteam-one-left img {
   position: relative;
   top: 9.01vh; /*88px;*/
   width: 25%;
@@ -292,7 +300,7 @@ div[class="subteam-two-left"] i, div[class="subteam-two-right"] i {
   margin-right: auto;
   display: block;
   margin-bottom: 2.45vh; /*24px;*/
-  width: 50%
+  width: 50%;
 }
 
 @media only screen and (max-width: 1000px) {
