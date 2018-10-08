@@ -1,51 +1,70 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
 
+.right-align-menu {
+  text-align: right;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,255,255);
+}
+
 .navbar {
-  position: relative;
-  margin-bottom: 0;
   font-family: "Open Sans", sans-serif;
-  min-height: 7.37vh; /*72px;*/
+}
+
+.navbar-dark {
+  background-color: transparent;
+  transition: background-color .5s ease 0s;
+}
+
+.navbar-dark.opaque {
+  background-color: rgb(80,80,80, 0.9);
+
 }
 
 .navbar-brand {
   position: relative;
-  top: 8px;
   transition: color 0.5s;
-  font-size: 2.04vh; /*20px;*/
+  font-size: 2vh; /*20px;*/
   letter-spacing: 0.18vw; /*3px;*/
   text-transform: uppercase;
-  color: #999999;
+  color: #999999 !important;
+}
+
+.navbar-brand.opaque {
+  position: relative;
+  transition: color 0.5s;
+  font-size: 2vh; /*20px;*/
+  letter-spacing: 0.18vw; /*3px;*/
+  text-transform: uppercase;
+  color: #F0FFF0 !important;
+}
+
+.navbar-brand:hover {
+  color: #f4f4f4 !important;
 }
 
 .navbar-brand:hover {
   color: #f4f4f4;
 }
 
-.navbar-light {
-  position: fixed;
-  margin-bottom: 0;
-  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);*/
-  border: 0;
-  height: 3.68vh; /*36px;*/
-}
-
-.navbar-light li a {
+.navbar-dark li a {
   color: #999999;
-  font-size: 1.63vh; /*16px;*/
+  font-size: 1.75vh; /*16px;*/
   letter-spacing: 0.18vw; /*3px;*/
+  font-weight: 1;
   text-transform: uppercase;
   transition: color 0.5s;
 }
 
-.navbar-light li a:hover {
+.navbar-dark li a:hover {
   color: #f4f4f4;
   text-decoration: none;
   background-color: transparent !important;
-}
-
-.navbar ul {
-  position: relative;
-  top: 8px;
 }
 
 .main-picture {
@@ -116,7 +135,7 @@
 
   .main-content {
     top: 12vh;
-    text-align: center; 
+    text-align: center;
   }
 
 }
@@ -139,31 +158,33 @@
   color: #C6CADF;
 }
 
-.documentation .col-md-4 {
+/* .documentation .col-md-4 {
   position: relative;
   top: 5vh;
-}
+} */
 
 .documentation h2 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #C6CADF;
   font-size: 2vh;
-  position: relative;
-  top: 4vh;
+  margin-top: 4vh;
+/*   position: relative;
+  top: 4vh; */
 }
 
 .documentation h3 {
   font-family: 'Montserrat', sans-serif;
   text-align: left;
   color: #C6CADF;
-  position: relative;
-  top: 3vh;
+  margin-top: 3vh;
+  /* position: relative;
+  top: 3vh; */
 }
 
 .documentation .doclist {
-  position: relative;
-  top: 8vh;
+  /* position: relative;
+  top: 8vh; */
 }
 
 .documentation li {
@@ -288,6 +309,27 @@
       padding: 0px;
       margin: 0px;
       font-size: 0px;
+    }
+
+    .documentation {
+      height: 175vh;
+      padding-bottom: 8vh;
+      background-color: #060815;
+      margin-top: -2.25vh;
+    }
+    .main-content h1 {
+      font-size: 8vh; /*96px;*/
+      letter-spacing: 0.12vw; /*2px;*/
+      font-weight: 700;
+      margin: -1.02vh 0px 0px 0px;
+    }
+
+    .main-content h2 {
+      /*font-size: 24px;*/
+      letter-spacing: 0.18vw; /*3px;*/
+      font-size: 1.84vh; /*18px;*/
+      position: relative;
+      top: 5vw;
     }
 
     .footer-bar {

@@ -3,8 +3,8 @@
 	<head>
 		<title>CALSTAR</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="home.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="home.css">
 		<meta name="title" content="CalSTAR">
     	<meta name="keywords" content="CalSTAR, rocket team, UC Berkeley, space, school">
     	<meta name="description" content="CalSTAR, the UC Berkeley Space Technologies and Rocketry Team is a non-profit organization whos purpose is to design, build, test, and launch rockets. Founded in Fall 2015, CalSTAR is an emerging team looking to compete in NASA's Student Launch Initiative. Our beginning plans consist of team growth and certification for launching rockets. As the team grows and establishes itself, we hope to do research in the fields of space, technology, and rocketry. We would also like to reach out to the community of Berkeley and the Bay Area to establish a prominent aerospace community that doesn't exist currently. This is just the beginnng">
@@ -13,30 +13,37 @@
     	<meta property="og:description" content="CalSTAR is a UC Berekeley competition team that designs, builds, tests, and launches rockets.">
     	<meta property="og:image" content="http://kevinhsuwho.github.io/assets/images/star.png">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<script src="js/bootstrap.js"></script>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</head>
 
 	<body>
 
-		<div class="navbar navbar-fixed-top navbar-light">
-			<div class="container">
-				<a href="index.html" class="navbar-brand">CALSTAR</a>
-
-				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-
-				<div class="collapse navbar-collapse navHeaderCollapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="team.html">Team</a></li>
-						<li><a href="projects.html">Projects</a></li>
-						<li><a href="sponsors.html">Sponsors</a></li>
-						<li><a href="sl_docs.html">SL Docs</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
+		<script src="js/navScroll.js"></script>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark">
+        <div class = "container">
+          <a class="navbar-brand" href="#">CALSTAR</a>
+          <button class="navbar-toggler custom-toggler ml-auto" data-toggle = "collapse" data-target = "#text">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class = "collapse navbar-collapse" id = "text">
+            <ul class="navbar-nav right-align-menu ml-auto">
+              <li class="nav-item">
+                <a class = "nav-link" href = "team.html"> Team </a>
+              </li>
+              <li class="nav-item">
+                <a class = "nav-link ml-2" href = "sponsors.html"> Sponsors </a>
+              </li>
+              <li class="nav-item">
+                <a class = "nav-link ml-2" href = "projects.html"> Projects </a>
+              </li>
+              <li class="nav-item">
+                <a class = "nav-link ml-2" href = "sl_docs.html"> SL DOCS </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
 
 		<div class="main-picture">
 			<div class="container">
@@ -114,9 +121,9 @@
 		</div> -->
 
 		<div class="footer">
-			<div class="footer-content row">
+			<div class="footer-content">
 				<div class="container">
-					<div class="footer-content-box col-md-4">
+					<div class="footer-content-box col-md-4" style="float: left;">
 						<h5>ABOUT US</h5>
 						<p>CALSTAR is UC Berkeley’s sole premier competitive rocketry team, founded in 2015 and comprised of a medley of audacious and wildly curious students with a burning passion for space.</p>
 						<a href="mailto:ucberkeleystar@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
@@ -124,7 +131,7 @@
 						<a href="https://www.youtube.com/channel/UC-ceqnZp3XVz5mH8297izJA" target="blank"><i class="fab fa-youtube-square"></i></a>
 						<a href="https://www.flickr.com/photos/ucberkeleystar" target="_blank"><i class="fab fa-flickr"></i></a>
 					</div>
-					<div class="footer-content-box col-md-4" id="flickr">
+					<div class="footer-content-box col-md-4" id="flickr" style="float: left;">
 						<h5><a href="https://www.instagram.com/_calstar/?hl=en">INSTAGRAM</a></h5>
 						<div class="flickr-img-tbl">
 							<div class="flickr-img-row row">
@@ -140,12 +147,13 @@
 							</div>
 						</div>
 					</div>
-					<div class="footer-content-box col-md-4" id="three">
+					<div class="footer-content-box col-md-4" id="three" style="float: left;">
 						<h5>JOIN TODAY!</h5>
 						<p>For more information about what CalSTAR is and who we are, check us out at <a href="https://calstar.gitbook.io" target="_blank">calstar.gitbook.io</a>, and come out to our infosessions at the beginning of each semester! Also, feel free to reach out to any of our team members <a href="team.html">here.</a></p>
 					</div>
 				</div>
 			</div>
+
 			<div class="footer-bar">
 				<div class="container">
 					<div style="float: left;">

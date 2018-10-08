@@ -1,53 +1,71 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
 
+.right-align-menu {
+  text-align: right;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,255,255);
+}
+
 .navbar {
-  position: relative;
-  margin-bottom: 0;
   font-family: "Open Sans", sans-serif;
-  min-height: 7.37vh; /*72px;*/
+}
+
+.navbar-dark {
+  background-color: transparent;
+  transition: background-color .5s ease 0s;
+}
+
+.navbar-dark.opaque {
+  background-color: rgb(80,80,80, 0.9);
+
 }
 
 .navbar-brand {
   position: relative;
-  top: 8px;
   transition: color 0.5s;
-  font-size: 2.04vh; /*20px;*/
+  font-size: 2vh; /*20px;*/
   letter-spacing: 0.18vw; /*3px;*/
   text-transform: uppercase;
-  color: #999999;
+  color: #999999 !important;
+}
+
+.navbar-brand.opaque {
+  position: relative;
+  transition: color 0.5s;
+  font-size: 2vh; /*20px;*/
+  letter-spacing: 0.18vw; /*3px;*/
+  text-transform: uppercase;
+  color: #F0FFF0 !important;
+}
+
+.navbar-brand:hover {
+  color: #f4f4f4 !important;
 }
 
 .navbar-brand:hover {
   color: #f4f4f4;
 }
 
-.navbar-light {
-  position: fixed;
-  margin-bottom: 0;
-  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);*/
-  border: 0;
-  height: 3.68vh; /*36px;*/
-}
-
-.navbar-light li a {
+.navbar-dark li a {
   color: #999999;
-  font-size: 1.63vh; /*16px;*/
+  font-size: 1.75vh; /*16px;*/
   letter-spacing: 0.18vw; /*3px;*/
+  font-weight: 1;
   text-transform: uppercase;
   transition: color 0.5s;
 }
 
-.navbar-light li a:hover {
+.navbar-dark li a:hover {
   color: #f4f4f4;
   text-decoration: none;
   background-color: transparent !important;
 }
-
-.navbar ul {
-  position: relative;
-  top: 8px;
-}
-
 .main-picture {
   height: 100vh;
   min-height: 400px;

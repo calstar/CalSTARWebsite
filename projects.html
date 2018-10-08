@@ -1,71 +1,263 @@
 <html>
-    <head>
-        <title> Projects </title>
-        <link rel="stylesheet" type="text/css" href="assets/css/projects.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
 
+  <head>
 
-        <meta name="title" content="CalSTAR">
-    </head>
-    
-    <body>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        
-        <div class="navbar navbar-static-top">
-            <div class="container">
-              <a href="/" class="navbar-brand">
-                <div class="logo">
-                  <img class="star" src="assets/images/star.png" alt="calstar"/>
+  <link rel="stylesheet" type = "text/css" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" type = "text/css" href="assets/css/projects.css">
+
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+  <meta name="title" content="CalSTAR">
+    <meta name="keywords" content="CalSTAR, rocket team, UC Berkeley, space, school">
+    <meta name="description" content="CalSTAR, the UC Berkeley Space Technologies and Rocketry Team is a non-profit organization whos purpose is to design, build, test, and launch rockets. Founded in Fall 2015, CalSTAR is an emerging team looking to compete in NASA's Student Launch Initiative. Our beginning plans consist of team growth and certification for launching rockets. As the team grows and establishes itself, we hope to do research in the fields of space, technology, and rocketry. We would also like to reach out to the community of Berkeley and the Bay Area to establish a prominent aerospace community that doesn't exist currently. This is just the beginnng">
+    <meta property="og:title" contenet="CalSTAR">
+    <meta property="og:url" content="http://stars.berkeley.edu">
+    <meta property="og:description" content="CalSTAR is a UC Berekeley competition team that designs, builds, tests, and launches rockets.">
+    <meta property="og:image" content="http://kevinhsuwho.github.io/assets/images/star.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+  <body>
+    <script src="js/navScroll.js"></script>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark">
+        <div class = "container">
+          <a class="navbar-brand" href="#">CALSTAR</a>
+          <button class="navbar-toggler custom-toggler ml-auto" data-toggle = "collapse" data-target = "#text">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class = "collapse navbar-collapse" id = "text">
+            <ul class="navbar-nav right-align-menu ml-auto">
+              <li class="nav-item">
+                <a class = "nav-link" href = "team.html"> TEAM </a>
+              </li>
+              <li class="nav-item">
+                <a class = "nav-link ml-2" href = "sponsors.html"> Sponsors </a>
+              </li>
+              <li class="nav-item active">
+                <a class = "nav-link ml-2" href = "projects.html"> Projects </a>
+              </li>
+              <li class="nav-item">
+                <a class = "nav-link ml-2" href = "sl_docs.html"> SL DOCS </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="main-picture">
+      <div class="container">
+        <div class="main-content">
+          <h1>PROJECTS</h1>
+          <h4>DISRUPTIVE ROCKET DESIGNS AND BUILDS</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class = "Intro">
+        <h1 class = "text-center Intro-Header"> Innovation </h1>
+      </br>
+      </br>
+      <div class="container text-center">
+      <h4 class= Intro-Description> <strong>CalSTAR</strong> is an organization that pushes the boundaries of space technology.
+          Our commitment to <strong>innovative ideas </strong> and <strong>efficient execution </strong>drives us to build unique, state-of-the-art rockets.
+          Check out some of our past projects below.
+
+      </h4>
+      </div>
+    </div>
+    <!-- <div class = "container">
+      <h5 class = "text-center Intro-Description">
+        CalStar is an organization that focues on pushing the limits
+        of Space Technology.
+      </h5>
+    </div> -->
+
+    <div class = "arktos-cover">
+        <div class="arktos-picture">
+            <div class = "container">
+              <div class = "arktos-description">
+                <p id = "Arktos-Title"> ARKTOS <p>
+                <div class = "arktos-subdescription">
+                  <p>Height: 123"</p>
+                  <p>Weight: 28.2 lbs</p>
+                  <p>Year: 2018</p>
                 </div>
-              </a>
-
-              <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-              </button>
-
-              <div class="collapse navbar-collapse navHeaderCollapse">
-                  <ul class="nav navbar-nav navbar-right">
-                    <li class="tab" id="tab1"><a href="about.html">ABOUT</a></li>
-                    <li class="tab" id="tab2"><a href="team.html">TEAM</a></li>
-                    <li class="tab" id="tab3"><a href="project.html">PROJECTS</a> </li>
-                    <li class="tab" id="tab4"><a href="sl.html">SL DOC</a></li>
-                    <li class="tab" id="tab5"><a href="sponsor.html">SPONSORS</a> </li>
-                    <li class="tab" id="tab6"><a href="calendar.html">CALENDAR</a> </li>
-                    <li class="tab" id="tab7"><a href="contact.html">CONTACT</a> </li>
-                  </ul>
               </div>
             </div>
         </div>
-        <div class="projects">
-            <h1 class="title">Our Projects</h1>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div id="slider" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner" role = "listbox">
-                                <div class="item active">
-                                    <img src="assets/images/projects/slide1.jpg"/>
-                                    <div class="carousel-caption">
-                                        <h1>Our Team</h1>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/projects/slide2.jpg"/>
-                                    <div class="carousel-caption">
-                                        <h1>Slide2</h1>
-                                    </div>
-                                </div> 
-                            </div>
-                        </div>
-                    </div>
+    </div>
+    <br>
+    <br>
+
+    <div class = "Arktos-Features">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-4">
+            <i class="fas fa-cog"></i>
+            <h2 class = "Features-Header">Details</h2><br>
+            <ul class = "subdescription-list">
+              <li class = "elem-properties">Location: Tuscon, AZ</li>
+              <li class = "elem-properties">Body Material: Blue Tube</li>
+              <li class = "elem-properties">Diameter: 4"/6"</li>
+              <li class = "elem-properties">Stability: 2.27 Cal</li>
+              <li class = "elem-properties">Payload: Solar Powered Rover</li>
+              <li class = "elem-properties">MAX Velocity: 620 ft/s (Mach 0.56)</li>
+
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            	<i class="fas fa-bullseye"></i>
+            <h2 class = "Features-Header">Objectives</h2><br>
+            <ul class = "subdescription-list">
+              <li class = "elem-properties">Target Altitude: 5280 ft</li>
+              <li class = "elem-properties">Successful Rover Payload Ejection</li>
+              <li class = "elem-properties">Autonomous Rover Movement</li>
+              <li class = "elem-properties">Solar Panel Deployment</li>
+              <li class = "elem-properties">Safe Vehicle Recovery</li>
+              <li class = "elem-properties">Live Telemetry</li>
+
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <i class="fa fa-star" aria-hidden="true" id = "star-icon"></i>
+            <h2 class = "Features-Header">Outcomes</h2><br>
+            <ul class = "subdescription-list">
+              <li class = "elem-properties">Altitude: 5364 ft</li>
+              <li class = "elem-properties">Fully Functioning Rover</li>
+              <li class = "elem-properties">Operational Payload Ejection</li>
+              <li class = "elem-properties">Nominal Flight Trajectory</li>
+              <li class = "elem-properties">Successful Avionics Data-Logging</li>
+              <li class = "elem-properties">Reworked Subteam Integration</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class = "ursa-cover">
+        <div class="ursa-picture">
+            <div class = "container">
+              <div class = "ursa-description">
+                <p id = "ursa-Title"> URSA <p>
+                <div class = "ursa-subdescription">
+                  <p>Height: 103"</p>
+                  <p>Weight: 33.3 lbs</p>
+                  <p>Year: 2017</p>
                 </div>
+              </div>
             </div>
         </div>
-    </body>
-    
-    
+    </div>
+
+    <br>
+    <br>
+
+    <div class = "Ursa-Features">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-4">
+            <i class="fas fa-cog"></i>
+            <h2 class = "Features-Header">Details</h2><br>
+            <ul class = "subdescription-list">
+              <li class = "elem-properties">Location: Huntsville, AL</li>
+              <li class = "elem-properties">Body Material: Blue Tube</li>
+              <li class = "elem-properties">Diameter: 6"</li>
+              <li class = "elem-properties">Stability: 2.98 Cal</li>
+              <li class = "elem-properties">Payload: SAGITTA-VL</li>
+              <li class = "elem-properties">MAX Velocity: 656 ft/s (Mach 0.59)</li>
+
+            </ul>
+          </div>
+          <div class="col-sm-4">
+              <i class="fas fa-bullseye"></i>
+            <h2 class = "Features-Header">Objectives</h2><br>
+            <ul class = "subdescription-list">
+              <li class = "elem-properties">Target Altitude: 5280 ft</li>
+              <li class = "elem-properties">Target Detection Algorithm</li>
+              <li class = "elem-properties">Nose Cone Mounted Camera</li>
+              <li class = "elem-properties">Upright Landing Payload</li>
+              <li class = "elem-properties">Safe Vehicle Recovery</li>
+              <li class = "elem-properties">Dual Deployment</li>
+
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <i class="fa fa-star" aria-hidden="true" id = "star-icon"></i>
+            <h2 class = "Features-Header">Outcomes</h2><br>
+            <ul class = "subdescription-list">
+              <li class = "elem-properties">Altitude: 4530 ft</li>
+              <li class = "elem-properties">Participated in <strong>NASA</strong> SL</li>
+              <li class = "elem-properties">Successful Target Detection</li>
+              <li class = "elem-properties">Nominal Flight Trajectory</li>
+              <li class = "elem-properties">Perfect Recovery</li>
+              <li class = "elem-properties">CALSTAR's First Rocket</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-content">
+        <div class="container">
+          <div class="footer-content-box col-md-4" style="float: left;">
+            <h5>ABOUT US</h5>
+            <p>CALSTAR is UC Berkeley’s sole premier competitive rocketry team, founded in 2015 and comprised of a medley of audacious and wildly curious students with a burning passion for space.</p>
+            <a href="mailto:ucberkeleystar@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
+            <a href="https://www.facebook.com/ucberkeleystar" target="blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.youtube.com/channel/UC-ceqnZp3XVz5mH8297izJA" target="blank"><i class="fab fa-youtube-square"></i></a>
+            <a href="https://www.flickr.com/photos/ucberkeleystar" target="_blank"><i class="fab fa-flickr"></i></a>
+          </div>
+          <div class="footer-content-box col-md-4" id="flickr" style="float: left;">
+            <h5><a href="https://www.instagram.com/_calstar/?hl=en">INSTAGRAM</a></h5>
+            <div class="flickr-img-tbl">
+              <div class="flickr-img-row row">
+                <div class="col-md-4">
+                  <img src="assets/images/flickr1.jpg">
+                </div>
+                <div class="col-md-4">
+                  <img src="assets/images/flickr3.jpg">
+                </div>
+                <div class="col-md-4">
+                  <img src="assets/images/flickr4.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-content-box col-md-4" id="three" style="float: left;">
+            <h5>JOIN TODAY!</h5>
+            <p>For more information about what CalSTAR is and who we are, check us out at <a href="https://calstar.gitbook.io" target="_blank">calstar.gitbook.io</a>, and come out to our infosessions at the beginning of each semester! Also, feel free to reach out to any of our team members <a href="team.html">here.</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bar">
+        <div class="container">
+          <div style="float: left;">
+          <p> © CALSTAR. MADE BY <a href="https://github.com/Omkar-Waingankar">OMKAR WAINGANKAR</a>, 
+            <a href="https://github.com/arjunsahai">ARJUN SAHAI</a>, CINDY KHAN-TUSHIG<p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bar" style="text-align:left; background-color:white; color:navy;">
+        <div class="container">
+          <div style="float: left; margin-top: 2vh;">
+          <a href="https://www.ocf.berkeley.edu">
+              <img class="ocfpic" src="https://www.ocf.berkeley.edu/hosting-logos/ocfbadge_blue8.png"
+              alt="Hosted by the OCF" style="border: 0; height: 32px; width: 32px;"/> </a>
+              </div>
+          <div style="float: left; position: relative; left: 10px;">
+          <p> We are a student group acting independently of the University of California. We take full responsibility for our organization and this website.<p>
+          </div>
+        </div>
+      </div>
+
+  </body>
+
+
 </html>
