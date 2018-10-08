@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="assets/css/team.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <meta name="title" content="CalSTAR">
       <meta name="keywords" content="CalSTAR, rocket team, UC Berkeley, space, school">
       <meta name="description" content="CalSTAR, the UC Berkeley Space Technologies and Rocketry Team is a non-profit organization whos purpose is to design, build, test, and launch rockets. Founded in Fall 2015, CalSTAR is an emerging team looking to compete in NASA's Student Launch Initiative. Our beginning plans consist of team growth and certification for launching rockets. As the team grows and establishes itself, we hope to do research in the fields of space, technology, and rocketry. We would also like to reach out to the community of Berkeley and the Bay Area to establish a prominent aerospace community that doesn't exist currently. This is just the beginnng">
@@ -14,8 +15,6 @@
       <meta property="og:image" content="http://kevinhsuwho.github.io/assets/images/star.png">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script src="js/bootstrap.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
   </head>
 
   <body>
@@ -76,18 +75,21 @@
     <div class="subteam-one-left js-section" id="exec">
       <div class="container">
         <h3>EXECUTIVE TEAM</h3>
+        <br>
         <div class="row">
           <div class="col-md-6">
-            <img src="./assets/images/dinesh-parimi-c.png">
-            <h5>Dinesh Parimi | President | EECS</h5>
-            <p>
-              I’m a junior in the EECS department who’s always believed in using engineering to tackle the big problems – and to me, nothing is bigger than making humanity an interplanetary species. Inspired by NASA documentaries in my high school physics class, I joined STAR as a freshman two years ago and haven’t looked back since.
-            </p>
-            <a href="mailto:dineshp@berkeley.edu" target="_blank"><i class="fas fa-envelope-square"></i></a>
-            <a href="https://www.linkedin.com/in/dineshparimi/" target="blank"><i class="fab fa-linkedin"></i></a>
+            <img src="./assets/images/dinesh-parimi-c.png" id = "dinesh">
+            <div class = "exec-shift">
+              <h5>Dinesh Parimi | President | EECS</h5>
+              <p>
+                I’m a junior in the EECS department who’s always believed in using engineering to tackle the big problems – and to me, nothing is bigger than making humanity an interplanetary species. Inspired by NASA documentaries in my high school physics class, I joined STAR as a freshman two years ago and haven’t looked back since.
+              </p>
+              <a href="mailto:dineshp@berkeley.edu" target="_blank"><i class="fas fa-envelope-square"></i></a>
+              <a href="https://www.linkedin.com/in/dineshparimi/" target="blank"><i class="fab fa-linkedin"></i></a>
+            </div>
           </div>
           <div class="col-md-6">
-            <img src="./assets/images/aaron-togelang-c.png">
+            <img src="./assets/images/aaron-togelang-c.png" id = "aaron">
             <h5>Aaron Togelang | Vice President | MechE/MSE</h5>
             <p>
               Hi! I'm Aaron, the current Vice President. I'm currently in my third year, and I am majoring in both Mechanical Engineering and Material Science with a minor in EECS. I've been with the team since its founding and am involved in almost every aspect of the team. I learn CFD and graphic design with my spare time.
@@ -98,16 +100,18 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <img src="./assets/images/jennifer-evans-c.png">
-            <h5>Jennifer Evans | Logistics | MechE </h5>
-            <p>
-              Hi, I'm Jennifer, a sophomore intended Mechanical Engineering and Astrophysics double major, and for essentially my whole life I've been incredibly passionate about space and drawn to the unknown of the universe. I enjoy planning ahead and view space travel as humanity's plan for the present and future, which makes STAR the perfect fit for me.
-            </p>
-            <a href="mailto:jevans21@berkeley.edu" target="_blank"><i class="fas fa-envelope-square"></i></a>
-            <a href="https://www.linkedin.com/in/jennifer-evans-088047158/" target="blank"><i class="fab fa-linkedin"></i></a>
+            <img src="./assets/images/jennifer-evans-c.png" id = "jennifer">
+            <div class = "exec-shift">
+              <h5>Jennifer Evans | Logistics | MechE </h5>
+              <p>
+                Hi, I'm Jennifer, a sophomore intended Mechanical Engineering and Astrophysics double major, and for essentially my whole life I've been incredibly passionate about space and drawn to the unknown of the universe. I enjoy planning ahead and view space travel as humanity's plan for the present and future, which makes STAR the perfect fit for me.
+              </p>
+              <a href="mailto:jevans21@berkeley.edu" target="_blank"><i class="fas fa-envelope-square"></i></a>
+              <a href="https://www.linkedin.com/in/jennifer-evans-088047158/" target="blank"><i class="fab fa-linkedin"></i></a>
+            </div>
           </div>
           <div class="col-md-6">
-            <img src="./assets/images/michael-salamy.png">
+            <img src="./assets/images/michael-salamy.png" id = "michael">
             <h5>Michael Salamy | Business | MechE</h5>
             <p>
               I am a second year majoring in Mechanical Engineering and minoring in Structural Engineering. I joined CalSTAR in Fall 2017 because I have always been interested in aerospace engineering and I wanted to learn more about the subject in a very hands-on way, and because of the friendly and welcoming nature of the team members.
@@ -119,12 +123,14 @@
       </div>
     </div>
 
-    <div class="subteam-one-left" id="airframe">
+    <div class="subteam-one-left" id = "airframe">
       <div class="container">
         <h3>AIRFRAME</h3>
-        <h4>Airframe designs and manufactures launch vehicles and helps to integrate the systems of other subteams.</h4> 
+        <h4>Airframe designs and manufactures launch vehicles and helps to integrate the systems of other subteams.</h4>
         <div class="row">
-          <img class="col-md-4" src="./assets/images/maximillian-mueller-c.png">
+          <div class="col-md-4">
+            <img src="./assets/images/maximillian-mueller-c.png" id="air1">
+          </div>
           <div class="col-md-8 team-lead-info">
             <h5>Maximillian Mueller | Sophomore | EECS</h5>
             <p>
@@ -140,7 +146,7 @@
     <div class="subteam-two-right" id="avionics">
       <div class="container">
         <h3>AVIONICS</h3>
-        <h4>The avionics subteam develops, builds, and tests flight electronics and corresponding ground systems.</h4> 
+        <h4>The avionics subteam develops, builds, and tests flight electronics and corresponding ground systems.</h4>
         <div class="row">
           <div class="col-md-6 team-lead-info">
             <h5>Jacob Posner | Lead | EECS</h5>
@@ -156,18 +162,24 @@
             <a href="mailto:neelay.junnarkar@berkeley.edu" target="_blank"><i class="fas fa-envelope-square"></i></a>
             <a href="https://www.linkedin.com/in/neelay-junnarkar-84311b97" target="blank"><i class="fab fa-linkedin"></i></a>
           </div>
-          <img class="col-md-3" src="./assets/images/jacob-posner-c.png">
-          <img class="col-md-3" src="./assets/images/filler-c.png">
+          <div class="col-md-3">
+            <img src="./assets/images/jacob-posner-c.png" id = "avi1">
+          </div>
+          <div class="col-md-3">
+            <img src="./assets/images/filler-c.png" id = "avi2">
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="subteam-one-left" id="propulsion">
+    <div class="subteam-one-left" id = "propulsion">
       <div class="container">
         <h3>PROPULSION</h3>
-        <h4>Propulsion does exciting R&D that is responsible for getting the rocket and its subsystems safely up to apogee.</h4> 
+        <h4>Propulsion does exciting R&D that is responsible for getting the rocket and its subsystems safely up to apogee.</h4>
         <div class="row">
-          <img class="col-md-4" src="./assets/images/joe-li-c.png">
+          <div class="col-md-4">
+            <img src="./assets/images/joe-li-c.png" id = "prop1">
+          </div>
           <div class="col-md-8 team-lead-info">
             <h5>Joe Li | Lead | MechE </h5>
             <p>
@@ -183,7 +195,7 @@
     <div class="subteam-two-right" id="payload">
       <div class="container">
         <h3>PAYLOAD</h3>
-        <h4>The payload team is responsible for the science experiments, mechanisms, cameras, and sensors on our rockets.</h4> 
+        <h4>The payload team is responsible for the science experiments, mechanisms, cameras, and sensors on our rockets.</h4>
         <div class="row">
           <div class="col-md-6 team-lead-info">
             <h5>Sebastien Whetsel | Lead | EECS</h5>
@@ -199,8 +211,12 @@
             <a href="mailto:ralim@berkeley.edu" target="_blank"><i class="fas fa-envelope-square"></i></a>
             <a href="https://www.linkedin.com/in/rachel-lim-20" target="blank"><i class="fab fa-linkedin"></i></a>
           </div>
-          <img class="col-md-3" src="./assets/images/sebastien-whetsel.png">
-          <img class="col-md-3" src="./assets/images/filler-c.png">
+          <div class="col-md-3">
+            <img src="./assets/images/sebastien-whetsel.png" id = "pay1">
+          </div>
+          <div class="col-md-3">
+            <img src="./assets/images/filler-c.png" id = "pay2">
+          </div>
         </div>
       </div>
     </div>
@@ -208,10 +224,14 @@
     <div class="subteam-two-left" id="recovery">
       <div class="container">
         <h3>RECOVERY</h3>
-        <h4>The recovery subteam is responsible for ensuring vehicles land safely and all flight events are completed properly.</h4> 
+        <h4>The recovery subteam is responsible for ensuring vehicles land safely and all flight events are completed properly.</h4>
         <div class="row">
-          <img class="col-md-3" src="./assets/images/allen-ruan-c.png">
-          <img class="col-md-3" src="./assets/images/filler-c.png">
+          <div class="col-md-3">
+            <img src="./assets/images/allen-ruan-c.png" id = "rec1">
+          </div>
+          <div class="col-md-3">
+            <img src="./assets/images/filler-c.png" id = "rec2">
+          </div>
           <div class="col-md-6 team-lead-info">
             <h5>Allen Ruan | Lead | MechE </h5>
             <p>
@@ -233,7 +253,7 @@
     <div class="subteam-one-right" id="safety">
       <div class="container">
         <h3>SAFETY</h3>
-        <h4>We make sure that all our rockets are designed and constructed with team safety and regulations in mind.</h4> 
+        <h4>We make sure that all our rockets are designed and constructed with team safety and regulations in mind.</h4>
         <div class="row">
           <div class="col-md-8 team-lead-info">
             <h5>Grant Posner | Senior | CS & Math</h5>
@@ -243,7 +263,9 @@
             <a href="mailto:grant.posner@berkeley.edu" target="_blank"><i class="fas fa-envelope-square"></i></a>
             <a href="https://www.linkedin.com/in/grant-posner-9377a6116/" target="blank"><i class="fab fa-linkedin"></i></a>
           </div>
-          <img class="col-md-4" src="./assets/images/grant-posner-c.png">
+          <div class="col-md-4">
+            <img src="./assets/images/grant-posner-c.png" id = "saf1">
+          </div>
         </div>
       </div>
     </div>
@@ -251,11 +273,15 @@
     <div class="subteam-two-left" id="simulation">
       <div class="container">
         <h3>SIMULATION</h3>
-        <h4>Our subteam is responsible for simulating designs, verification of design performance, and data collection.</h4> 
+        <h4>Our subteam is responsible for simulating designs, verification of design performance, and data collection.</h4>
         <div class="row">
-          <img class="col-md-3" src="./assets/images/richard-bonnardel-c.png">
-          <img class="col-md-3" src="./assets/images/filler-c.png">
-          <div class="col-md-6 team-lead-info">
+          <div class="col-md-3">
+            <img src="./assets/images/richard-bonnardel-c.png" id = "sim1">
+          </div>
+          <div class="col-md-3">
+            <img src="./assets/images/filler-c.png" id = "sim2">
+          </div>
+          <div class="col-md-6 team-lead-info sim-shift">
             <h5>Richard Bonnardel | Lead | Engineering Physics </h5>
             <p>
               I'm an Engineering Physics major entering my Sophomore year at Cal and spend my free time designing and building fun projects! (Think flamethrowers!)
@@ -276,7 +302,7 @@
     <div class="subteam-one-right" id="documentation">
       <div class="container">
         <h3>DOCUMENTATION</h3>
-        <h4>The Docs team makes sure everything we do is recorded and reproducible. We also manage the CalSTAR GitBook!</h4> 
+        <h4>The Docs team makes sure everything we do is recorded and reproducible. We also manage the CalSTAR GitBook!</h4>
         <div class="row">
           <div class="col-md-8 team-lead-info">
             <h5>Rajiv Govindjee | Sophomore | MechE & EECS</h5>
@@ -286,7 +312,9 @@
             <a href="mailto:rgovindjee@berkeley.edu" target="_blank"><i class="fas fa-envelope-square"></i></a>
             <a href="https://www.linkedin.com/in/rgovindjee/" target="blank"><i class="fab fa-linkedin"></i></a>
           </div>
-          <img class="col-md-4" src="./assets/images/rajiv-govindjee-c.png">
+          <div class="col-md-4">
+            <img src="./assets/images/rajiv-govindjee-c.png" id = "doc1">
+          </div>
         </div>
       </div>
     </div>
@@ -294,13 +322,15 @@
     <div class="subteam-one-left" id="finance">
       <div class="container">
         <h3>FINANCE</h3>
-        <h4>The Finance Team manages the funds, conducts reimbursements, divides the budget for all sub-teams and fund-raise.</h4> 
+        <h4>The Finance Team manages the funds, conducts reimbursements, divides the budget for all sub-teams and fund-raise.</h4>
         <div class="row">
-          <img class="col-md-4" src="./assets/images/deep-dayaramani-c.png">
+          <div class="col-md-4">
+            <img src="./assets/images/deep-dayaramani-c.png" id = "fin1">
+          </div>
           <div class="col-md-8 team-lead-info">
             <h5>Deep Dayaramani | Sophomore | EECS</h5>
             <p>
-              Hey everyone! My name is Deep Dayaramani and I’m the Finance Lead for this year! I was born and brought up in Dubai, UAE! This is my 3rd year and I’m majoring in Energy Eng., minoring in EECS, MSE. I was always interested in Aerospace and CalSTAR was one place which helped me learn more about rockets and provided me with a lot of useful skills! 
+              Hey everyone! My name is Deep Dayaramani and I’m the Finance Lead for this year! I was born and brought up in Dubai, UAE! This is my 3rd year and I’m majoring in Energy Eng., minoring in EECS, MSE. I was always interested in Aerospace and CalSTAR was one place which helped me learn more about rockets and provided me with a lot of useful skills!
             </p>
             <a href="mailto:deep.daya@berkeley.edu" target="_blank"><i class="fas fa-envelope-square"></i></a>
             <a href="https://www.linkedin.com/in/deep-dayaramani/" target="blank"><i class="fab fa-linkedin"></i></a>
@@ -312,7 +342,7 @@
     <div class="subteam-one-right" id="marketing">
       <div class="container">
         <h3>MARKETING</h3>
-        <h4>Marketing and Outreach works to increase public awareness of STAR and educate others about aerospace engineering.</h4> 
+        <h4>Marketing and Outreach works to increase public awareness of STAR and educate others about aerospace engineering.</h4>
         <div class="row">
           <div class="col-md-8 team-lead-info">
             <h5>Sean Roh | Sophomore | BioE</h5>
@@ -322,7 +352,9 @@
             <a href="mailto:sroh@berkeley.edu" target="_blank"><i class="fas fa-envelope-square"></i></a>
             <a href="https://www.linkedin.com/in/sungbinroh/" target="blank"><i class="fab fa-linkedin"></i></a>
           </div>
-          <img class="col-md-4" src="./assets/images/sean-roh-c.png">
+          <div class="col-md-4">
+             <img src="./assets/images/sean-roh-c.png" id = "mark1">
+           </div>
         </div>
       </div>
     </div>
@@ -330,13 +362,15 @@
     <div class="subteam-one-left" id="media">
       <div class="container">
         <h3>MEDIA</h3>
-        <h4>Media is responsible for managing social media platforms and connecting CalSTAR to the community and the world!</h4> 
+        <h4>Media is responsible for managing social media platforms and connecting CalSTAR to the community and the world!</h4>
         <div class="row">
-          <img class="col-md-4" src="./assets/images/khaliun-khantushig-c.png">
+          <div class="col-md-4">
+            <img src="./assets/images/khaliun-khantushig-c.png" id = "med1">
+          </div>
           <div class="col-md-8 team-lead-info">
             <h5>Khaliun (Cindy) Khan-tushig | Sophomore | Data Science & Linguistics</h5>
             <p>
-              I'm a second year data science and linguistics major with CS minor. I've always been interested in astronomy and did not have prior experience with rocketry, but CalSTAR has taken me with open arms to learn more about the aerospace industry and rocketry. In addition, I'm passionate about design and art. I spend lot of time on PS and Illustrator. 
+              I'm a second year data science and linguistics major with CS minor. I've always been interested in astronomy and did not have prior experience with rocketry, but CalSTAR has taken me with open arms to learn more about the aerospace industry and rocketry. In addition, I'm passionate about design and art. I spend lot of time on PS and Illustrator.
             </p>
             <a href="mailto:khaliun@berkeley.edu" target="_blank"><i class="fas fa-envelope-square"></i></a>
             <a href="https://www.linkedin.com/in/khaliun-khan-tushig-530638170/" target="blank"><i class="fab fa-linkedin"></i></a>
@@ -382,7 +416,7 @@
       <div class="footer-bar">
         <div class="container">
           <div style="float: left;">
-          <p> © CALSTAR. MADE BY <a href="https://github.com/Omkar-Waingankar">OMKAR WAINGANKAR</a>, 
+          <p> © CALSTAR. MADE BY <a href="https://github.com/Omkar-Waingankar">OMKAR WAINGANKAR</a>,
             <a href="https://github.com/arjunsahai">ARJUN SAHAI</a>, CINDY KHAN-TUSHIG<p>
           </div>
         </div>

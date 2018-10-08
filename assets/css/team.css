@@ -134,7 +134,7 @@
 
   .main-content {
     top: 12vh;
-    text-align: center; 
+    text-align: center;
   }
 
   .main-content .right {
@@ -211,13 +211,13 @@ div[class^="subteam"] p {
   border-radius: 50%;
 }
 
-.subteam-one-left img {
+/* .subteam-one-left img {
   position: relative;
-  top: 9.01vh; /*88px;*/
-  width: 25%;
-  height: auto;
+  top: 9.01vh;
+  height: 20vw;
+  width: auto;
   border-radius: 50%;
-}
+} */
 
 div[class^="subteam"] i {
   border-radius: 5px;
@@ -292,7 +292,7 @@ div[class="subteam-two-left"] i, div[class="subteam-two-right"] i {
 }
 
 #exec .row {
-  margin-bottom: 7.37vh; /*72px;*/
+  margin-bottom: 7.37vh; /*72px;  */
 }
 
 #exec img {
@@ -301,6 +301,58 @@ div[class="subteam-two-left"] i, div[class="subteam-two-right"] i {
   display: block;
   margin-bottom: 2.45vh; /*24px;*/
   width: 50%;
+  border-radius: 50%;
+}
+
+#saf1, #doc1, #mark1 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2.45vh; /*24px;*/
+  width: 67%;
+  border-radius: 50%;
+  position: relative;
+  top: 5vw;
+  left: 2vw;
+}
+
+#air1, #prop1, #fin1, #med1{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2.45vh; /*24px;*/
+  width: 67%;
+  border-radius: 50%;
+  position: relative;
+  top: 5vw;
+}
+
+#avi1, #avi2 , #pay1, #pay2, #rec2, #sim1, #sim2{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2.45vh; /*24px;*/
+  width: 95%;
+  border-radius: 50%;
+  position: relative;
+  top: 5vw;
+}
+
+/* Looked a bit small for some reason */
+#rec1 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2.45vh; /*24px;*/
+  width: 100%;
+  border-radius: 50%;
+  position: relative;
+  top: 5vw;
+}
+
+.exec-shift {
+  position: relative;
+  bottom: 1vw;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -342,11 +394,11 @@ div[class="subteam-two-left"] i, div[class="subteam-two-right"] i {
   #exec .row {
   margin-bottom: 0vh;
   }
-  
+
 }
 
 /* as a note, you will need to adding padding at the bottom of the final subteam div */
-/* if we want to do alternating colors or want to actually give the divs a non-uniform background color, will need to add padding to all of them, 
+/* if we want to do alternating colors or want to actually give the divs a non-uniform background color, will need to add padding to all of them,
 will take up larger than 50% of vh */
 
 .footer .footer-content {
@@ -461,7 +513,7 @@ will take up larger than 50% of vh */
 
     .footer-bar {
       background-color: #202040;
-    color: #f4f4f4; 
+    color: #f4f4f4;
     margin-top: 2.45vh; /*24px;*/
     }
 
@@ -472,4 +524,113 @@ will take up larger than 50% of vh */
     #documentation h3 {
       font-size: 4vh;
     }
+
+    #air1, #prop1, #fin1, #med1{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-bottom: 2.45vh; /*24px;*/
+      width: 40%;
+      border-radius: 50%;
+      position: relative;
+      top: 15vw;
+    }
+
+    #avi1, #avi2 , #pay1, #pay2, #rec2, #sim1, #sim2{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-bottom: 2.45vh; /*24px;*/
+      width: 25%;
+      border-radius: 50%;
+      position: relative;
+      top: 10vw;
+    }
+
+    /* Looked a bit small for some reason */
+    #rec1 {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-bottom: 2.45vh; /*24px;*/
+      width: 25%;
+      border-radius: 50%;
+      position: relative;
+      top: 13vw;
+    }
+
+    #saf1, #doc1, #mark1 {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-bottom: 2.45vh; /*24px;*/
+      width: 40%;
+      border-radius: 50%;
+      position: relative;
+      top: 5vw;
+      left: 2vw;
+    }
+
+    #dinesh {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-bottom: 2.00vh; /*24px;*/
+      width: 35% !important;
+      border-radius: 50%;
+      position: relative;
+      top: 10vw;
+    }
+
+    #aaron {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-bottom: 2.00vh; /*24px;*/
+      width: 35% !important;
+      border-radius: 50%;
+      position: relative;
+      top: 10vw;
+    }
+
+    #jennifer {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-bottom: 2.00vh; /*24px;*/
+      width: 35% !important;
+      border-radius: 50%;
+      position: relative;
+      top: 10vw;
+    }
+
+    #michael {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-bottom: 2.00vh; /*24px;*/
+      width: 35% !important;
+      border-radius: 50%;
+      position: relative;
+      top: 10vw;
+    }
+
+    #exec {
+      height: 210vh;
+    }
+
+    #media {
+      height: 80vh;
+    }
+
+    div[class^="subteam-two"] {
+      padding-bottom: 90vh;
+    }
+
+
+    .sim-shift {
+      position: relative;
+      bottom: 12vw;
+    }
+
 }
