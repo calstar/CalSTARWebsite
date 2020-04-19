@@ -304,7 +304,7 @@ div[class="subteam-two-left"] i, div[class="subteam-two-right"] i {
   border-radius: 50%;
 }
 
-#saf1, #doc1, #mark1 {
+#avi1, #pay1, #ops1, #sys1, #out1 {
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -316,7 +316,7 @@ div[class="subteam-two-left"] i, div[class="subteam-two-right"] i {
   left: 2vw;
 }
 
-#air1, #prop1, #fin1, #med1, #avi1{
+#air1, #prop1, #rec1, #sim1, #bus1, #med1{
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -327,29 +327,18 @@ div[class="subteam-two-left"] i, div[class="subteam-two-right"] i {
   top: 5vw;
 }
 
-#avi2 , #pay1, #pay2, #rec2, #sim1, #sim2{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-bottom: 2.45vh; /*24px;*/
-  width: 95%;
-  border-radius: 50%;
-  position: relative;
-  top: 5vw;
-}
-
-/* Looked a bit small for some reason */
+/* Looked a bit small for some reason 
 #rec1 {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-bottom: 2.45vh; /*24px;*/
+  margin-bottom: 2.45vh;
   width: 100%;
   border-radius: 50%;
   position: relative;
   top: 5vw;
 }
-
+*/
 .exec-shift {
   position: relative;
   bottom: 1vw;
