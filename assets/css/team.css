@@ -276,7 +276,7 @@ div[class="subteam-two-left"] i, div[class="subteam-two-right"] i {
 }
 
 #exec {
-  height: 150vh;
+  height: 80vh;
   background: #f8f8f8;
 }
 
@@ -316,7 +316,7 @@ div[class="subteam-two-left"] i, div[class="subteam-two-right"] i {
   left: 2vw;
 }
 
-#air1, #prop1, #fin1, #med1{
+#air1, #prop1, #fin1, #med1, #avi1{
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -327,7 +327,7 @@ div[class="subteam-two-left"] i, div[class="subteam-two-right"] i {
   top: 5vw;
 }
 
-#avi1, #avi2 , #pay1, #pay2, #rec2, #sim1, #sim2{
+#avi2 , #pay1, #pay2, #rec2, #sim1, #sim2{
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -525,7 +525,7 @@ will take up larger than 50% of vh */
       font-size: 4vh;
     }
 
-    #air1, #prop1, #fin1, #med1{
+    #air1, #prop1, #fin1, #med1, #avi1{
       margin-left: auto;
       margin-right: auto;
       display: block;
@@ -536,7 +536,7 @@ will take up larger than 50% of vh */
       top: 15vw;
     }
 
-    #avi1, #avi2 , #pay1, #pay2, #rec2, #sim1, #sim2{
+    #pay1, #pay2, #rec2, #sim1, #sim2{
       margin-left: auto;
       margin-right: auto;
       display: block;
@@ -616,7 +616,7 @@ will take up larger than 50% of vh */
     }
 
     #exec {
-      height: 210vh;
+      height: 80vh;
     }
 
     #media {
