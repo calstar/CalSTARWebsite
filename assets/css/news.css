@@ -1,0 +1,25 @@
+.main-picture {
+    background-image:url('../images/news.jpg');
+}
+
+.news-container {
+    margin: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.news-title-container {
+    margin: 1%;
+}
+
+.news-body-container {
+    margin: 1%;
+}
+
+.news-container-container {
+    max-width: 100%;
+}
+
+.news-caption {
+    color: #555555;
+    font-size: small;
+}

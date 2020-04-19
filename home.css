@@ -269,8 +269,8 @@
 
 .projects .ursa, .arktos {
 	position: relative;
-	top: 14.5vh; /*224px;
-	bottom: 0vh; */
+	top: 14.5vh; /*224px;*/
+	/*bottom: 0vh;*/
 	height: 62.8vh;
 	/*height: 100%; /*600px;*/
 	width: 50%;
