@@ -521,11 +521,15 @@ will take up larger than 50% of vh */
       font-size: 5vh;
     }
 
-    #documentation h3 {
-      font-size: 4vh;
+    #safety h3 {
+      font-size: 2vh;
     }
 
-    #air1, #prop1, #fin1, #med1, #avi1{
+    #simulations h3 {
+      font-size: 5vh;
+    }
+
+    #air1, #prop1, #fin1, #med1, #avi1, #pay1, #pay2, #rec2, #sim1, #sim2 {
       margin-left: auto;
       margin-right: auto;
       display: block;
@@ -536,7 +540,7 @@ will take up larger than 50% of vh */
       top: 15vw;
     }
 
-    #pay1, #pay2, #rec2, #sim1, #sim2{
+    #test {
       margin-left: auto;
       margin-right: auto;
       display: block;
@@ -616,7 +620,7 @@ will take up larger than 50% of vh */
     }
 
     #exec {
-      height: 80vh;
+      height: 50vh;
     }
 
     #media {
