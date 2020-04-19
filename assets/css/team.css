@@ -316,7 +316,7 @@ div[class="subteam-two-left"] i, div[class="subteam-two-right"] i {
   left: 2vw;
 }
 
-#air1, #prop1, #rec1, #sim1, #bus1, #med1{
+#air1, #prop1, #rec1, #sim1, #bus1, #med1 {
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -510,7 +510,7 @@ will take up larger than 50% of vh */
       font-size: 5vh;
     }
 
-    #safety h3 {
+    #operations h3 {
       font-size: 2vh;
     }
 
@@ -518,7 +518,7 @@ will take up larger than 50% of vh */
       font-size: 5vh;
     }
 
-    #air1, #prop1, #fin1, #med1, #avi1, #pay1, #pay2, #rec2, #sim1, #sim2 {
+    #air1, #prop1, #rec1, #sim1, #bus1, #med1 {
       margin-left: auto;
       margin-right: auto;
       display: block;
@@ -529,30 +529,19 @@ will take up larger than 50% of vh */
       top: 15vw;
     }
 
-    #test {
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-      margin-bottom: 2.45vh; /*24px;*/
-      width: 25%;
-      border-radius: 50%;
-      position: relative;
-      top: 10vw;
-    }
-
-    /* Looked a bit small for some reason */
+    /* Looked a bit small for some reason 
     #rec1 {
       margin-left: auto;
       margin-right: auto;
       display: block;
-      margin-bottom: 2.45vh; /*24px;*/
+      margin-bottom: 2.45vh;
       width: 25%;
       border-radius: 50%;
       position: relative;
       top: 13vw;
-    }
+    }*/
 
-    #saf1, #doc1, #mark1 {
+    #avi1, #pay1, #ops1, #sys1, #out1 {
       margin-left: auto;
       margin-right: auto;
       display: block;
