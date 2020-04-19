@@ -518,7 +518,7 @@ will take up larger than 50% of vh */
       font-size: 5vh;
     }
 
-    #air1, #prop1, #rec1, #sim1, #bus1, #med1 {
+    #air1, #prop1, #rec1, #sim1, #bus1, #med1, #avi1, #pay1, #ops1, #sys1, #out1 {
       margin-left: auto;
       margin-right: auto;
       display: block;
@@ -541,7 +541,7 @@ will take up larger than 50% of vh */
       top: 13vw;
     }*/
 
-    #avi1, #pay1, #ops1, #sys1, #out1 {
+    #test {
       margin-left: auto;
       margin-right: auto;
       display: block;
