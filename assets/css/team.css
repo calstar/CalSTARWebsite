@@ -276,7 +276,7 @@ div[class="subteam-two-left"] i, div[class="subteam-two-right"] i {
 }
 
 #exec {
-  height: 80vh;
+  height: 100vh;
   background: #f8f8f8;
 }
 
@@ -292,7 +292,7 @@ div[class="subteam-two-left"] i, div[class="subteam-two-right"] i {
 }
 
 #exec .row {
-  margin-bottom: 7.37vh; /*72px;  */
+  margin-bottom: 2.45vh; /*72px;  */
 }
 
 #exec img {
@@ -507,27 +507,28 @@ will take up larger than 50% of vh */
     }
 
     #propulsion h3 {
-      font-size: 5vh;
+      font-size: 5.5vh;
     }
 
     #operations h3 {
-      font-size: 2vh;
+      font-size: 3.5vh;
     }
 
     #simulations h3 {
-      font-size: 5vh;
+      font-size: 5.5vh;
     }
 
-    #air1, #prop1, #rec1, #sim1, #bus1, #med1, #avi1, #pay1, #ops1, #sys1, #out1 {
+    #air1, #prop1, #rec1, #bus1, #med1, #sim1{
       margin-left: auto;
       margin-right: auto;
       display: block;
       margin-bottom: 2.45vh; /*24px;*/
-      width: 40%;
+      width: 50%;
       border-radius: 50%;
       position: relative;
       top: 15vw;
     }
+
 
     /* Looked a bit small for some reason 
     #rec1 {
@@ -541,19 +542,19 @@ will take up larger than 50% of vh */
       top: 13vw;
     }*/
 
-    #test {
+    #avi1, #pay1, #ops1, #sys1, #out1{
       margin-left: auto;
       margin-right: auto;
       display: block;
       margin-bottom: 2.45vh; /*24px;*/
-      width: 40%;
+      width: 50%;
       border-radius: 50%;
       position: relative;
-      top: 5vw;
-      left: 2vw;
+      /*top: 2vw;*/
+      margin-top: 5vh
     }
 
-    #dinesh {
+    #pres {
       margin-left: auto;
       margin-right: auto;
       display: block;
@@ -564,29 +565,7 @@ will take up larger than 50% of vh */
       top: 10vw;
     }
 
-    #aaron {
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-      margin-bottom: 2.00vh; /*24px;*/
-      width: 35% !important;
-      border-radius: 50%;
-      position: relative;
-      top: 10vw;
-    }
-
-    #jennifer {
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-      margin-bottom: 2.00vh; /*24px;*/
-      width: 35% !important;
-      border-radius: 50%;
-      position: relative;
-      top: 10vw;
-    }
-
-    #michael {
+    #vpres {
       margin-left: auto;
       margin-right: auto;
       display: block;
@@ -598,21 +577,16 @@ will take up larger than 50% of vh */
     }
 
     #exec {
-      height: 50vh;
+      height: 130vh;
+      padding-bottom: 80vh;
     }
 
     #media {
       height: 80vh;
     }
 
-    div[class^="subteam-two"] {
-      padding-bottom: 90vh;
-    }
-
-
-    .sim-shift {
-      position: relative;
-      bottom: 12vw;
+    div[class^="subteam-one"] {
+      padding-bottom: 80vh;
     }
 
 }
