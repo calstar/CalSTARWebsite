@@ -257,7 +257,7 @@
 	/*background: linear-gradient(#DCDCDC, white 95%);s*/
 	/*background: linear-gradient(#EFFBFF, #f4f4f4 95%);*/
 	background: #f8f8f8;
- 
+
 }
 
 /*.projects .row {
@@ -401,6 +401,7 @@
 
 .footer {
 	margin-top: -3.1vh;
+  padding-top: 25px;
 }
 
 .footer .footer-content {
@@ -514,7 +515,64 @@
 
     .footer-bar {
     	background-color: #202040;
-		color: #f4f4f4; 
+		color: #f4f4f4;
 		margin-top: 2.45vh; /*24px;*/
     }
+}
+
+.faq  {
+	position: relative;
+	text-align: center;
+  padding-bottom: 80px;
+	top: 3.68vh; /*36px;*/
+}
+
+.faqtext{
+  position: relative;
+  text-align: center;
+  top: 3.68vh; /*36px;*/
+  margin-left: 100px;
+}
+.questionalt {
+  background-color: #f8f8f8;
+  margin-bottom: 0px;
+}
+
+.questionalt2 {
+  margin-bottom: 20px;
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+img.sociallogo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 60px;
+}
+
+.aboutus {
+  position: relative;
+	text-align: center;
+	top: 3.68vh; /*36px;*/
+}
+
+.join {
+  position: relative;
+	text-align: center;
+	top: 3.68vh; /*36px;*/
+  margin-bottom: 40px;
+}
+
+.joinblurb {
+  position: relative;
+	text-align: center;
+	top: 3.68vh; /*36px;*/
+  margin-bottom: 40px;
+}
+
+.upcomingevents{
+  position: relative;
+  text-align: center;
+  top: 3.68vh; /*36px;*/
+  margin-bottom: 80px;
 }
