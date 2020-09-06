@@ -98,6 +98,7 @@
 	height: 125vh;
 	/*background: linear-gradient(to bottom, #EFFBFF 0vh, #EFFBFF 75vh, #EFFBFF 75vh, #f4f4f4 100%);	*/
 	background: #f8f8f8;
+  padding-bottom: 400px;
 }
 
 .welcome h1 {
@@ -109,6 +110,7 @@
 	letter-spacing: 0.12vw; /*2px;*/
 	font-weight: 700;
 	margin-bottom: 0px;
+  margin-top: -10px;
 }
 
 .welcome p {
@@ -117,8 +119,8 @@
 	text-align: center;
 	top: 10.25vh; /*100px;*/
 	font-size: 2.25vh; /*22px;*/
-	margin-bottom: -2vh; /*-12px;*/
-	margin-top: 0px;
+	margin-bottom: 2vh; /*-12px;*/
+	margin-top: -10px;
 	color: #2f354a;
 }
 
@@ -131,6 +133,7 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+  margin-top: -70px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -525,6 +528,7 @@
 	text-align: center;
   padding-bottom: 80px;
 	top: 3.68vh; /*36px;*/
+  font-family: 'Montserrat', sans-serif;
 }
 
 .faqtext{
@@ -532,16 +536,23 @@
   text-align: center;
   top: 3.68vh; /*36px;*/
   margin-left: 100px;
+  font-family: 'Montserrat', sans-serif;
 }
 .questionalt {
   background-color: #f8f8f8;
   margin-bottom: 0px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .questionalt2 {
   margin-bottom: 20px;
   background-color: #f8f8f8;
   position: relative;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fontfix {
+  font-family: 'Montserrat', sans-serif;
 }
 
 img.sociallogo {
@@ -561,6 +572,7 @@ img.sociallogo {
 	text-align: center;
 	top: 3.68vh; /*36px;*/
   margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .joinblurb {
@@ -568,6 +580,7 @@ img.sociallogo {
 	text-align: center;
 	top: 3.68vh; /*36px;*/
   margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .upcomingevents{
@@ -575,4 +588,13 @@ img.sociallogo {
   text-align: center;
   top: 3.68vh; /*36px;*/
   margin-bottom: 80px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.welcomeblurb {
+	line-height: 2em;
+}
+
+.spacet {
+	margin-bottom: 200px;
 }
