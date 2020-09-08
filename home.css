@@ -551,6 +551,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.question {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0px;
+}
+
 .fontfix {
   font-family: 'Montserrat', sans-serif;
 }
