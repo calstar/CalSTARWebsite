@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
 
+
 .right-align-menu {
   text-align: right;
 }
@@ -148,7 +149,7 @@
 
 .corporate-sponsors {
   height: auto;
-  /* margin-bottom: 8vh; */
+  margin-bottom: 8vh;
 }
 
 .corporate-sponsors h1 {
@@ -157,7 +158,7 @@
   font-size: 5.73vh; /*56px;*/
   letter-spacing: 0.12vw; /*2px;*/
   font-weight: 700;
-  margin-bottom: 0;
+  margin-bottom: 8vh;
   margin-top: 8vh;
 }
 
@@ -169,6 +170,7 @@
   height: 30vh;
   display: table-cell;
   vertical-align: middle
+
 }
 
 .corporate-sponsors .row .col-md-4 img {
@@ -186,8 +188,8 @@
 }
 
 .individual-sponsors {
-     height: 82vh; 
-     margin-bottom: 8vh; 
+     height: 50vh;
+     margin-bottom: 8vh;
 }
 
 .individual-sponsors h1 {
@@ -213,6 +215,33 @@
   line-height: 3vh;
 }
 
+.anonymous-sponsors {
+     height: 10vh;
+     margin-bottom: 8vh;
+}
+
+.anonymous-sponsors h3 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vh; /*56px;*/
+  letter-spacing: 0.12vw; /*2px;*/
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 0vh;
+}
+
+.anonymous-sponsors .row {
+  margin-top: 4vh;
+}
+
+.anonymous-sponsors li {
+  text-align: center;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.12vw;
+  font-size: 1.5vh;
+  line-height: 3vh;
+}
 
 .footer .footer-content {
   height: 36vh;
@@ -329,9 +358,13 @@
     .individual-sponsors {
       position: relative;
       top: 80vh;
-      height: 240vh;
+      height: 220vh;
     }
-
+    .anonymous-sponsors {
+      position: relative;
+      top: 0vh;
+      height: 10vh;
+    }
     .individual-sponsors .row{
       position: relative;
       bottom: 5vh;
