@@ -119,7 +119,7 @@
 	text-align: center;
 	top: 10.25vh; /*100px;*/
 	font-size: 2.25vh; /*22px;*/
-	margin-bottom: 2vh; /*-12px;*/
+	margin-bottom: 6vh; /*-12px;*/
 	margin-top: -10px;
 	color: #2f354a;
 }
@@ -381,6 +381,7 @@
 		position: relative;
 		bottom: 20px;
 		height: 9vh;
+
 	}
 
 }
