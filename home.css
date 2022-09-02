@@ -98,7 +98,7 @@
 }
 
 .welcome {
-	height: 125vh;
+	height: 103vh;
 	/*background: linear-gradient(to bottom, #EFFBFF 0vh, #EFFBFF 75vh, #EFFBFF 75vh, #f4f4f4 100%);	*/
 	background: #f8f8f8;
   padding-bottom: 400px;
@@ -606,5 +606,11 @@ img.sociallogo {
 
 .spacet {
 	margin-bottom: 200px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 /* you should see this code
