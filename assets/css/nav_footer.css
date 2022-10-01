@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+  /* GENERAL NAV */
+
+.right-align-menu {
+    text-align: right;
+  }
+  
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,255);
+  }
+  
+  .navbar {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .navbar-dark {
+    background-color: transparent;
+    transition: background-color .5s ease 0s;
+  }
+
+  .navbar-dark:hover {
+    background-color: rgba(58, 58, 58, 1);
+    transition: background-color .5s ease 0s;
+  }
+  
+  .navbar-dark:hover.opaque {
+    background-color: rgba(58, 58, 58, 1);
+    transition: background-color .5s ease 0s;
+  }
+  .navbar-dark.opaque {
+    background-color: rgb(80,80,80, 0.9);
+  
+  }
+
+  .navbar-brand {
+    position: relative;
+    transition: color 0.5s;
+    font-size: 2vh; /*20px;*/
+    letter-spacing: 0.18vw; /*3px;*/
+    text-transform: uppercase;
+    color: #999999 !important;
+    margin-left: 2.5vh;
+  }
+  
+  .navbar-brand.opaque {
+    position: relative;
+    transition: color 0.5s;
+    font-size: 2vh; /*20px;*/
+    letter-spacing: 0.18vw; /*3px;*/
+    text-transform: uppercase;
+    color: #F0FFF0 !important;
+  }
+  
+  .navbar-brand:hover {
+    color: #f4f4f4 !important;
+  }
+
+  .navbar-dark li a {
+    font-size: 1.75vh; /*16px;*/
+    letter-spacing: 0.18vw; /*3px;*/
+    font-weight: 1;
+    text-transform: uppercase;
+    transition: color 0.5s;
+    margin-top: -0.25vh;  
+    margin-bottom:-0.5vh;
+  }
+  
+  .navbar-dark li a:hover {
+    color: #f4f4f4;
+    text-decoration: none;
+    background-color: transparent !important;
+  }
+  
+  .nav-link{
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  #nav_last {
+    margin-right:.5vw;
+  }
+  
+
+  /*GENERAL FOOTER*/
+
+.footer .footer-content {
+  height: 36vh;
+  background-color: #161738;
+  color: #f4f4f4;
+}
+
+.footer .footer-content-box {
+  position: relative;
+  padding-top: 6vh;
+  padding-left: 1.42vw; /*24px;*/
+  padding-right: 1.42vw; /*24px;*/
+}
+
+.footer .footer-content-box h5 {
+  letter-spacing: 0.18vw; /*3px;*/
+  font-weight: 500;
+  line-height: 1.2;
+  border-bottom: 0.03vh; /*0.3px*/ 
+  padding-bottom: 1.63vh; /*16px;*/
+}
+
+.footer-content .footer-content-box a {
+  transition: color 0.5s;
+  color: #f4f4f4;
+}
+
+.footer-content .footer-content-box a:hover {
+  color: #6B6B6B;
+  text-decoration: none;
+}
+
+.footer .footer-content-box p {
+  padding-top: 1.63vh; /*16px;*/
+  letter-spacing: 0.011vw; /*0.2px;*/
+  font-weight: 200;
+  line-height: 1.8;
+  color: #6B6B6B;
+  font-size: 1.33vh; /*13px;*/
+  margin-right: 0px;
+}
+
+.footer-content .footer-content-box i {
+  position: relative;
+  top: 1.02vh; /*10px;*/
+  padding-right: 0.95vw; /*16px;*/
+  border-radius: 5px;
+  color: #6B6B6B;
+  font-size: 3.27vh; /*32px;*/
+  transition: color 0.5s;
+}
+
+.footer-content .footer-content-box i:hover {
+  color: #f4f4f4;
+}
+
+.footer-content .footer-content-box .flickr-img-tbl {
+  padding-top: 1.63vh; /*16px;*/
+}
+
+.footer-content .footer-content-box .flickr-img-tbl .flickr-img-row {
+  padding-top: 0.51vh; /*5px;*/
+}
+
+.footer-content .footer-content-box .flickr-img-tbl .flickr-img-row .col-md-4 {
+  padding: 0.20vh 0.11vw 0.20vh 0.11vw;
+}
+
+.footer-content .footer-content-box .flickr-img-tbl .flickr-img-row img {
+  width: 100%;
+  height: 12.29vh; /*120px;*/
+}
+
+.footer-bar {
+  min-height: 7.37vh; /*72px;*/
+  background-color: #202040;
+  color: #f4f4f4;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.12vw; /*2px;*/
+  font-size: 1.22vh; /*12px;*/
+}
+
+.footer-bar p {
+  position: relative;
+  top: 3.07vh; /*30px;*/
+}
+
+.footer-bar p a {
+  color: #f4f4f4;
+  transition: color 0.5s;
+}
+
+.footer-bar p a:hover {
+  color: #6B6B6B;
+  text-decoration: none;
+}
+
+  /* 10PX NAV BAR */
+
+@media only screen and (min-width: 10px){
+  .navbar-brand{
+    width: 55%;
+    margin-left: -1vh;
+    margin-top: -0.5vh;
+  }
+
+  #logo{
+    width: 60%;
+  }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1199px){
+  .navbar-brand{
+    width: 20%;
+    margin-left: -0.5vh;
+    margin-top: -0vh;
+  }
+
+  #logo{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) { /* MAX SIZE */
+
+  .navbar-brand{
+    width: 25%;
+    margin-left: 0.5vw;
+    margin-top: -0.15vh;
+    margin-bottom: -0.15vh;
+    max-width: 10vw;
+    min-height: 5vh;
+  }
+
+  #logo{
+    width: 75%;
+  }
+
+
+}
