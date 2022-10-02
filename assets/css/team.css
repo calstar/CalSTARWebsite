@@ -1,81 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
 
-.right-align-menu {
-  text-align: right;
-}
-
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-.custom-toggler.navbar-toggler {
-  border-color: rgb(255,255,255);
-}
-
-.navbar {
-  font-family: "Open Sans", sans-serif;
-}
-
-.navbar-dark {
-  background-color: transparent;
-  transition: background-color .5s ease 0s;
-}
-
-.navbar-dark.opaque {
-  background-color: rgb(80,80,80, 0.9);
-
-}
-
-.navbar-brand {
-  position: relative;
-  transition: color 0.5s;
-  font-size: 2vh; /*20px;*/
-  letter-spacing: 0.18vw; /*3px;*/
-  text-transform: uppercase;
-  color: #999999 !important;
-}
-
-.navbar-brand.opaque {
-  position: relative;
-  transition: color 0.5s;
-  font-size: 2vh; /*20px;*/
-  letter-spacing: 0.18vw; /*3px;*/
-  text-transform: uppercase;
-  color: #F0FFF0 !important;
-}
-
-.navbar-brand:hover {
-  color: #f4f4f4 !important;
-}
-
-.navbar-brand:hover {
-  color: #f4f4f4;
-}
-
-.navbar-dark li a {
-  color: #999999;
-  font-size: 1.75vh; /*16px;*/
-  letter-spacing: 0.18vw; /*3px;*/
-  font-weight: 1;
-  text-transform: uppercase;
-  transition: color 0.5s;
-}
-
-.navbar-dark li a:hover {
-  color: #f4f4f4;
-  text-decoration: none;
-  background-color: transparent !important;
-}
 .main-picture {
   height: 100vh;
   min-height: 400px;
   background-size:cover;
-  background-image:url('../images/nebula2.jpg');
+  background-image:linear-gradient(to bottom, rgba(5, 5, 5, 0.9), rgba(0, 0, 0, 0.2)), url('../images/nebula2.jpg');
 }
+
 
 .main-content {
   position: relative;
-  top: 30vh;
+  top: 20vh;
   font-family: 'Montserrat', sans-serif;
   color: #f4f4f4;
 }
@@ -110,14 +45,15 @@
 
 .main-content .right p:hover {
   color: #f4f4f4;
-  font-weight: 700;
+  font-weight: 700; 
 }
 
 .main-content h1 {
   font-size: 10vh; /*96px;*/
   letter-spacing: 0.12vw; /*2px;*/
   font-weight: 700;
-  margin: -1.02vh 0px 0px 0px;
+  margin: -2.02vh 0px 0px 0px; /* UP */
+
 }
 
 .main-content h2 {
@@ -126,467 +62,662 @@
   font-size: 1.84vh; /*18px;*/
 }
 
-@media only screen and (max-width: 1000px) {
 
+@media only screen and (min-width: 10px){
   .main-picture {
-    height: 120vh;
+    height: 105vh;
+    min-height: 400px;
+    background-size:cover;
+    background-image:linear-gradient(to bottom, rgba(5, 5, 5, 0.9), rgba(0, 0, 0, 0.2)), url('../images/nebula2.jpg');
+  }
+
+  .main-content h1 {
+    font-size: 7.5vh; /*96px;*/
+    letter-spacing: 0.12vw; /*2px;*/
+    font-weight: 700;
+    margin: 0vh 0px 0px 0px; /* UP */
+    margin-right: 20vw
+  
+  }   
+  
+  .main-content h3 {
+    /*font-size: 24px;*/
+    font-size: 2.5vh;
+   margin-top: 1.5vh;
+   margin-left: 0.75vw;
   }
 
   .main-content {
-    top: 12vh;
-    text-align: center;
-  }
-
-  .main-content .right {
     position: relative;
-    top: 12vh;
+    top: 10vh;
+    font-family: 'Montserrat', sans-serif;
+    color: #f4f4f4;
   }
+  .main-content .left {
+    /* display: inline; */
+    margin-left: 2.5vh;
+  } 
+  .main-content .right {
+    /* display: inline; */
+    margin-top: 2vh;
+    margin-left: 3.5vh;
+    text-align: right;
+  } 
 
   .main-content .right p {
-    text-align: center;
-    font-size: 1.8vh;
+    text-align: left;
+    color: #999999;
+    transition: color 0.5s;
+    font-size: 2.04vh; /*20px;*/
+    letter-spacing: 0.12vw; /*2px;*/
+    font-weight: 400;
   }
 
-}
+  #air1, #prop1, #rec1, #bus1, #med1, #sim1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 2.45vh; /*24px;*/
+    width: 50%;
+    border-radius: 15%;
+    position: relative;
+    top: 2vw;
+    margin-top: 9vh
+  }
 
-div[class^="subteam"] {
-  height: 50vh;
-  background: #f3f3f3;
-  padding-bottom: 62vh; /*576px*/
-}
+  #ops1, #sys1, #out1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 2.45vh; /*24px;*/
+    width: 50%;
+    border-radius: 15%;
+    position: relative;
+    top: 1vh;
+    margin-top: 3vh
+  }
 
-div[class^="subteam"] h3 {
-  position: relative;
-  top: 6.55vh; /*64px*/
-  font-size: 6.55vh; /*64px;*/
-  letter-spacing: 0.18vw; /*3px;*/
-  font-family: 'Montserrat', sans-serif;
-  color: #999999;
-  font-weight: 700;
-}
+  #pay1, #avi1 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 2.45vh; /*24px;*/
+    width: 50%;
+    border-radius: 15%;
+    position: relative;
+    top: -5vh;
+    margin-top: 3vh
+  }
 
-div[class="subteam-one-left"] h3, div[class="subteam-two-left"] h3 {
-  color: #344543;
-}
 
-div[class="subteam-one-right"] h3, div[class="subteam-two-right"] h3 {
-  color: #833300;
-}
-
-div[class^="subteam"] h4 {
-  position: relative;
-  top: 6.55vh; /*64px*/
-  font-size: 2.04vh; /*20px;*/
-  letter-spacing: 0.06vw; /*0.5px;*/
-  font-family: 'Ooen Sans', sans-serif;
-  color: black;
-  font-weight: 300;
-}
-
-div[class^="subteam"] h5 {
-  position: relative;
-  top: 9.01vh; /*88px;*/
-  font-size: 2.25vh; /*24px;*/
-  letter-spacing: 0.06vw; /*0.5px;*/
-  font-family: 'Open Sans', sans-serif;
-  color: black;
-  font-weight: 300;
-}
-
-div[class^="subteam"] p {
-  position: relative;
-  top: 9.01vh; /*88px;*/
-  font-size: 1.63vh; /*16px;*/
-  letter-spacing: 0.06vw; /*0.5px;*/
-  font-family: 'Ooen Sans', sans-serif;
-  color: black;
-  font-weight: 300;
-}
-
-.subteam-one-right img, .subteam-two-left img, .subteam-two-right img {
-  position: relative;
-  top: 9.01vh; /*88px;*/
-  width: 25%;
-  height: auto;
-  border-radius: 50%;
-}
-
-/* .subteam-one-left img {
-  position: relative;
-  top: 9.01vh;
-  height: 20vw;
-  width: auto;
-  border-radius: 50%;
-} */
-
-div[class^="subteam"] i {
-  border-radius: 5px;
-  color: #0077B5;
-  font-size:  3.68vh; /*36px;*/
-  position: relative;
-  /*left: 100%;*/
-  top: 9.42vh; /*92px;*/
-  margin-right: 0.23vw; /*2px;*/
-  opacity: 1;
-  transition: opacity 0.5s;
-}
-
-div[class^="subteam"] i:hover {
-  opacity: 0.5;
-}
-
-.subteam-one-right img {
-  margin-left: 5.71vw; /*96px;*/
-}
-
-.subteam-one-right h5, p {
-  margin-right: -5.71vw; /*-96px;*/
-}
-
-.subteam-two-right p {
-  margin-right: 0px;
-  margin-left: -5.71vw; /*-96px;*/
-}
-
-div[class^="subteam"] .fa-envelope-square {
-  color: #dd4b39;
-}
-
-.subteam-one-right .fa-linkedin {
-  margin-right: -5.71vw; /*-96px;*/
-}
-
-div[class="subteam-one-right"], div[class="subteam-two-right"] {
-  text-align: right;
-  background: #f8f8f8;
-  /*padding-bottom: 64px;*/
-}
-
-div[class="subteam-two-left"] h5, div[class="subteam-two-right"] h5 {
-  margin-bottom: 0.51vh; /*5px;*/
-}
-
-div[class="subteam-two-left"] p, div[class="subteam-two-right"] p {
-  margin-bottom: 0px;
-}
-
-div[class="subteam-two-left"] i, div[class="subteam-two-right"] i {
-  font-size: 3.27vh; /*32px;*/
-  margin-bottom: 1.84vh; /*18px;*/
-}
-
-#exec {
-  height: 100vh;
+ /* EXEC 10 */
+ #exec {
+  height: 165vh;
   background: #f8f8f8;
 }
 
 #exec h3 {
   text-align: center;
   margin-bottom: 4.91vh; /*48px;*/
-  color: #833300;
+  color: #000000;
 }
 
-#exec p {
-  width: 100%;
-  text-align: justify;
-}
-
-#exec .row {
-  margin-bottom: 2.45vh; /*72px;  */
-}
-
-#exec img {
+.exec_img {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-bottom: 2.45vh; /*24px;*/
-  width: 50%;
-  border-radius: 50%;
+  margin-bottom: 5vh;
+  margin-top: 7.5vh;
+  width: 40%;
+  border-radius: 15%;
+  position: relative;
 }
 
-#avi1, #pay1, #ops1, #sys1, #out1 {
+#exec_text {
+  text-align: center;
+}
+#exec_name {
+  top: 1.01vh;
+}
+#exec_bio {
+  top: 2.01vh;
+}
+#exec_icon {
+  top: 3.01vh;
+}
+
+#pres {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-bottom: 2.45vh; /*24px;*/
-  width: 67%;
+  margin-bottom: 5vh;
+  margin-top: 7.5vh;
+  width: 55%;
   border-radius: 50%;
   position: relative;
-  top: 5vw;
-  left: 2vw;
 }
 
-#air1, #prop1, #rec1, #sim1, #bus1, #med1 {
+#vpres {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-bottom: 2.45vh; /*24px;*/
-  width: 67%;
+  margin-bottom: 5vh;
+  margin-top: 7.5vh;
+  width: 55%;
   border-radius: 50%;
   position: relative;
-  top: 5vw;
+}
+/* SUBTEAM GEN */
+
+div[class^="subteam"] {
+  height: 100vh;
+  background: #f3f3f3;
+  padding-bottom: 64vh;
+  text-align: left;
 }
 
-/* Looked a bit small for some reason 
-#rec1 {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-bottom: 2.45vh;
-  width: 100%;
-  border-radius: 50%;
+div[class^="subteam"] h3 { /* LEAD TITLES */
   position: relative;
-  top: 5vw;
+  top: 6.55vh;
+  font-size: 6.55vh;
+  letter-spacing: 0.18vw;
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  font-weight: 700;
 }
-*/
-.exec-shift {
+
+div[class^="subteam"] h4 { /* LEAD DISC */
   position: relative;
-  bottom: 1vw;
+  top: 7.55vh;
+  font-size: 2.04vh;
+  letter-spacing: 0.06vw;
+  font-family: 'Ooen Sans', sans-serif;
+  color: black;
+  font-weight: 300;
+  margin-bottom: 1.5vh;
 }
 
-@media only screen and (max-width: 1000px) {
-    /* For mobile phones and tablets: */
-  div[class^="subteam"] {
-    padding-bottom: 75vh; /*576px*/
-  }
-
-  div[class^="subteam"] h3, h4, h5, p {
-    width: 100%; /*576px*/
-  }
-
-  div[class="subteam-one-right"] .fa-linkedin {
-    margin-right: 0px;
-    margin-bottom: 12px;
-  }
-
-  div[class="subteam-one-right"] .fa-envelope-square {
-    margin-right: 2px;
-  }
-
-  div[class="subteam-two-right"] p {
-    margin-left: 0px;
-    /*margin-bottom: 12px;*/
-  }
-
-  div[class^="subteam-two"] {
-    padding-bottom: 80vh;
-  }
-
-  #exec {
-    height: 195vh;
-  }
-
-  #exec img {
-    width: 25%;
-  }
-
-  #exec .row {
-  margin-bottom: 0vh;
-  }
-
-}
-
-/* as a note, you will need to adding padding at the bottom of the final subteam div */
-/* if we want to do alternating colors or want to actually give the divs a non-uniform background color, will need to add padding to all of them,
-will take up larger than 50% of vh */
-
-.footer .footer-content {
-  height: 36vh;
-  background-color: #161738;
-  color: #f4f4f4;
-}
-
-.footer .footer-content-box {
+div[class^="subteam"] h5 { /* LEAD NAMES */
   position: relative;
-  padding-top: 6vh;
-  padding-left: 1.42vw; /*24px;*/
-  padding-right: 1.42vw; /*24px;*/
+  top: 3.01vh;
+  font-size: 2.25vh;
+  letter-spacing: 0.06vw;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 300;
 }
 
-.footer .footer-content-box h5 {
-  letter-spacing: 0.18vw; /*3px;*/
-  font-weight: 500;
-  line-height: 1.2;
-  border-bottom: 0.03vh; /*0.3px*/ solid #6B6B6B;
-  padding-bottom: 1.63vh; /*16px;*/
-}
 
-.footer-content .footer-content-box a {
-  transition: color 0.5s;
-  color: #f4f4f4;
-}
-
-.footer-content .footer-content-box a:hover {
-  color: #6B6B6B;
-  text-decoration: none;
-}
-
-.footer .footer-content-box p {
-  padding-top: 1.63vh; /*16px;*/
-  letter-spacing: 0.011vw; /*0.2px;*/
-  font-weight: 200;
-  line-height: 1.8;
-  color: #6B6B6B;
-  font-size: 1.33vh; /*13px;*/
-  margin-right: 0px;
-}
-
-.footer-content .footer-content-box i {
+div[class^="subteam"] p { /* LEAD BIOS */
   position: relative;
-  top: 1.02vh; /*10px;*/
-  padding-right: 0.95vw; /*16px;*/
+  top: 3.01vh;
+  font-size: 1.63vh;
+  letter-spacing: 0.06vw;
+  font-family: 'Ooen Sans', sans-serif;
+  color: black;
+  font-weight: 300;
+}
+
+div[class^="subteam"] .fa-envelope-square { /* GMAIL ICON */
+  color: #dd4b39;
+}
+
+div[class^="subteam"] i { /* ICONS PLACEMENT */
   border-radius: 5px;
-  color: #6B6B6B;
-  font-size: 3.27vh; /*32px;*/
-  transition: color 0.5s;
-}
-
-.footer-content .footer-content-box i:hover {
-  color: #f4f4f4;
-}
-
-.footer-content .footer-content-box .flickr-img-tbl {
-  padding-top: 1.63vh; /*16px;*/
-}
-
-.footer-content .footer-content-box .flickr-img-tbl .flickr-img-row {
-  padding-top: 0.51vh; /*5px;*/
-}
-
-.footer-content .footer-content-box .flickr-img-tbl .flickr-img-row .col-md-4 {
-  padding: 0.20vh 0.11vw 0.20vh 0.11vw;
-}
-
-.footer-content .footer-content-box .flickr-img-tbl .flickr-img-row img {
-  width: 100%;
-  height: 12.29vh; /*120px;*/
-}
-
-.footer-bar {
-  min-height: 7.37vh; /*72px;*/
-  background-color: #202040;
-  color: #f4f4f4;
-  font-family: "Open Sans", sans-serif;
-  letter-spacing: 0.12vw; /*2px;*/
-  font-size: 1.22vh; /*12px;*/
-}
-
-.footer-bar p {
+  color: #0077B5;
+  font-size: 3.68vh;
   position: relative;
-  top: 3.07vh; /*30px;*/
+  top: 3.42vh;
+  margin-right: 0.23vw;
+  opacity: 1;
+  transition: opacity 0.5s;
 }
 
-.footer-bar p a {
-  color: #f4f4f4;
-  transition: color 0.5s;
+  /* SUBTEAM LEFT */
+ 
+div[class="subteam-one-right"]{
+  height: 100vh;
+  text-align: center;
+  background: #FAF9F6;
+  padding-bottom: 30vh;
 }
 
-.footer-bar p a:hover {
-  color: #6B6B6B;
-  text-decoration: none;
+div[class="subteam-one-right"] h5 {
+  top: 10vh;
 }
 
-@media only screen and (max-width: 1000px) {
-    /* For mobile phones and tablets: */
-    .footer .footer-content, .footer .footer-content-box, .footer .footer-content-box h5, .footer-content .footer-content-box a, .footer .footer-content-box p, .footer .footer-content-box i,
-    .footer-content .footer-content-box .flickr-img-tbl, .footer-content .footer-content-box .flickr-img-tbl .flickr-img-row, .footer-content .footer-content-box .flickr-img-tbl .flickr-img-row .col-md-4,
-    .footer-content .footer-content-box .flickr-img-tbl .flickr-img-row img {
-      height: 0px;
-      width: 0px;
-      position: relative;
-      top: 0px;
-      padding: 0px;
-      margin: 0px;
-      font-size: 0px;
-    }
+div[class="subteam-one-right"] p  {
+  top: 50vh;
+}
 
-    .footer-bar {
-      background-color: #202040;
+div[class="subteam-one-right"] i  {
+  top: 50vh;
+}
+
+
+/* SUBTEAM RIGHT */
+div[class="subteam-one-left"] h3 h4 p{
+  text-align: left
+}
+
+ 
+}
+@media only screen and (min-width: 700px) and (max-width: 1199px){
+  .main-content {
+    position: relative;
+    top: 10vh;
+    font-family: 'Montserrat', sans-serif;
     color: #f4f4f4;
-    margin-top: 2.45vh; /*24px;*/
-    }
+  }
 
-    #propulsion h3 {
-      font-size: 5.5vh;
-    }
+  .main-content h1 {
+    font-size: 10vh; /*96px;*/
+    letter-spacing: 0.12vw; /*2px;*/
+    font-weight: 700;
+    margin: 5vh 0px   0px 0px; /* UP */
+  
+  }   
+  
+  .main-content h3 {
+    /*font-size: 24px;*/
+   margin-top: 1vh;
+   margin-left: 0.75vw;
+  }
 
-    #operations h3 {
-      font-size: 3.5vh;
-    }
+  .main-content .right {
+    /* display: inline; */
+    margin-top: 2vh;
+    margin-left: 3.5vh;
+    text-align: right;
+  } 
 
-    #simulations h3 {
-      font-size: 5.5vh;
-    }
+  .main-content .right p {
+    text-align: left;
+    color: #999999;
+    transition: color 0.5s;
+    font-size: 2.04vh; /*20px;*/
+    letter-spacing: 0.12vw; /*2px;*/
+    font-weight: 400;
+  }
 
-    #air1, #prop1, #rec1, #bus1, #med1, #sim1{
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-      margin-bottom: 2.45vh; /*24px;*/
-      width: 50%;
-      border-radius: 50%;
-      position: relative;
-      top: 15vw;
-    }
+  #air1, #prop1, #rec1, #bus1, #med1, #sim1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 2.45vh; /*24px;*/
+    width: 80%;
+    border-radius: 15%;
+    position: relative;
+    top: 2vw;
+    margin-top: 9vh
+  }
 
+  #avi1, #pay1, #ops1, #sys1, #out1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 2.45vh; /*24px;*/
+    width: 80%;
+    border-radius: 15%;
+    position: relative;
+    top: 2vw;
+    margin-top: 9vh
+  }
 
-    /* Looked a bit small for some reason 
-    #rec1 {
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-      margin-bottom: 2.45vh;
-      width: 25%;
-      border-radius: 50%;
-      position: relative;
-      top: 13vw;
-    }*/
+ /* EXEC 700 */
+ #exec {
+  height: 105vh;
+  background: #f8f8f8;
+}
 
-    #avi1, #pay1, #ops1, #sys1, #out1{
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-      margin-bottom: 2.45vh; /*24px;*/
-      width: 50%;
-      border-radius: 50%;
-      position: relative;
-      /*top: 2vw;*/
-      margin-top: 5vh
-    }
+#exec h3 {
+  text-align: center;
+  margin-bottom: 4.91vh; /*48px;*/
+  color: #000000;
+}
 
-    #pres {
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-      margin-bottom: 2.00vh; /*24px;*/
-      width: 35% !important;
-      border-radius: 50%;
-      position: relative;
-      top: 10vw;
-    }
+.exec_img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 5vh;
+  margin-top: 7.5vh;
+  width: 55%;
+  border-radius: 15%;
+  position: relative;
+}
 
-    #vpres {
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-      margin-bottom: 2.00vh; /*24px;*/
-      width: 35% !important;
-      border-radius: 50%;
-      position: relative;
-      top: 10vw;
-    }
+#exec_text {
+  text-align: center;
+}
+#exec_name {
+  top: 1.01vh;
+}
+#exec_bio {
+  top: 2.01vh;
+}
+#exec_icon {
+  top: 3.01vh;
+}
 
-    #exec {
-      height: 130vh;
-      padding-bottom: 80vh;
-    }
+#pres {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 5vh;
+  margin-top: 7.5vh;
+  width: 55%;
+  border-radius: 50%;
+  position: relative;
+}
 
-    #media {
-      height: 80vh;
-    }
+#vpres {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 5vh;
+  margin-top: 7.5vh;
+  width: 55%;
+  border-radius: 50%;
+  position: relative;
+}
+/* SUBTEAM GEN */
 
-    div[class^="subteam-one"] {
-      padding-bottom: 80vh;
-    }
+div[class^="subteam"] {
+  height: 60vh;
+  background: #f3f3f3;
+  padding-bottom: 64vh;
+}
+
+div[class^="subteam"] h3 { /* LEAD TITLES */
+  position: relative;
+  top: 6.55vh;
+  font-size: 6.55vh;
+  letter-spacing: 0.18vw;
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  font-weight: 700;
+}
+
+div[class^="subteam"] h4 { /* LEAD DISC */
+  position: relative;
+  top: 7.55vh;
+  font-size: 2.04vh;
+  letter-spacing: 0.06vw;
+  font-family: 'Ooen Sans', sans-serif;
+  color: black;
+  font-weight: 300;
+}
+
+div[class^="subteam"] h5 { /* LEAD NAMES */
+  position: relative;
+  top: 12.01vh;
+  font-size: 2.25vh;
+  letter-spacing: 0.06vw;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 300;
+}
+
+div[class^="subteam"] p { /* LEAD BIOS */
+  position: relative;
+  top: 12.01vh;
+  font-size: 1.63vh;
+  letter-spacing: 0.06vw;
+  font-family: 'Ooen Sans', sans-serif;
+  color: black;
+  font-weight: 300;
+}
+
+div[class^="subteam"] .fa-envelope-square { /* GMAIL ICON */
+  color: #dd4b39;
+}
+
+div[class^="subteam"] i { /* ICONS PLACEMENT */
+  border-radius: 5px;
+  color: #0077B5;
+  font-size: 3.68vh;
+  position: relative;
+  top: 12.42vh;
+  margin-right: 0.23vw;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+/* SUBTEAM LEFT */
+
+div[class="subteam-one-right"]{
+  height: 65vh;
+  text-align: right;
+  background: #FAF9F6;
+  padding-bottom: 30vh;
+}
+
+/* SUBTEAM RIGHT */
+div[class="subteam-one-left"] h3 h4 p{
+  text-align: left
+}
 
 }
+
+@media only screen and (min-width: 1200px) { /* MAX SIZE */
+  .main-content {
+    position: relative;
+    top: 20vh;
+    font-family: 'Montserrat', sans-serif;
+    color: #f4f4f4;
+  }
+  
+  .main-content .left {
+    /*display: inline;*/
+  }
+  
+  .main-content .right {
+    /*display: inline;*/
+    padding: 0px 1.42vw; /*24px;*/
+    text-align: right;
+    top:-30vh;
+    right:0vw;
+  }
+  
+  .main-content .right a {
+    text-decoration: none;
+  }
+  
+  .main-content .right a:hover{
+    text-decoration: none;
+  }
+  
+  .main-content .right p {
+    text-align: right;
+    color: #999999;
+    transition: color 0.5s;
+    font-size: 2.04vh; /*20px;*/
+    letter-spacing: 0.12vw; /*2px;*/
+    font-weight: 400;
+    margin-right: -60.8vw;
+  }
+  
+  .main-content .right p:hover {
+    color: #f4f4f4;
+    font-weight: 700;
+  }
+  .main-picture{
+    height: 100vh
+  }
+  .main-content h1 {
+    font-size: 10vh; /*96px;*/
+    letter-spacing: 0.12vw; /*2px;*/
+    font-weight: 700;
+    margin-left: -15vh;
+    margin-top: 5vh
+  }
+  
+  .main-content h3 {
+    /*font-size: 24px;*/
+    margin-left: -7.75vw;
+    letter-spacing: 0.18vw; /*3px;*/
+    font-size: 1.84vh; /*18px;*/
+  }
+  
+  #air1, #prop1, #rec1, #bus1, #med1, #sim1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 2.45vh; /*24px;*/
+    width: 80%;
+    border-radius: 15%;
+    position: relative;
+    top: 2vw;
+    margin-top: 9vh
+  }
+
+  #avi1, #pay1, #ops1, #sys1, #out1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 2.45vh; /*24px;*/
+    width: 80%;
+    border-radius: 15%;
+    position: relative;
+    top: 2vw;
+    margin-top: 9vh
+  }
+ /* EXEC 1200 */
+#exec {
+  height: 105vh;
+  background: #f8f8f8;
+}
+
+#exec h3 {
+  text-align: center;
+  margin-bottom: 4.91vh; /*48px;*/
+  color: #000000;
+}
+
+.exec_img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 5vh;
+  margin-top: 7.5vh;
+  width: 55%;
+  border-radius: 15%;
+  position: relative;
+}
+
+#exec_text {
+  text-align: center;
+}
+#exec_name {
+  top: 1.01vh;
+}
+#exec_bio {
+  top: 2.01vh;
+}
+#exec_icon {
+  top: 3.01vh;
+}
+
+#pres {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 5vh;
+  margin-top: 7.5vh;
+  width: 55%;
+  border-radius: 50%;
+  position: relative;
+}
+
+#vpres {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 5vh;
+  margin-top: 7.5vh;
+  width: 55%;
+  border-radius: 50%;
+  position: relative;
+}
+
+/* SUBTEAM GEN */
+
+div[class^="subteam"] {
+  height: 50vh;
+  background: #f3f3f3;
+  padding-bottom: 64vh;
+  text-align: left;
+}
+
+div[class^="subteam"] h3 { /* LEAD TITLES */
+  position: relative;
+  top: 6.55vh;
+  font-size: 6.55vh;
+  letter-spacing: 0.18vw;
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  font-weight: 700;
+}
+
+div[class^="subteam"] h4 { /* LEAD DISC */
+  position: relative;
+  top: 9.55vh;
+  font-size: 2.04vh;
+  letter-spacing: 0.06vw;
+  font-family: 'Ooen Sans', sans-serif;
+  color: black;
+  font-weight: 300;
+}
+
+div[class^="subteam"] h5 { /* LEAD NAMES */
+  position: relative;
+  top: 12.01vh;
+  font-size: 2.25vh;
+  letter-spacing: 0.06vw;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 300;
+}
+
+div[class^="subteam"] p { /* LEAD BIOS */
+  position: relative;
+  top: 12.01vh;
+  font-size: 1.63vh;
+  letter-spacing: 0.06vw;
+  font-family: 'Ooen Sans', sans-serif;
+  color: black;
+  font-weight: 300;
+}
+
+div[class^="subteam"] .fa -envelope-square { /* GMAIL ICON */
+  color: #dd4b39;
+}
+
+div[class^="subteam"] i { /* ICONS PLACEMENT */
+  border-radius: 5px;
+  color: #0077B5;
+  font-size: 3.68vh;
+  position: relative;
+  top: 12.42vh;
+  margin-right: 0.23vw;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+/* SUBTEAM LEFT */
+
+div[class="subteam-one-right"]{
+  height: 65vh;
+  text-align: right;
+  background: #FAF9F6;
+  padding-bottom: 30vh;
+}
+
+/* SUBTEAM RIGHT */
+div[class="subteam-one-left"] h3 h4 p{
+  text-align: left
+}
+
+}
+

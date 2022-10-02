@@ -16,6 +16,10 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.navbar:hover {
+	background-color: #161738;
+}
+
 .navbar-dark {
   background-color: transparent;
   transition: background-color .5s ease 0s;
@@ -33,6 +37,7 @@
 	letter-spacing: 0.18vw; /*3px;*/
 	text-transform: uppercase;
 	color: #999999 !important;
+	max-width: 25vw;
 }
 
 .navbar-brand.opaque {

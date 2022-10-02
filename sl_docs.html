@@ -4,6 +4,7 @@
 		<title>STAR</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/sl_docs.css">
+		<link rel="stylesheet" type = "text/css" href="assets/css/nav_footer.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 		<meta name="title" content="STAR">
@@ -22,32 +23,45 @@
 	<body>
 
 		<script src="js/navScroll.js"></script>
-    <nav class="navbar fixed-top navbar-expand-sm navbar-dark">
-        <div class = "container">
-          <a class="navbar-brand" href="index.html">STAR</a>
-          <button class="navbar-toggler custom-toggler ml-auto" data-toggle = "collapse" data-target = "#text">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class = "collapse navbar-collapse" id = "text">
-            <ul class="navbar-nav right-align-menu ml-auto">
-              <li class="nav-item">
-                <a class = "nav-link" href = "team.html"> Team </a>
-              </li>
-              <li class="nav-item">
-                <a class = "nav-link ml-2" href = "sponsors.html"> Sponsors </a>
-              </li>
-              <li class="nav-item">
-                <a class = "nav-link ml-2" href = "projects.html"> Projects </a>
-							</li>
-							<li class="nav-item">
-									<a class = "nav-link ml-2" href = "Contact_Us.html"> Contact Us </a>
-							</li>
-              <li class="nav-item active">
-                <a class = "nav-link ml-2" href = "sl_docs.html"> SL DOCS </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+
+      <a class="navbar-brand" href="index.html">
+        <img src="./assets/newimages/white_logo.png" id = "logo">
+      </a>
+
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav right-align-menu ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html"> Projects</a> 
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Teams
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="leads.html">Speciality Leads</a>
+              <a class="dropdown-item" href="managers.html">Project Manager</a>
+              <a class="dropdown-item" href="#">Team Members</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sponsors.html">Sponsors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sl_docs.html">Sl Docs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id= "nav_last" href="Contact Us.v2.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
 		<div class="main-picture">
