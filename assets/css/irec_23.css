@@ -176,21 +176,31 @@ font-size: 1.84vh; /*18px;*/
 #column_1 {
   /* background-color: rgb(148, 130, 130); */
   height: 50vh;
-  width: 50vw;
-  margin-top: 2.5vh;
-  margin-left: 5vw;
+  width: 50%;
+
+}
+
+#column_1_content {
+  /* background-color: rgb(77, 65, 65); */
+  height: 75%;
+  text-align: right;
+  
 }
 
 #column_2 {
   /* background-color: rgb(99, 99, 117); */
   height: 50vh;
-  width: 40vw;
-  margin-top: 2.5vh;
-  margin-right: 5vw;
+  width: 50%;
+
+}
+#column_2_content {
+  /* background-color: rgb(189, 170, 170); */
+  height: 75%;
+
 }
 
 #main_photo{
-  margin-left:5vw;
+  margin-right:5vw;
   max-width: 40vw;
   max-height: auto;
   border: 2px solid black;
@@ -198,8 +208,7 @@ font-size: 1.84vh; /*18px;*/
 }
 
 .main_photo_desc{
-  margin-left:auto;
-  margin-right:7.5vw;
+  margin-right:5vw;
   text-align: right;
   font-size: 70%;
 }
@@ -212,12 +221,14 @@ font-size: 1.84vh; /*18px;*/
 }
 
 .project_desc_holder {
+  /* background-color: red; */
+  width: 90%;
   margin-right: 5vw;
 }
 p.project_desc { 
   padding-top: 1vh;
   font-family: 'Space Grotesk', sans-serif;
-  margin-left: 0vw;
+  font-size: 125%;
 
 }
 
