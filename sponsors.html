@@ -36,7 +36,7 @@
           <li class="nav-item">
             <a class="nav-link" href="projects.html"> Projects</a> 
           </li>
-          <li class="nav-item dropdown active">
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Teams
             </a>
@@ -49,7 +49,7 @@
           <li class="nav-item">
             <a class="nav-link" href="news.html">News</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item  active">
             <a class="nav-link" href="sponsors.html">Sponsors</a>
           </li>
           <li class="nav-item">
@@ -61,82 +61,156 @@
         </ul>
       </div>
     </nav>
+
+
+
+
+
+
+
+
+
 		<div class="main-picture">
 	      <div class="container">
 	        <div class="main-content">
-	        	<h1>SPONSORS</h1>
-	        	<h2>STAR WISHES TO THANK ITS SPONSORS</h1>
-	        	<div class="row pitch">
-	        		<div class="col-md-8">
-	        			<h3>Your monetary and material contributions promote the growth of students as engineers and proclaim a commitment to education and the future. To find more information on being a sponsor, take a look at our sponsorship packet, or please email us at ucberkeleystar@gmail.com.</h3>
-	        		</div>
-	        		<div class="col-md-4">
-		        		<div class="packet-button">
-		        			<!-- <p><a target="blank" href="./assets/files/Sponsorship%20Packet.pdf">PACKET</a></p> -->
-									<p><a target="blank" href="https://docs.google.com/presentation/d/1yR_w2BmtsTXrsK-SjX49tc0OHOuACbvRwMlnxmJKuoY/edit?usp=sharing">PACKET</a></p>
-		        		</div>
-		        	</div>
-	        	</div>
-	        </div>
-	      </div>
-    	</div>
+	        	<h1 id = "title">SPONSORS</h1>
+	        	<h2 id = "subtitle">STAR WISHES TO THANK ITS SPONSORS</h1>
+	        	<div class="row_pitch">
+	        		<p id = "thankyou">Your monetary and material contributions promote the growth of students as engineers and proclaim a commitment to education and the future. To find more information on being a sponsor, take a look at our sponsorship packet, or please email us at ucberkeleystar@gmail.com.</p>
+				</div>
+				<div>
+					
+				</div>
+				<button id = "packet"onclick="window.location.href='https://docs.google.com/presentation/d/1yR_w2BmtsTXrsK-SjX49tc0OHOuACbvRwMlnxmJKuoY/edit#slide=id.g10b2115c32a_0_45';">PACKET</button>
+				</div>
+			</div>
+		</div>
 
-    	<div class="corporate-sponsors">
-    		<h1>CORPORATE SPONSORS</h1>
-    		<div class="row">
+		<div class="maincontain"> 
+			<div class="row" id = "top_row">
     			<div class="col-md-4">
-    				<div class="holder">
-    					<a target="blank" href="https://asuc.org/"><img src="assets/images/asuc.png" alt="asuc logo"></a>
-    				</div>
+					<a class="card" href = "https://www.asuc.org/">
+						<div class = "img_container">
+							<img class = "sponsor_img" src="assets/images/asuc.png">
+						</div>
+						<div class = "desc_container">
+							<h6>
+								Associated Students of the University of California
+							</h6>
+						</div>
+					</a>
+		
     			</div>
+
 				<div class="col-md-4">
-					<div class="holder">
-						<a target="blank" href="https://www.berkeley.edu/"><img src="assets/images/berkeley_logo.png" alt="berkeley logo"></a>
-					</div>
-				</div>
+					<a class="card" href = "http://www.boeing.com/">
+						<div class = "img_container">
+							<img class = "sponsor_img" src="assets/images/boeing.png">
+						</div>
+						<div class = "desc_container">
+							<h6>
+								Boeing
+							</h6>
+						</div>
+					</a>
+		
+    			</div>
+
 				<div class="col-md-4">
-					<div class="holder">
-						<a target="blank" href="https://www.blueorigin.com/"><img src="assets/images/BlueOrigin.jpg"alt="BlueOrigin logo"></a>
-					</div>
-				</div>
+					<a class="card" href = "https://tameson.com/">
+						<div class = "img_container">
+							<img class = "sponsor_img" src="assets/images/Tameson_Logo.png">
+						</div>
+						<div class = "desc_container">
+							<h6>
+								Tameson
+							</h6>
+						</div>
+					</a>
+    			</div>
+
+				<div class="col-md-4">
+					<a class="card" href = "https://us.pg.com/">
+						<div class = "img_container">
+							<img class = "sponsor_img" src="assets/images/Procter_&_Gamble_logo.svg.png">
+						</div>
+						<div class = "desc_container">
+							<h6 class = "sponsor_desc">
+								Pacific Gas and Electric Company
+							</h6>
+						</div>
+					</a>
+    			</div>
+
+				<div class="col-md-4">
+					<a class="card" href = "http://www.bayareacircuits.com">
+						<div class = "img_container">
+							<img class = "sponsor_img" src="assets/images/bayareacircuits.png">
+						</div>
+						<div class = "desc_container">
+							<h6 class = "sponsor_desc">
+								Bay Area Circuits
+							</h6>
+						</div>
+					</a>
+    			</div>
+
+				<div class="col-md-4">
+					<a class="card" href = "https://www.3ds.com">
+						<div class = "img_container">
+							<img class = "sponsor_img" src="assets/images/dassault.png">
+						</div>
+						<div class = "desc_container">
+							<h6 class = "sponsor_desc">
+								Dassault Systems
+							</h6>
+						</div>
+					</a>
+    			</div>
+
+				<div class="col-md-4">
+					<a class="card" href = "https://www.northropgrumman.com/">
+						<div class = "img_container">
+							<img class = "sponsor_img" src="assets/images/northrop.png">
+						</div>
+						<div class = "desc_container">
+							<h6 class = "sponsor_desc">
+								Northrop Grumman
+							</h6>
+						</div>
+					</a>
+    			</div>
+
+				<div class="col-md-4">
+					<a class="card" href = "https://technetics.com/">
+						<div class = "img_container">
+							<img class = "sponsor_img" src="assets/images/Technetics_Group_Logo.jpg">
+						</div>
+						<div class = "desc_container">
+							<h6 class = "sponsor_desc">
+								Technetics Group
+							</h6>
+						</div>
+					</a>
+    			</div>
+
+				<div class="col-md-4">
+					<a class="card" href = "https://seamlesstanks.com/">
+						<div class = "img_container">
+							<img class = "sponsor_img" src="assets/images/seamless_tanks">
+						</div>
+						<div class = "desc_container">
+							<h6 class = "sponsor_desc">
+								Seamless Tanks
+							</h6>
+						</div>
+					</a>
+    			</div>
+				
+
     		</div>
-
-    		<div class="row">
-    			<div class="col-md-4">
-    				<div class="holder">
-    					<a target="blank" href="http://www.boeing.com/"><img src="assets/images/boeing.png" alt="boeing logo"></a>
-    				</div>
-    			</div>
-					<div class="col-md-4">
-						<div class="holder">
-							<a target="blank" href="https://tameson.com/"><img src="assets/images/Tameson_Logo.png" alt="tameson logo"></a>
-						</div>
-					</div>
-
-				<div class="col-md-4">
-					<div class="holder">
-						<a target="blank" href="https://us.pg.com/"><img src="assets/images/Procter_&_Gamble_logo.svg.png"alt="P&G logo"></a>
-					</div>
-				</div>
-    		</div>
-
-				<div class="row">
-					<div class="col-md-4">
-						<div class="holder">
-							<a target="blank" href="http://www.bayareacircuits.com"><img src="assets/images/bayareacircuits.png"alt="bayareacircuits logo"></a>
-						</div>
-				</div>
-					<div class="col-md-4">
-    				<div class="holder">
-    					<a target="blank" href="https://www.3ds.com"><img src="assets/images/dassault.png"alt="dassault logo"></a>
-    				</div>
-    			</div>
-					<div class="col-md-4">
-						<div class="holder">
-							<a target="blank" href="https://technetics.com/"><img src="assets/images/Technetics_Group_Logo.jpg"alt="technetics logo"></a>
-						</div>
-					</div>
-				</div>
+		</div>
+	
 
     	<div class="footer">
 			<div class="footer-content">
