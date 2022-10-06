@@ -9,14 +9,14 @@
     height: 70vh;
     margin: 0;
     padding: 0;
-    background: #e97162;
+    background: #ffffff;
     font-family: Arial;
     overflow: hidden;
 }
 
 #timeline_header{
     font-family: 'Space Grotesk', sans-serif;
-    color:white;
+    color:black;
     font-size: 450%;
      letter-spacing: 0.25vw;
   }
@@ -31,7 +31,7 @@ hr.timeline_header_divider{
     top: 20px;
     border: none;
     height: 3px;
-    background: rgb(248, 246, 246);
+    background: rgb(0, 0, 0);
     width: 20vw;  
     transform: translate(-36vw, -30px) ;
   }
@@ -46,7 +46,7 @@ hr.timeline_header_divider{
 #line {
     height: 6px;
     width: 85%;
-    background: white;
+    background: rgb(0, 0, 0);
     border-radius: 5px;
     margin: auto;
     top: 50%;
@@ -59,7 +59,7 @@ hr.timeline_header_divider{
     margin: auto;
     margin-top: 25%;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .timeline_desc {
@@ -68,18 +68,18 @@ hr.timeline_header_divider{
 .circle {
     width: 20px;
     height: 20px;
-    background: #e97162;
+    background: #ffffff;
     border-radius: 15px;
     position: absolute;
     top: -7px;
-    border: 3px solid white;
+    border: 3px solid rgb(0, 0, 0);
     cursor: pointer;
 }
 .circle:before {
     content: '';
     width: 10px;
     height: 10px;
-    background: white;
+    background: rgb(255, 0, 0);
     position: absolute;
     border-radius: 100%;
     top: 2px;
@@ -92,7 +92,7 @@ hr.timeline_header_divider{
     padding: 10px;
     white-space: nowrap;
     display: inline-block;
-    color: white;
+    color: rgb(7, 7, 7);
     position: absolute;
     top: 20px;
     left: -75px;
@@ -112,7 +112,7 @@ hr.timeline_header_divider{
     height: 80%;
     width: 100%;
     position: relative;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 62px;
     text-align: center;
     transition: all 0.2s ease-out;
@@ -120,7 +120,7 @@ hr.timeline_header_divider{
 #mainCont span {
     display: inline-block;
     width: 100%;
-    height: 100%;
+    height: 10  0%;
     position: absolute;
     top: 10%;
     text-align: left;

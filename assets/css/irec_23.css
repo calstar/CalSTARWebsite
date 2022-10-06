@@ -174,13 +174,11 @@ font-size: 1.84vh; /*18px;*/
 }
 
 .project_area {
-  background-color: rgb(250, 250, 250);
-  height: 65vh;
-  margin-bottom: 5vh;
+  /* background-color: rgb(117, 117, 117); */
+  height: 70vh;
 }
 
 .main_container{
-
   padding-top: 10vh;
 }
 
@@ -201,6 +199,7 @@ font-size: 1.84vh; /*18px;*/
   /* background-color: rgb(99, 99, 117); */
   height: 50vh;
   width: 45vw;
+  margin-top: 2.5vh;
 }
 
 #main_photo{
