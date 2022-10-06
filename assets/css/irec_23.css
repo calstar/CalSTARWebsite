@@ -109,22 +109,7 @@ font-size: 1.84vh; /*18px;*/
       font-family: 'Montserrat', sans-serif;
       color: #f4f4f4;
     }
-  
-    .main-content .right {
-      /* display: inline; */
-      margin-top: 2vh;
-      margin-left: 3.5vh;
-      text-align: right;
-    } 
-  
-    .main-content .right p {
-      text-align: left;
-      color: #999999;
-      transition: color 0.5s;
-      font-size: 2.04vh; /*20px;*/
-      letter-spacing: 0.12vw; /*2px;*/
-      font-weight: 400;
-    }
+
 }
 @media only screen and (min-width: 1200px) { /* MAX SIZE */
     .main-content {
@@ -191,20 +176,31 @@ font-size: 1.84vh; /*18px;*/
 #column_1 {
   /* background-color: rgb(148, 130, 130); */
   height: 50vh;
-  width: 55vw;
-  margin-top: 2.5vh;
+  width: 50%;
+
+}
+
+#column_1_content {
+  /* background-color: rgb(77, 65, 65); */
+  height: 75%;
+  text-align: right;
+  
 }
 
 #column_2 {
   /* background-color: rgb(99, 99, 117); */
   height: 50vh;
-  width: 45vw;
-  margin-top: 2.5vh;
+  width: 50%;
+
+}
+#column_2_content {
+  /* background-color: rgb(189, 170, 170); */
+  height: 75%;
+
 }
 
 #main_photo{
-  margin-left:7.5vw;
-  margin-right:auto;
+  margin-right:5vw;
   max-width: 40vw;
   max-height: auto;
   border: 2px solid black;
@@ -212,27 +208,27 @@ font-size: 1.84vh; /*18px;*/
 }
 
 .main_photo_desc{
-  margin-left:auto;
-  margin-right:7.5vw;
+  margin-right:5vw;
   text-align: right;
   font-size: 70%;
 }
 
 #project_header { 
-  padding-top: 2.5vh;
+
   font-family: 'Space Grotesk', sans-serif;
-  margin-left: -2.5vw;
   font-size: 450%;
   letter-spacing: 0.25vw;
 }
 
 .project_desc_holder {
-  margin-right: 10vw;
+  /* background-color: red; */
+  width: 90%;
+  margin-right: 5vw;
 }
 p.project_desc { 
   padding-top: 1vh;
   font-family: 'Space Grotesk', sans-serif;
-  margin-left: -2.5vw;
+  font-size: 125%;
 
 }
 
@@ -243,7 +239,7 @@ hr {
   height: 3px;
   background: black;
   width: 20vw;  
-  transform: translate(-15vw, -30px) ;
+  transform: translate(-10vw, -30px) ;
 }
 
 .team_area {
