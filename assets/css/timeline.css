@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+#timeline_area {
+    width: 100vw;
+    height: 70vh;
+    margin: 0;
+    padding: 0;
+    background: #e97162;
+    font-family: Arial;
+    overflow: hidden;
+}
+
+#timeline_header{
+    font-family: 'Space Grotesk', sans-serif;
+    color:white;
+    font-size: 450%;
+     letter-spacing: 0.25vw;
+  }
+  
+#timeline_header_container{
+margin-left: 7.5vw;
+margin-top: 10vh;
+}
+
+hr.timeline_header_divider{
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 3px;
+    background: rgb(248, 246, 246);
+    width: 20vw;  
+    transform: translate(-36vw, -30px) ;
+  }
+  
+
+  
+#lineCont {
+    padding-top:0vh;
+    width: 100%;
+    height: 20%;
+}
+#line {
+    height: 6px;
+    width: 85%;
+    background: white;
+    border-radius: 5px;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}
+#span {
+    display: none;
+    width: 70%;
+    margin: auto;
+    margin-top: 25%;
+    text-align: center;
+    color: white;
+}
+
+.timeline_desc {
+    font-family: 'Space Grotesk', sans-serif;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    background: #e97162;
+    border-radius: 15px;
+    position: absolute;
+    top: -7px;
+    border: 3px solid white;
+    cursor: pointer;
+}
+.circle:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: white;
+    position: absolute;
+    border-radius: 100%;
+    top: 2px;
+    left: 2px;
+    display: none;
+}
+.circle .popupSpan {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    white-space: nowrap;
+    display: inline-block;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: -75px;
+    display: none;
+    transition: all 0.1s ease-out;
+}
+.circle.hover:before, .circle.active:before {
+    display: block;
+}
+.circle.hover .popupSpan, .circle.active .popupSpan {
+    display: block;
+}
+.circle.active .popupSpan {
+    top: -40px;
+}
+#mainCont {
+    height: 80%;
+    width: 100%;
+    position: relative;
+    color: white;
+    font-size: 62px;
+    text-align: center;
+    transition: all 0.2s ease-out;
+}
+#mainCont span {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 10%;
+    text-align: left;
+    transition: all 0.2s ease-out;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 50%;
+}
+#mainCont span.right {
+    left: 200%;
+}
+#mainCont span.center {
+    padding-left: 7.5vw;
+    padding-right:auto;
+    left: 0% !important;
+    width: 80%;
+
+}
+#mainCont span.left {
+    left: -100%;
+}
