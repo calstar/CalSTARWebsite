@@ -109,22 +109,7 @@ font-size: 1.84vh; /*18px;*/
       font-family: 'Montserrat', sans-serif;
       color: #f4f4f4;
     }
-  
-    .main-content .right {
-      /* display: inline; */
-      margin-top: 2vh;
-      margin-left: 3.5vh;
-      text-align: right;
-    } 
-  
-    .main-content .right p {
-      text-align: left;
-      color: #999999;
-      transition: color 0.5s;
-      font-size: 2.04vh; /*20px;*/
-      letter-spacing: 0.12vw; /*2px;*/
-      font-weight: 400;
-    }
+
 }
 @media only screen and (min-width: 1200px) { /* MAX SIZE */
     .main-content {
@@ -191,20 +176,21 @@ font-size: 1.84vh; /*18px;*/
 #column_1 {
   /* background-color: rgb(148, 130, 130); */
   height: 50vh;
-  width: 55vw;
+  width: 50vw;
   margin-top: 2.5vh;
+  margin-left: 5vw;
 }
 
 #column_2 {
   /* background-color: rgb(99, 99, 117); */
   height: 50vh;
-  width: 45vw;
+  width: 40vw;
   margin-top: 2.5vh;
+  margin-right: 5vw;
 }
 
 #main_photo{
-  margin-left:7.5vw;
-  margin-right:auto;
+  margin-left:5vw;
   max-width: 40vw;
   max-height: auto;
   border: 2px solid black;
@@ -219,20 +205,19 @@ font-size: 1.84vh; /*18px;*/
 }
 
 #project_header { 
-  padding-top: 2.5vh;
+
   font-family: 'Space Grotesk', sans-serif;
-  margin-left: -2.5vw;
   font-size: 450%;
   letter-spacing: 0.25vw;
 }
 
 .project_desc_holder {
-  margin-right: 10vw;
+  margin-right: 5vw;
 }
 p.project_desc { 
   padding-top: 1vh;
   font-family: 'Space Grotesk', sans-serif;
-  margin-left: -2.5vw;
+  margin-left: 0vw;
 
 }
 
@@ -243,7 +228,7 @@ hr {
   height: 3px;
   background: black;
   width: 20vw;  
-  transform: translate(-15vw, -30px) ;
+  transform: translate(-10vw, -30px) ;
 }
 
 .team_area {
