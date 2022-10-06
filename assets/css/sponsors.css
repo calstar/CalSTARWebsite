@@ -248,6 +248,10 @@ font-size: 1.84vh; /*18px;*/
       margin-bottom: 1.5vh;
       font-family: 'Space Grotesk', sans-serif;
     }
+    .button_container {
+      display: flex;
+      align-items: center;
+    }
     #packet{
       font-family: 'Space Grotesk', sans-serif;
       letter-spacing: 0.18vw;
@@ -301,7 +305,8 @@ font-size: 1.84vh; /*18px;*/
 
 .maincontain {
     display: flex;
-    background-color: rgba(131, 131, 131, 0);
+    background-color: rgba(255, 2, 2, 0);
+    margin-top: 25vh;
     margin-left: 10vh;
     margin-right: 10vh;
     margin-bottom: 10vh;
@@ -313,7 +318,7 @@ font-size: 1.84vh; /*18px;*/
 
 
 #top_row {  
-  padding-top: 2.5vh;
+  padding-top: 0vh;
 }
 
 .center_img {
