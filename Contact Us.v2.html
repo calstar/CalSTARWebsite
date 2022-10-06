@@ -3,6 +3,7 @@
 		<title>STAR</title>
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="home.css">
+        <link rel="stylesheet" type = "text/css" href="assets/css/nav_footer.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <meta name="title" content="STAR">
@@ -19,34 +20,47 @@
 
 	<body>
 
-	    <script src="js/navScroll.js"></script>
-        <nav class="navbar fixed-top navbar-expand-sm navbar-dark">
-            <div class = "container">
-              <a class="navbar-brand active" href="index.html">STAR</a>
-              <button class="navbar-toggler custom-toggler ml-auto" data-toggle = "collapse" data-target = "#text">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class = "collapse navbar-collapse" id = "text">
-                <ul class="navbar-nav right-align-menu ml-auto">
-                  <li class="nav-item">
-                    <a class = "nav-link" href = "team.html"> Team </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class = "nav-link ml-2" href = "sponsors.html"> Sponsors </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class = "nav-link ml-2" href = "projects.html"> Projects </a>
-                  </li>
-                  <li class="nav-item">
-                      <a class = "nav-link ml-2 active" href = "Contact Us.v2"> Contact Us </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class = "nav-link ml-2" href = "sl_docs.html"> SL DOCS </a>
-                  </li>
-                </ul>
-              </div>
+    <script src="js/navScroll.js"></script>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+
+      <a class="navbar-brand" href="index.html">
+        <img src="./assets/newimages/white_logo.png" id = "logo">
+      </a>
+
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav right-align-menu ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html"> Projects</a> 
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Teams
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="leads.html">Speciality Leads</a>
+              <a class="dropdown-item" href="managers.html">Project Manager</a>
+              <a class="dropdown-item" href="#">Team Members</a>
             </div>
-        </nav>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sponsors.html">Sponsors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sl_docs.html">Sl Docs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id= "nav_last" href="">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
         <div class="main-picture">
             <div class="container">
@@ -64,10 +78,6 @@
                   <br>For further information about us please refer to this <a href="https://rocketry.gitbook.io/">gitbook page</a></p>
                 </div>
              <div class="aboutus">
-                <h1 class="upcomingevents">UPCOMING EVENTS</h1>
-                  <h3 class="fontfix">Monday 8/31: 7-8PM PDT</h3>
-                  <h3 class="fontfix">Tuesday 9/8: 7-8PM PDT</h3>
-                  <h3 class="fontfix">Wednesday 9/9: 7-8PM PDT</h3>
                   <p class="fontfix">For more information please refer to our Facebook and Instgram pages</p>
                   <a href="https://www.facebook.com/ucberkeleystar"><img class="sociallogo" src="assets/images/f_logo_RGB-Hex-Blue_512.png"></a>
                   <a href="https://www.instagram.com/starberkeley/"><img class="sociallogo" src="assets/images/instagram.svg.png"></a>
@@ -77,14 +87,19 @@
                 <h1 class="faq">FREQUENTLY ASKED QUESTIONS</h1>
                   <h5 class="questionalt"><b>Q.  Is there an application?</b></h5>
                     <p class="questionalt"><b>A.  </b>No! We do not have an application, and we accept any and all interested members. STAR has championed our no-application policy since our founding in 2016. There is also no rocketry experience required to join the club.</p>
+                    <br>
                   <h5 class="fontfix"><b>Q.  What is the time commitment each week?</b></h5>
                     <p class="fontfix"><b>A.  </b> We strongly believe that with STAR, the more you put into the club, the more you receive back from it. The recommended minimum time commitment is attendance of the weekly general meeting and a subteam meeting each week which are one hour each. Realistically, new members who spend 3-6 hours per week on the club are set to do well. The club is flexible with missing a limited amount of meetings per semester, as we understand that people may not be able to commit equal amounts of time every week due to finals and exams.</p>
+                    <br>
                   <h5 class="questionalt"><b>Q. What majors can join the club?</b></h5>
                     <p class="questionalt"><b>A. </b>All majors can join the club! There are no requirements by major, GPA, year, or anything else to join. </p>
+                    <br>
                   <h5 class="fontfix"><b>Q. Does it cost money to join the club?</b></h5>
                     <p class="fontfix"><b>A. </b>No! There are no fees to join or maintain membership.</p>
+                    <br>
                   <h5 class="questionalt"><b>Q. More questions?</b></h5>
                     <p class="questionalt2"><b>A. </b>We have a more detailed FAQ on our Gitbook site <a href="https://rocketry.gitbook.io/docs/frequently-asked-questions">here</a> . If you still have questions, feel free to send us an email at <a href="mailto:ucberkeleystar@gmail.com">ucberkeleystar@gmail.com</a>, or if you have more technical questions feel free to send an email to one of the subteam leads listed on the Team page!</p>
+                    <br>
               </div>
 
 
@@ -107,7 +122,7 @@
 						<h5><a href="https://www.instagram.com/_calstar/?hl=en">INSTAGRAM</a></h5>
 						<div class="flickr-img-tbl">
 							<div class="flickr-img-row row">
-								<div class="col-md-4">
+								<!-- <div class="col-md-4">
 									<img src="assets/images/flickr1.jpg">
 								</div>
 								<div class="col-md-4">
@@ -115,7 +130,7 @@
 								</div>
 								<div class="col-md-4">
 									<img src="assets/images/flickr4.jpg">
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>

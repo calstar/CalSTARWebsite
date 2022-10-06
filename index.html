@@ -4,6 +4,7 @@
 		<title>STAR</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+		<link rel="stylesheet" type = "text/css" href="assets/css/nav_footer.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="home.css">
 		<meta name="title" content="STAR">
@@ -19,40 +20,52 @@
 	</head>
 
 	<body>
-
 		<script src="js/navScroll.js"></script>
-    <nav class="navbar fixed-top navbar-expand-sm navbar-dark">
-        <div class = "container">
-          <a class="navbar-brand active" href="#">STAR</a>
-          <button class="navbar-toggler custom-toggler ml-auto" data-toggle = "collapse" data-target = "#text">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class = "collapse navbar-collapse" id = "text">
-            <ul class="navbar-nav right-align-menu ml-auto">
-              <li class="nav-item">
-                <a class = "nav-link" href = "team.html"> Team </a>
-              </li>
-              <li class="nav-item">
-                <a class = "nav-link ml-2" href = "sponsors.html"> Sponsors </a>
-              </li>
-              <li class="nav-item">
-                <a class = "nav-link ml-2" href = "projects.html"> Projects </a>
-							</li>
-							<li class="nav-item">
-									<a class = "nav-link ml-2" href = "Contact_Us.html"> Contact Us </a>
-							</li>
-              <li class="nav-item">
-                <a class = "nav-link ml-2" href = "sl_docs.html"> SL DOCS </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-    </nav>
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+	
+		  <a class="navbar-brand" href="index.html">
+			<img src="./assets/newimages/white_logo.png" id = "logo">
+		  </a>
+	
+		  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+	
+		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav right-align-menu ml-auto">
+			  <li class="nav-item">
+				<a class="nav-link" href="projects.html"> Projects</a> 
+			  </li>
+			  <li class="nav-item dropdown active">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Teams
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				  <a class="dropdown-item" href="leads.html">Speciality Leads</a>
+				  <a class="dropdown-item" href="managers.html">Project Manager</a>
+				  <a class="dropdown-item" href="#">Team Members</a>
+				</div>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="news.html">News</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="sponsors.html">Sponsors</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="sl_docs.html">Sl Docs</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" id= "nav_last" href="">Contact us</a>
+			  </li>
+			</ul>
+		  </div>
+		</nav>
 
 		<div class="main-picture">
 			<div class="container">
 				<div class="main-content">
-					<h1>WE ARE: STAR</h1>
+					<h1>STAR</h1>
 					<h4>UC BERKELEY'S SPACE TECHNOLOGIES AND ROCKETRY TEAM</h4>
 				</div>
 			</div>
@@ -65,8 +78,8 @@
 					STAR boasts the longest and most successful launch history on campus, with a total of six complete vehicles engineered over our half decade lifetime.
 					These vehicles have been completely student designed and tested, from our in-house avionics to our liquid-fuel propulsion to our array of payloads -- ranging from microbial power cells to rocket-deployed aircraft.
 					STAR also boasts the longest competition history on campus, having previously launched as NASA Student Launch, and now participating in the ESRA Spaceport America Cup.</p>
-			<div class="spacet">
-				<img src="assets/images/airbearsGroup.jpg">
+
+      		<img class="centered_photo" src="assets/images/teamphoto_cropped.jpg"/> </a>
 			</div>
 			</div>
 		</div>
@@ -96,10 +109,10 @@
 
 				<div class="tenet-image-row row">
 					<div class="tenet-image col-md-6">
-						<img src="./assets/images/home-page-01.png">
+						<img src="./assets/images/research copy.png">
 					</div>
 					<div class="tenet-image col-md-6">
-						<img src="./assets/images/home-page-02.png">
+						<img src="./assets/images/ssepd500-20 copy.jpg">
 					</div>
 				</div>
 
@@ -129,7 +142,7 @@
 						<h5><a href="https://www.instagram.com/_calstar/?hl=en">INSTAGRAM</a></h5>
 						<div class="flickr-img-tbl">
 							<div class="flickr-img-row row">
-								<div class="col-md-4">
+								<!-- <div class="col-md-4">
 									<img src="assets/images/flickr1.jpg">
 								</div>
 								<div class="col-md-4">
@@ -137,7 +150,7 @@
 								</div>
 								<div class="col-md-4">
 									<img src="assets/images/flickr4.jpg">
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>

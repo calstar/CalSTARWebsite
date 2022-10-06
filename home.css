@@ -1,101 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
 
-.right-align-menu {
-  text-align: right;
-}
-
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-.custom-toggler.navbar-toggler {
-  border-color: rgb(255,255,255);
-}
-
-.navbar {
-  font-family: "Open Sans", sans-serif;
-}
-
-.navbar-dark {
-  background-color: transparent;
-  transition: background-color .5s ease 0s;
-}
-
-.navbar-dark.opaque {
-  background-color: rgb(80,80,80, 0.9);
-
-}
-
-.navbar-brand {
-	position: relative;
-	transition: color 0.5s;
-	font-size: 2vh; /*20px;*/
-	letter-spacing: 0.18vw; /*3px;*/
-	text-transform: uppercase;
-	color: #999999 !important;
-}
-
-.navbar-brand.opaque {
-	position: relative;
-	transition: color 0.5s;
-	font-size: 2vh; /*20px;*/
-	letter-spacing: 0.18vw; /*3px;*/
-	text-transform: uppercase;
-	color: #F0FFF0 !important;
-}
-
-.navbar-brand:hover {
-	color: #f4f4f4 !important;
-}
-
-.navbar-brand:hover {
-	color: #f4f4f4;
-}
-
-.navbar-dark li a {
-	color: #999999;
-	font-size: 1.75vh; /*16px;*/
-	letter-spacing: 0.18vw; /*3px;*/
-  font-weight: 1;
-	text-transform: uppercase;
-	transition: color 0.5s;
-}
-
-.navbar-dark li a:hover {
-	color: #f4f4f4;
-	text-decoration: none;
-	background-color: transparent !important;
-}
 
 .main-picture {
   height: 100vh;
   min-height: 400px;
   background-size:cover;
-  background-image:url('assets/images/starlaunch.jpg');
+  background-image:url('assets/images/space1.jpg');
 }
 
 .main-content {
 	position: absolute;
-	top: 30vh;
+	top: 40vh;
 	font-family: 'Montserrat', sans-serif;
 	color: #f4f4f4;
+	left: 350px;
 }
 
 .main-content h1 {
-	font-size: 9.83vh; /*96px;*/
-	letter-spacing: 0.12vw; /*2px;*/
+	font-size: 11.5vh; /*96px;*/
+	letter-spacing: 0.55vw; /*2px;*/
 	font-weight: 700;
+	text-align: center;
 }
 
 .main-content h4 {
 	/*font-size: 24px;*/
 	letter-spacing: 0.18vw; /*3px;*/
-	font-size: 1.84vh; /*18px;*/
+	font-size: 2.20vh; /*18px;*/
+	text-align: center;
 
 }
 
 .welcome {
-	height: 125vh;
+	height: 103vh;
 	/*background: linear-gradient(to bottom, #EFFBFF 0vh, #EFFBFF 75vh, #EFFBFF 75vh, #f4f4f4 100%);	*/
 	background: #f8f8f8;
   padding-bottom: 400px;
@@ -119,7 +56,7 @@
 	text-align: center;
 	top: 10.25vh; /*100px;*/
 	font-size: 2.25vh; /*22px;*/
-	margin-bottom: 2vh; /*-12px;*/
+	margin-bottom: 6vh; /*-12px;*/
 	margin-top: -10px;
 	color: #2f354a;
 }
@@ -127,7 +64,7 @@
 .welcome img {
 	position: relative;
 	top: 18vh; /*152px;*/
-	width: 100%;
+	width: 70%;
 	height: auto;
 	border-radius: 10px;
 	display: block;
@@ -381,6 +318,7 @@
 		position: relative;
 		bottom: 20px;
 		height: 9vh;
+
 	}
 
 }
@@ -602,5 +540,13 @@ img.sociallogo {
 
 .spacet {
 	margin-bottom: 200px;
+}
+.centered_photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+
 }
 /* you should see this code
