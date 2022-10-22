@@ -2,7 +2,7 @@
 var dates = ["6/12/2015", "8/15/2015", "10/22/2015", "11/2/2015", "11/16/2015", "12/22/2015", "12/1/2016" ];
 
 var dict = {
-  "6/12/2015": "TEST",
+  "6/12/2015": "(Placeholder Text) Started the IREC23 project",
 };
 //For the purpose of stringifying MM/DD/YYYY date format
 var monthSpan = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];

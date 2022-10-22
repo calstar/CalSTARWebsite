@@ -6,7 +6,7 @@
 }
 #timeline_area {
     width: 100vw;
-    height: 70vh;
+    height: 50vh;
     margin: 0;
     padding: 0;
     background: #ffffff;
@@ -17,24 +17,16 @@
 #timeline_header{
     font-family: 'Space Grotesk', sans-serif;
     color:black;
-    font-size: 450%;
-     letter-spacing: 0.25vw;
+    font-size: 250%;
+    letter-spacing: 0.20vw;
   }
   
 #timeline_header_container{
-margin-left: 7.5vw;
-margin-top: 10vh;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    text-align: center;
 }
 
-hr.timeline_header_divider{
-    position: relative;
-    top: 20px;
-    border: none;
-    height: 3px;
-    background: rgb(0, 0, 0);
-    width: 20vw;  
-    transform: translate(-36vw, -30px) ;
-  }
   
 
   
@@ -52,6 +44,7 @@ hr.timeline_header_divider{
     top: 50%;
     transform: translateY(-50%);
     position: relative;
+    margin-left: 7.5vw;
 }
 #span {
     display: none;
@@ -65,6 +58,7 @@ hr.timeline_header_divider{
 .timeline_desc {
     font-family: 'Space Grotesk', sans-serif;
 }
+
 .circle {
     width: 20px;
     height: 20px;
@@ -108,6 +102,7 @@ hr.timeline_header_divider{
 .circle.active .popupSpan {
     top: -40px;
 }
+
 #mainCont {
     height: 80%;
     width: 100%;
@@ -132,11 +127,12 @@ hr.timeline_header_divider{
     left: 200%;
 }
 #mainCont span.center {
+    padding-top: -2.5vh;
     padding-left: 7.5vw;
     padding-right:auto;
     left: 0% !important;
     width: 80%;
-
+    font-size: 40%;
 }
 #mainCont span.left {
     left: -100%;

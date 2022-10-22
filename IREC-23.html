@@ -10,6 +10,8 @@
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
+
+    
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 
@@ -25,17 +27,14 @@
   </head>
 
   <body>
-    <script src="js/navScroll.js"></script>
+    
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-
       <a class="navbar-brand" href="index.html">
         <img src="./assets/newimages/white_logo.png" id = "logo">
       </a>
-
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav right-align-menu ml-auto">
           <li class="nav-item">
@@ -66,7 +65,7 @@
         </ul>
       </div>
     </nav>
-
+    <script src="js/navScroll.js"></script>
 
     <div class="main-picture">
       <div class="container">
@@ -77,65 +76,109 @@
       </div>
     </div>
 
-
-  <div class = "project_area">
-    <div class = main_container>
-
-
-      <!-- image -->
-      <div class = "row_container" id = "column_1"> 
-        <div id = "column_1_content">
-          <img id = "main_photo" src="assets/projectphotos/irec23_main.png">
-          <p class = "main_photo_desc">A photo of IREC-21, IREC-23 will compete in the same competition</p>
+    <div class = "project_area">
+      <div class = main_container>
+        <div class = "row_container" id = "column_1"> 
+          <div id = "column_1_content">
+            <img id = "main_photo" src="assets/projectphotos/irec23_main.png">
+            <p class = "main_photo_desc">A photo of IREC-21, IREC-23 will compete in the same competition</p>
+          </div>
         </div>
+        <div class = "row_container" id = "column_2">
+          <div id = "column_2_content">
+            <h1 id = "project_header">
+              IREC-23
+            </h1>
+            <div class = "project_desc_holder">
+              <p class = "project_desc">
+                (place holder text) Our first ever flyable liquid oxygen / ethanol powered rocket is currently in the fabrication and testing phase. On the propulsion front, we’re working on building and integrating physical/electronic components. As we test and optimize the system, we continually update our rocket model to more accurately reflect the predicted physics of launch. The flight vehicle airframe and recovery systems, developed in parallel with the propulsion element, continue with structural design and analysis as well as landing model development. We are currently on track to hotfire the foundational propulsion system in early November, and proceed with optimization and flight vehicle integration up until our launch in May 2023.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        
+        </div>
+    </div>
+
+    <div id = "timeline_area">
+      <div id = "timeline_header_container">
+        <h1 id = "timeline_header">IREC-23 WORKING TIMELINE</h1>
       </div>
-      <!-- IREC desc -->
-      <div class = "row_container" id = "column_2">
-        <div id = "column_2_content">
-          <h1 id = "project_header">
-            IREC-23
-          </h1>
-          <hr />
-          <div class = "project_desc_holder">
-            <p class = "project_desc">
-              (place holder text) Our first ever flyable liquid oxygen / ethanol powered rocket is currently in the fabrication and testing phase. On the propulsion front, we’re working on building and integrating physical/electronic components. As we test and optimize the system, we continually update our rocket model to more accurately reflect the predicted physics of launch. The flight vehicle airframe and recovery systems, developed in parallel with the propulsion element, continue with structural design and analysis as well as landing model development. We are currently on track to hotfire the foundational propulsion system in early November, and proceed with optimization and flight vehicle integration up until our launch in May 2023.
-            </p>
+      <div id="lineCont"> 
+        <div id="line"></div>
+        <div id="span">Date Placeholder</div>
+      </div>
+      <div id="mainCont">
+      </div>
+    </div>
+    <script src="js/irec_timeline.js"></script>
+
+    <div class = "team_area">
+      <div class = "team_header_area">
+        <h1 id = "team_header">THE TEAM BEHIND IREC-23</h1>
+      </div>
+      <div class = "team_photo_area">
+        <img id = "team_photo" src="assets/projectphotos/irec23_main.png">
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-content">
+        <div class="container">
+          <div class="footer-content-box col-md-4" style="float: left;">
+            <h5>ABOUT US</h5>
+            <p>STAR is UC Berkeley’s competitive high-power rocketry team, founded in 2015 and comprised of a medley of audacious and wildly curious students with a burning passion for space.</p>
+            <a href="mailto:ucberkeleystar@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
+            <a href="https://www.facebook.com/ucberkeleystar" target="blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.youtube.com/channel/UC-ceqnZp3XVz5mH8297izJA" target="blank"><i class="fab fa-youtube-square"></i></a>
+            <a href="https://www.flickr.com/photos/ucberkeleystar" target="_blank"><i class="fab fa-flickr"></i></a>
+          </div>
+          <div class="footer-content-box col-md-4" id="flickr" style="float: left;">
+            <h5><a href="https://www.instagram.com/_calstar/?hl=en">INSTAGRAM</a></h5>
+            <div class="flickr-img-tbl">
+              <div class="flickr-img-row row">
+                <!-- <div class="col-md-4">
+                  <img src="assets/images/flickr1.jpg">
+                </div>
+                <div class="col-md-4">
+                  <img src="assets/images/flickr3.jpg">
+                </div>
+                <div class="col-md-4">
+                  <img src="assets/images/flickr4.jpg">
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="footer-content-box col-md-4" id="three" style="float: right;">
+            <h5>JOIN TODAY!</h5>
+            <p>For more information about what STAR is and who we are, check us out at <a href="https://calstar.gitbook.io" target="_blank">calstar.gitbook.io</a>, and come out to our infosessions at the beginning of each semester! Also, feel free to reach out to any of our team members <a href="team.html">here.</a></p>
           </div>
         </div>
       </div>
-
-
-      
+      <div class="footer-bar">
+        <div class="container">
+          <div style="float: left;">
+          <p> © STAR. MADE BY <a href="https://github.com/Omkar-Waingankar">OMKAR WAINGANKAR</a>,
+            <a href="https://github.com/arjunsahai">ARJUN SAHAI</a>, CINDY KHAN-TUSHIG<p>
+          </div>
+        </div>
       </div>
-  </div>
-
-  
-
-    
-  
-  
-
-  <div id = "timeline_area">
-    <div id = "timeline_header_container">
-      <h1 id = "timeline_header">TIMELINE (TO BE COMPLETED)</h1>
-      <hr class = "timeline_header_divider"/>
+      <div class="footer-bar" style="text-align:left; background-color:white; color:navy;">
+        <div class="container">
+          <div style="float: left; margin-top: 2vh;">
+          <a href="https://www.ocf.berkeley.edu">
+              <img class="ocfpic" src="https://www.ocf.berkeley.edu/hosting-logos/ocfbadge_blue8.png"
+              alt="Hosted by the OCF" style="border: 0; height: 32px; width: 32px;"/> </a>
+              </div>
+          <div style="float: left; position: relative; left: 10px;">
+          <p> We are a student group acting independently of the University of California. We take full responsibility for our organization and this website.<p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="lineCont"> 
-      <div id="line"></div>
-      <div id="span">Date Placeholder</div>
-    </div>
-    <div id="mainCont">
-  
-    </div>
-  </div>
 
-
-  <script src="js/irec_timeline.js"></script>
-
-  <!-- <div class = "team_area"></div> -->
   </body>
-
-
-
 
 </html>

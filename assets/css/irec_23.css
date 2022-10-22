@@ -14,45 +14,11 @@ a:active {color:black; text-decoration: none;}  /* Selected link   */
     margin-top: -10vh;
 }
   
-  
 .main-content {
 position: relative;
 top: 20vh;
 font-family: 'Montserrat', sans-serif;
 color: #f4f4f4;
-}
-
-.main-content .left {
-/*display: inline;*/
-}
-
-.main-content .right {
-/*display: inline;*/
-padding: 0px 1.42vw; /*24px;*/
-text-align: right;
-}
-
-.main-content .right a {
-text-decoration: none;
-}
-
-.main-content .right a:hover{
-text-decoration: none;
-}
-
-.main-content .right p {
-text-align: right;
-color: #999999;
-transition: color 0.5s;
-font-size: 2.04vh; /*20px;*/
-letter-spacing: 0.12vw; /*2px;*/
-font-weight: 400;
-margin-right: -0.8vw;
-}
-
-.main-content .right p:hover {
-color: #f4f4f4;
-font-weight: 700; 
 }
 
 .main-content h1 {
@@ -70,45 +36,187 @@ font-size: 1.84vh; /*18px;*/
 }
   
 @media only screen and (min-width: 10px){
-    .main-picture {
-      height: 115vh;
-      min-height: 400px;
-      background-size:cover;
-    }
   
-    .main-content {
-      position: relative;
-      top: 10vh;
-      font-family: 'Open', sans-serif;
-      color: #f4f4f4;
-    }
-    .main-content .left {
-      /* display: inline; */
-      margin-left: 2.5vh;
-    } 
-    .main-content .right {
-      /* display: inline; */
-      margin-top: 2vh;
-      margin-left: 3.5vh;
-      text-align: right;
-    } 
+  .main-content {
+    text-align: center;
+  }
   
-    .main-content .right p {
-      text-align: left;
-      color: #999999;
-      transition: color 0.5s;
-      font-size: 2.04vh; /*20px;*/
-      letter-spacing: 0.12vw; /*2px;*/
-      font-weight: 400;
-    }
+  .main-picture {
+    height: 115vh;
+    min-height: 400px;
+    background-size:cover;
+  }
+
+  #title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 450%;
+    letter-spacing: 0.18vw;
+    font-weight: 700;
+    padding-top: 20vh;
+    padding-bottom: 0.  5vh;
+  }
+
+
+  #subtitle{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 5  00;
+    letter-spacing: 0.18vw; /*3px;*/
+    font-size: 100%
+  } 
+
+  .main_container{
+    padding-top: 10vh;
+  }
+  
+  .row_container {
+    float: none;
+  }
+    
+  #column_1 {
+    /* background-color: rgb(148, 130, 130); */
+    height: 50vh;
+    width: 100%;
+  
+  }
+  
+  #column_1_content {
+    /* background-color: rgb(77, 65, 65); */
+    height: 75%;
+    text-align: right;
+    
+  }
+  
+  #column_2 {
+    /* background-color: rgb(99, 99, 117); */
+    height: 50vh;
+    width: 100%;
+  
+  }
+  #column_2_content {
+    /* background-color: rgb(189, 170, 170); */
+    height: 75%;
+  
+  }
+  
+  #main_photo{
+    margin-right:5vw;
+    max-width: 40vw;
+    max-height: auto;
+    border: 2px solid black;
+    
+  }
+  
+  .main_photo_desc{
+    margin-right:5vw;
+    text-align: right;
+    font-size: 70%;
+  }
+  
+  #project_header { 
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 450%;
+    letter-spacing: 0.25vw;
+  }
+  
+  .project_desc_holder {
+    /* background-color: red; */
+    width: 90%;
+    margin-right: 5vw;
+  }
+  
+  p.project_desc { 
+    padding-top: 1vh;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 125%;
+  
+  }
+
+
 }
 @media only screen and (min-width: 769px) and (max-width: 1199px){
-    .main-content {
-      position: relative;
-      top: 10vh;
-      font-family: 'Montserrat', sans-serif;
-      color: #f4f4f4;
-    }
+
+  #title {
+    font-family:  'Space Grotesk', sans-serif;
+    font-size: 650%;
+    letter-spacing: 0.18vw;
+    font-weight: 700;
+    padding-top: 20vh;
+  }
+  
+  #subtitle{
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 0.18vw; /*3px;*/
+    font-size: 150%
+  }
+
+  .main_container{
+  padding-top: 10vh;
+}
+
+.row_container {
+  float: left;
+}
+  
+
+
+#column_1 {
+  /* background-color: rgb(148, 130, 130); */
+  height: 50vh;
+  width: 50%;
+
+}
+
+#column_1_content {
+  /* background-color: rgb(77, 65, 65); */
+  height: 75%;
+  text-align: right;
+  
+}
+
+#column_2 {
+  /* background-color: rgb(99, 99, 117); */
+  height: 50vh;
+  width: 50%;
+
+}
+#column_2_content {
+  /* background-color: rgb(189, 170, 170); */
+  height: 75%;
+
+}
+
+#main_photo{
+  margin-right:5vw;
+  max-width: 40vw;
+  max-height: auto;
+  border: 2px solid black;
+  
+}
+
+.main_photo_desc{
+  margin-right:5vw;
+  text-align: right;
+  font-size: 70%;
+}
+
+#project_header { 
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 450%;
+  letter-spacing: 0.25vw;
+}
+
+.project_desc_holder {
+  /* background-color: red; */
+  width: 90%;
+  margin-right: 5vw;
+}
+
+p.project_desc { 
+  padding-top: 1vh;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 125%;
+
+}
 
 }
 @media only screen and (min-width: 1200px) { /* MAX SIZE */
@@ -137,6 +245,7 @@ font-size: 1.84vh; /*18px;*/
     .main-picture{
       height: 110vh
     }
+
     #title {
       font-family: 'Space Grotesk', sans-serif;
       font-size: 650%;
@@ -157,6 +266,7 @@ font-size: 1.84vh; /*18px;*/
 * {
   box-sizing: border-box;
 }
+
 
 .project_area {
   /* background-color: rgb(117, 117, 117); */
@@ -214,7 +324,6 @@ font-size: 1.84vh; /*18px;*/
 }
 
 #project_header { 
-
   font-family: 'Space Grotesk', sans-serif;
   font-size: 450%;
   letter-spacing: 0.25vw;
@@ -225,6 +334,7 @@ font-size: 1.84vh; /*18px;*/
   width: 90%;
   margin-right: 5vw;
 }
+
 p.project_desc { 
   padding-top: 1vh;
   font-family: 'Space Grotesk', sans-serif;
@@ -232,18 +342,38 @@ p.project_desc {
 
 }
 
-hr {
-  position: relative;
-  top: 20px;
-  border: none;
-  height: 3px;
-  background: black;
-  width: 20vw;  
-  transform: translate(-10vw, -30px) ;
-}
-
 .team_area {
   height: 100vh;
+  background: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 10vh;
 }
-/*TIMELINE*/
+
+.team_header_area {
+  height:10vh;
+  background-color: rgb(255, 255, 255);
+
+}
+
+#team_header {
+  padding-top: 2.5vh;
+  padding-bottom: auto;
+  font-family: 'Space Grotesk', sans-serif;
+  color:black;
+  font-size: 250%;
+  letter-spacing: 0.20vw;
+}
+
+.team_photo_area{
+  background-color: rgb(255, 255, 255);
+  height:70vh;
+}
+#team_photo{
+  max-width: 60vw;
+  max-height: auto;
+  border: 2px solid black;
+  margin-top: 2.5vh;
+
+  
+}
 
