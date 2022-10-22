@@ -17,8 +17,8 @@ a:active {color:black; text-decoration: none;}  /* Selected link   */
     height: 100vh;
     min-height: 400px;
     background-size:cover;
-    background-image:linear-gradient(to bottom, rgba(5, 5, 5, 0.9), rgba(0, 0, 0, 0.2)),
-     url('space1.jpg');
+    background-image:linear-gradient(to bottom, rgba(5, 5, 5, 0.9), rgba(0, 0, 0, 0.4)),
+     url('../images/space1.jpg');
     margin-top: -10vh;
 }
   
