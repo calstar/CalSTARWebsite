@@ -12,13 +12,14 @@ a:active {color:black; text-decoration: none;}  /* Selected link   */
   font-family: 'Montserrat', sans-serif;
   color: #f4f4f4;
   }
-  
+
+
 .main-picture {
     height: 100vh;
     min-height: 400px;
     background-size:cover;
-    background-image:linear-gradient(to bottom, rgba(5, 5, 5, 0.9), rgba(0, 0, 0, 0.4)),
-     url('../images/space1.jpg');
+    background-image:linear-gradient(to bottom, rgba(5, 5, 5, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+     url('/assets/projectphotos/projectpage_cover.jpg');
     margin-top: -10vh;
 }
   
@@ -115,6 +116,10 @@ font-size: 1.84vh;
 }
 @media only screen and (min-width: 1200px) { /* MAX SIZE */
 
+.background {
+  background-color: #f3f3f3;
+}
+
 .main-content {
   position: relative;
   top: 20vh;
@@ -124,7 +129,7 @@ font-size: 1.84vh;
   display: block;
   text-align: center;
   
-  /* background-color: rgb(207, 207, 207); */
+
 
   justify-content: center;
   font-family: 'Open Sans', sans-serif;
@@ -133,7 +138,6 @@ font-size: 1.84vh;
   padding-right: 2.5vw;
 
   height: 90vh;
-
 
 }
 
@@ -152,7 +156,7 @@ font-size: 1.84vh;
 #subtitle{
   font-family: 'Space Grotesk', sans-serif;
   letter-spacing: 0.18vw; /*3px;*/
-  font-size: 150%
+  font-size: 150%;
 }
 
 
@@ -164,7 +168,10 @@ font-size: 1.84vh;
   padding-top: 5vh;
   padding-bottom: 1 .5vh;
 }
-#preview_active_desc{
+.top {
+  margin-top: 1.5vh;
+}
+.preview_active_desc{
   font-family: 'Space Grotesk', sans-serif;
   font-size: 100%;
   letter-spacing: 0.18vw;
@@ -174,38 +181,37 @@ font-size: 1.84vh;
 
 }
 
-/*WORK SPACE*/
-.clear { clear: both; }
+/* START OF CARDS AREA */
 
 #main_background {
-  /* background-color: rgb(229, 226, 226); */
+  background-color: #f3f3f3;
   display: flex;
   align-items: center;
   height: auto;
-  
-
   margin-bottom: 10vh;
 }
 
 .current_project_box{    
   text-align: center;
+  background-color: #f3f3f3;
 }
 
 #current_project_h1 {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 500%;
-  margin-top: 5.0vh;
-
+  font-size: 400%;
+  padding-top: 5.0vh;
+  color: #33383E
 
 }
 
 #current_project_p {
-  font-size: 250%;
+  font-size: 150%;
+  color:  #41484e
+
 }
 
-/* The .maincontain flexbox doesn't have a width
- This may cause style errors.
-*/
+
+/* CARDS */
 
 * {
   box-sizing: border-box;
@@ -216,7 +222,7 @@ font-size: 1.84vh;
   flex-wrap: wrap;
   justify-content: center;
 
-  width: 75vw;
+  width: 85vw;
   padding-left: 2.5vw;
   padding-right: 2.5vw;
   margin-left: auto;
@@ -224,17 +230,15 @@ font-size: 1.84vh;
 
   font-family: 'Open Sans', sans-serif;
 
-
-
-} 
+}
 
  .col {
 
   display: flex;
   height: 100%;
   background: transparent;
-  min-height: 70vh;
-  width: 33.333%;
+  min-height: 72.5vh;
+  width: 30.333%;
   min-width: 350px;
   flex: 0 0 auto;
   padding-left: 1vw;
@@ -249,26 +253,17 @@ font-size: 1.84vh;
   width: 100%;  
   min-height: 100%;
   align-items: center;
-  background-color: #FAF9F6;
-  border-radius: 2%;
-  border: 2px solid black;
+  background-color: #efefef;
+  border: 0px;
+  border-radius: 0;
   transition: .5s ease;
+  box-shadow: 0 0 10px #000000;
 }
 
-
 .card:hover{
-  background-image: 0;
-  box-shadow:
-  1px 1px #373737,
-  2px 2px #373737,
-  3px 3px #373737,
-  4px 4px #373737,
-  5px 5px #373737,
-  6px 6px #373737,
-  7px 7px #373737;
-  -webkit-transform: translateX(-3px);
-  transform: translateX(-3px);
+  top: -0.5vh;
   transition: .5s ease;
+  box-shadow: 0 0 12.5px #4040C6;
 } 
 
 .card:hover > .click_me{
@@ -282,19 +277,23 @@ font-size: 1.84vh;
   font-weight: 400;
   letter-spacing: 0.18vw;
   font-size: 350%;
+  color: #2f3338
 }
 
 .card_subtitle{
   font-family: 'Space Grotesk', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.0vw;
   font-size: 150%;
+  text-align: center;
+  color: #41484e
 }
+
 .image {
   margin-top:5%;
-  width: 60%;
-  border-radius: 15%;
-  border: 2px solid black;
+  width: 65%;
+  border-radius: 2.5%;
+  border: 1px solid #C0C5C9;
 }
 
 .paragraph {
@@ -306,6 +305,7 @@ font-size: 1.84vh;
   font-family: 'Space Grotesk', sans-serif;
   font-size: 125%;
   font-weight: 200;
+  color: #33383E
   
 }
 

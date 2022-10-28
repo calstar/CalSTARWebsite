@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
 
 a:link {color:black; text-decoration: none;}         /* Unvisited link  */
 a:visited {color:black; text-decoration: none;} /* Visited link    */
@@ -7,266 +7,39 @@ a:hover {color:black; text-decoration: none;}  /* Mouse over link */
 a:active {color:black; text-decoration: none;}  /* Selected link   */
 
 .main-picture {
-    height: 100vh;
-    min-height: 400px;
-    background-image:linear-gradient(to bottom, rgba(5, 5, 5, 0.9), rgba(0, 0, 0, 0.2)),
-     url('/assets//projectphotos/irec23_background.png');
-    margin-top: -10vh;
+  height: 100vh;
+  min-height: 400px;
+  background-image:linear-gradient(to bottom, rgba(5, 5, 5, 0.9), rgba(0, 0, 0, 0.2)),
+    url('/assets//projectphotos/irec23_background.png');
+  margin-top: -10vh;
+  background-position: right -12.5vw bottom 0;
+  background-size: 125%;
+  
 }
   
 .main-content {
-position: relative;
-top: 20vh;
-font-family: 'Montserrat', sans-serif;
-color: #f4f4f4;
+  position: relative;
+  top: 20vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #f4f4f4;
 }
 
 .main-content h1 {
-font-size: 10vh; /*96px;*/
-letter-spacing: 0.12vw; /*2px;*/
-font-weight: 700;
-margin: -2.02vh 0px 0px 0px; /* UP */
-
+  font-size: 10vh; /*96px;*/
+  letter-spacing: 0.12vw; /*2px;*/
+  font-weight: 700;
+  margin: -2.02vh 0px 0px 0px; /* UP */
 }
 
 .main-content h2 {
-/*font-size: 24px;*/
-letter-spacing: 0.18vw; /*3px;*/
-font-size: 1.84vh; /*18px;*/
+  /*font-size: 24px;*/
+  letter-spacing: 0.18vw; /*3px;*/
+  font-size: 1.84vh; /*18px;*/
 }
-  
-@media only screen and (min-width: 10px){
-  
-  .main-content {
-    text-align: center;
-  }
-  
-  .main-picture {
-    height: 115vh;
-    min-height: 400px;
-    background-size:cover;
-  }
-
-  #title {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 450%;
-    letter-spacing: 0.18vw;
-    font-weight: 700;
-    padding-top: 20vh;
-    padding-bottom: 0.  5vh;
-  }
-
-
-  #subtitle{
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 5  00;
-    letter-spacing: 0.18vw; /*3px;*/
-    font-size: 100%
-  } 
-
-  .main_container{
-    padding-top: 10vh;
-  }
-  
-  .row_container {
-    float: none;
-  }
-    
-  #column_1 {
-    /* background-color: rgb(148, 130, 130); */
-    height: 50vh;
-    width: 100%;
-  
-  }
-  
-  #column_1_content {
-    /* background-color: rgb(77, 65, 65); */
-    height: 75%;
-    text-align: right;
-    
-  }
-  
-  #column_2 {
-    /* background-color: rgb(99, 99, 117); */
-    height: 50vh;
-    width: 100%;
-  
-  }
-  #column_2_content {
-    /* background-color: rgb(189, 170, 170); */
-    height: 75%;
-  
-  }
-  
-  #main_photo{
-    margin-right:5vw;
-    max-width: 40vw;
-    max-height: auto;
-    border: 2px solid black;
-    
-  }
-  
-  .main_photo_desc{
-    margin-right:5vw;
-    text-align: right;
-    font-size: 70%;
-  }
-  
-  #project_header { 
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 450%;
-    letter-spacing: 0.25vw;
-  }
-  
-  .project_desc_holder {
-    /* background-color: red; */
-    width: 90%;
-    margin-right: 5vw;
-  }
-  
-  p.project_desc { 
-    padding-top: 1vh;
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 125%;
-  
-  }
-
-
-}
-@media only screen and (min-width: 769px) and (max-width: 1199px){
-
-  #title {
-    font-family:  'Space Grotesk', sans-serif;
-    font-size: 650%;
-    letter-spacing: 0.18vw;
-    font-weight: 700;
-    padding-top: 20vh;
-  }
-  
-  #subtitle{
-    font-family: 'Space Grotesk', sans-serif;
-    letter-spacing: 0.18vw; /*3px;*/
-    font-size: 150%
-  }
-
-  .main_container{
-  padding-top: 10vh;
-}
-
-.row_container {
-  float: left;
-}
-  
-
-
-#column_1 {
-  /* background-color: rgb(148, 130, 130); */
-  height: 50vh;
-  width: 50%;
-
-}
-
-#column_1_content {
-  /* background-color: rgb(77, 65, 65); */
-  height: 75%;
-  text-align: right;
-  
-}
-
-#column_2 {
-  /* background-color: rgb(99, 99, 117); */
-  height: 50vh;
-  width: 50%;
-
-}
-#column_2_content {
-  /* background-color: rgb(189, 170, 170); */
-  height: 75%;
-
-}
-
-#main_photo{
-  margin-right:5vw;
-  max-width: 40vw;
-  max-height: auto;
-  border: 2px solid black;
-  
-}
-
-.main_photo_desc{
-  margin-right:5vw;
-  text-align: right;
-  font-size: 70%;
-}
-
-#project_header { 
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 450%;
-  letter-spacing: 0.25vw;
-}
-
-.project_desc_holder {
-  /* background-color: red; */
-  width: 90%;
-  margin-right: 5vw;
-}
-
-p.project_desc { 
-  padding-top: 1vh;
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 125%;
-
-}
-
-}
-@media only screen and (min-width: 1200px) { /* MAX SIZE */
-    .main-content {
-      position: relative;
-      top: 20vh;
-      font-family: 'Montserrat', sans-serif;
-      color: #f4f4f4;
-
-      display: block;
-      text-align: center;
-      
-      /* background-color: rgb(207, 207, 207); */
-    
-      justify-content: center;
-      font-family: 'Open Sans', sans-serif;
-    
-      padding-left: 2.5vw;
-      padding-right: 2.5vw;
-
-      height: 90vh;
-
-    
-
-    }
-    .main-picture{
-      height: 110vh
-    }
-
-    #title {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 650%;
-      letter-spacing: 0.50vw;
-      font-weight: 700;
-      padding-top: 25vh;
-    }
-    
-    #subtitle{
-      font-family: 'Space Grotesk', sans-serif;
-      letter-spacing: 0.18vw; /*3px;*/
-      font-size: 1.84vh; /*18px;*/
-    }
-}
-
-/* WORK SPACE */
 
 * {
   box-sizing: border-box;
 }
-
 
 .project_area {
   /* background-color: rgb(117, 117, 117); */
@@ -280,41 +53,35 @@ p.project_desc {
 .row_container {
   float: left;
 }
-  
 
-
-#column_1 {
+.column_1 {
   /* background-color: rgb(148, 130, 130); */
   height: 50vh;
   width: 50%;
-
 }
 
-#column_1_content {
+.column_1_content {
   /* background-color: rgb(77, 65, 65); */
   height: 75%;
   text-align: right;
-  
 }
 
-#column_2 {
+.column_2 {
   /* background-color: rgb(99, 99, 117); */
   height: 50vh;
   width: 50%;
-
 }
-#column_2_content {
+
+.column_2_content {
   /* background-color: rgb(189, 170, 170); */
   height: 75%;
-
 }
 
-#main_photo{
+.main_photo{
   margin-right:5vw;
   max-width: 40vw;
   max-height: auto;
   border: 2px solid black;
-  
 }
 
 .main_photo_desc{
@@ -323,7 +90,7 @@ p.project_desc {
   font-size: 70%;
 }
 
-#project_header { 
+.project_header { 
   font-family: 'Space Grotesk', sans-serif;
   font-size: 450%;
   letter-spacing: 0.25vw;
@@ -355,7 +122,7 @@ p.project_desc {
 
 }
 
-#team_header {
+.team_header {
   padding-top: 2.5vh;
   padding-bottom: auto;
   font-family: 'Space Grotesk', sans-serif;
@@ -368,12 +135,283 @@ p.project_desc {
   background-color: rgb(255, 255, 255);
   height:70vh;
 }
-#team_photo{
+.team_photo{
   max-width: 60vw;
   max-height: auto;
   border: 2px solid black;
   margin-top: 2.5vh;
 
   
+}
+
+
+
+  
+@media only screen and (min-width: 10px) and (max-width: 768px){
+  
+  .main-content {
+    text-align: center;
+  }
+  
+  .main-picture {
+    height: 115vh;
+    min-height: 400px;
+    background-size:cover;
+  }
+
+  .title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 450%;
+    letter-spacing: 0.18vw;
+    font-weight: 700;
+    padding-top: 20vh;
+    padding-bottom: 0.  5vh;
+  }
+
+
+  .subtitle{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 5  00;
+    letter-spacing: 0.18vw; /*3px;*/
+    font-size: 100%
+  } 
+
+  .main_container{
+    padding-top: 10vh;
+  }
+  
+  .row_container {
+    float: none;
+  }
+    
+  .column_1 {
+    /* background-color: rgb(148, 130, 130); */
+    height: 50vh;
+    width: 100%;
+  
+  }
+  
+  .column_1_content {
+    /* background-color: rgb(77, 65, 65); */
+    height: 75%;
+    text-align: right;
+    
+  }
+  
+  .column_2 {
+    /* background-color: rgb(99, 99, 117); */
+    height: 50vh;
+    width: 100%;
+  
+  }
+  .column_2_content {
+    /* background-color: rgb(189, 170, 170); */
+    height: 75%;
+  
+  }
+  
+  .main_photo{
+    margin-right:5vw;
+    max-width: 40vw;
+    max-height: auto;
+    border: 2px solid black;
+    
+  }
+  
+  .main_photo_desc{
+    margin-right:5vw;
+    text-align: right;
+    font-size: 70%;
+  }
+  
+  .project_header { 
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 450%;
+    letter-spacing: 0.25vw;
+  }
+  
+  .project_desc_holder {
+    /* background-color: red; */
+    width: 90%;
+    margin-right: 5vw;
+  }
+  
+  p.project_desc { 
+    padding-top: 1vh;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 125%;
+  
+  }
+
+
+}
+@media only screen and (min-width: 769px) and (max-width: 1199px){
+
+.title {
+  font-family:  'Space Grotesk', sans-serif;
+  font-size: 650%;
+  letter-spacing: 0.18vw;
+  font-weight: 700;
+  padding-top: 20vh;
+}
+
+.subtitle{
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: 0.18vw; /*3px;*/
+  font-size: 150%
+}
+.project_area {
+  height: 100vh;
+}
+.main_container{
+  padding-top: 5vh;
+}
+
+.row_container {
+  float:none;
+}
+  
+.column_1 {
+  /* background-color: rgb(148, 130, 130); */
+  height: 50vh;
+  width: 100% ;
+  transform: translate3d(0, 50vh, 0);
+
+}
+
+.column_1_content {
+  /* background-color: rgb(77, 65, 65); */
+  height: 100%;
+  text-align: center;
+  margin-bottom: 10vh;
+  
+}
+
+.column_2 {
+  /* background-color: rgb(99, 99, 117); */
+  height: 50vh;
+  width: 100%;
+  transform: translate3d(0, -50vh, 0);
+
+
+
+}
+.column_2_content {
+  /* background-color: rgb(189, 170, 170); */
+  height: 100%;
+  text-align: center;
+
+}
+
+.main_photo{
+  max-width: 80%;
+  max-height: auto;
+  border: 2px solid black;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+
+.main_photo_desc{
+
+  text-align: center;
+  font-size: 100%;
+  margin-right: 0;
+}
+
+.project_header { 
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 450%;
+  letter-spacing: 0.25vw;
+  margin-top: 2.5vh;
+}
+
+.project_desc_holder {
+  /* background-color: red; */
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2.5vh;
+}
+
+p.project_desc { 
+  padding-top: 1vh;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 125%;
+
+}
+
+.team_area {
+  height: 60vh;
+  background: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 2.5vh;
+}
+
+.team_header_area {
+  height:10vh;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.team_header {
+  padding-bottom: auto;
+  font-family: 'Space Grotesk', sans-serif;
+  color:black;
+  font-size: 250%;
+  letter-spacing: 0.20vw;
+}
+
+.team_photo_area{
+  background-color: rgb(255, 255, 255);
+  height:50vh;
+}
+.team_photo{
+  max-width: 80%;
+  max-height: auto;
+  border: 2px solid black;
+  margin-top: 2.5vh;
+
+
+}
+}
+
+@media only screen and (min-width: 1200px) { /* MAX SIZE */
+    .main-content {
+      position: relative;
+      top: 20vh;
+      font-family: 'Montserrat', sans-serif;
+      color: #f4f4f4;
+
+      display: block;
+      text-align: center;
+      
+      /* background-color: rgb(207, 207, 207); */
+    
+      justify-content: center;
+      font-family: 'Open Sans', sans-serif;
+    
+      padding-left: 2.5vw;
+      padding-right: 2.5vw;
+
+      height: 90vh;
+    }
+    .main-picture{
+      height: 110vh
+    }
+
+    .title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 650%;
+      letter-spacing: 0.50vw;
+      font-weight: 700;
+      padding-top: 25vh;
+    }
+    
+    .subtitle{
+      font-family: 'Space Grotesk', sans-serif;
+      letter-spacing: 0.18vw; /*3px;*/
+      font-size: 1.84vh; /*18px;*/
+    }
 }
 

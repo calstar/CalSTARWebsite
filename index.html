@@ -34,10 +34,10 @@
 		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
 			<ul class="navbar-nav right-align-menu ml-auto">
 			  <li class="nav-item">
-				<a class="nav-link" href="projects.html"> Projects</a> 
+				<a class="nav-link" id = "nav-link-color"  href="projects.html"> Projects</a> 
 			  </li>
-			  <li class="nav-item dropdown active">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" id = "nav-link-color" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				  Teams
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -47,13 +47,13 @@
 				</div>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="news.html">News</a>
+				<a class="nav-link" id = "nav-link-color"  href="news.html">News</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="sponsors.html">Sponsors</a>
+				<a class="nav-link" id = "nav-link-color"  href="sponsors.html">Sponsors</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="sl_docs.html">Sl Docs</a>
+				<a class="nav-link" id = "nav-link-color" href="sl_docs.html">Sl Docs</a>
 			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" id= "nav_last" href="">Contact us</a>
@@ -61,33 +61,45 @@
 			</ul>
 		  </div>
 		</nav>
-
-		<div class="main-picture">
-			<div class="container">
-				<div class="main-content">
-					<h1>STAR</h1>
-					<h4>UC BERKELEY'S SPACE TECHNOLOGIES AND ROCKETRY TEAM</h4>
+		
+				<div class = "main_video_container">
+					<video autoplay muted loop id="myVideo">
+						<source src="assets/videos/GroundPOV.mp4" type="video/mp4">
+					 </video>
+					 <button id="myBtn" onclick="myFunction()">Pause</button>
 				</div>
-			</div>
-		</div>
+>
+				<div class="main-content">
 
-		<div class="welcome">
-			<div class="container">
-				<h1>WELCOME</h1>
-				<p class="welcomeblurb">Space Technologies And Rocketry at Berkeley, or STAR, is UC Berkeley’s premier competition high-power rocketry team.
-					STAR boasts the longest and most successful launch history on campus, with a total of six complete vehicles engineered over our half decade lifetime.
-					These vehicles have been completely student designed and tested, from our in-house avionics to our liquid-fuel propulsion to our array of payloads -- ranging from microbial power cells to rocket-deployed aircraft.
-					STAR also boasts the longest competition history on campus, having previously launched as NASA Student Launch, and now participating in the ESRA Spaceport America Cup.</p>
+					<h1 class = "title">STAR</h1>
+					<h4 class = "subtitle"> UC BERKELEY'S SPACE TECHNOLOGIES AND ROCKETRY TEAM</h4>
+					<div class = "new_items">
+						
+				
 
-      		<img class="centered_photo" src="assets/images/teamphoto_cropped.jpg"/> </a>
-			</div>
-			</div>
+					</div>
+				</div>
+		<div class = "background">
+
+		<div class="welcome_container">
+				<h1 class = "welcome_header">WHO WE ARE</h1>
+				<div class = "welcome_p_container">
+					<p class="welcome_p">Space Technologies And Rocketry at Berkeley, or STAR, is UC Berkeley’s premier competition high-power rocketry team.
+						STAR boasts the longest and most successful launch history on campus, with a total of six complete vehicles engineered over our half decade lifetime.
+						<br>Completely student designed and tested products, ranging from avionics to propulsion to the white array of payloads
+					</p>
+				</div>
+				
+				<div class = "welcome_photo_container">
+					<img class="welcome_photo" src="assets/images/teamphoto_cropped.jpg"/>
+				</div>
+      		
 		</div>
 
  		<div class="three-tenets">
 			<div class="container">
-				<h1>WHAT WE DO</h1>
-				<h3>Redefining collegiate space exploration.</h3>
+				<h1 class = "whatwedo_header">WHAT WE DO</h1>
+				<h3 class = "whatwedo_subtitle">Redefining collegiate space exploration.</h3>
 
 				<div class="tenet-row row">
 					<div class="tenet col-md-4">
@@ -116,11 +128,10 @@
 					</div>
 				</div>
 
-				<!-- <h5>STAR dares to reach where no other college team has been before.</h5> -->
 
 			</div>
 		</div>
-
+	</div>
 
 
 <!-- 		<div class="ready-to-launch">

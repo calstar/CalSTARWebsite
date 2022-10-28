@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
   /* GENERAL NAV */
+  .active{
+    color:red
+  }
 
 .right-align-menu {
     text-align: right;
@@ -15,51 +19,48 @@
   }
   
   .navbar {
-    font-family: "Open Sans", sans-serif;
+    font-family:  'Space Grotesk', sans-serif;
   }
-  
+
   .navbar-dark {
     background-color: transparent;
     transition: background-color .5s ease 0s;
   }
 
+  #nav-link-color:hover {
+    color:#6969c3;
+  }
+
+
+  /* HOVER */
   .navbar-dark:hover {
-    background-color: rgba(58, 58, 58, 1);
+    background-color: rgb(40, 40, 40);
     transition: background-color .5s ease 0s;
   }
-  
+  /* HOVER & SCROLL DOWN */
   .navbar-dark:hover.opaque {
-    background-color: rgba(58, 58, 58, 1);
+    background-color: rgb(40, 40, 40);
     transition: background-color .5s ease 0s;
   }
+
+  /* SCROLL DOWN */
   .navbar-dark.opaque {
     background-color: rgb(80,80,80, 0.9);
   
   }
-
+  /* ICON */
   .navbar-brand {
     position: relative;
     transition: color 0.5s;
     font-size: 2vh; /*20px;*/
     letter-spacing: 0.18vw; /*3px;*/
     text-transform: uppercase;
-    color: #999999 !important;
     margin-left: 2.5vh;
   }
   
-  .navbar-brand.opaque {
-    position: relative;
-    transition: color 0.5s;
-    font-size: 2vh; /*20px;*/
-    letter-spacing: 0.18vw; /*3px;*/
-    text-transform: uppercase;
-    color: #F0FFF0 !important;
-  }
-  
-  .navbar-brand:hover {
-    color: #f4f4f4 !important;
-  }
 
+
+  /* LIST */
   .navbar-dark li a {
     font-size: 1.75vh; /*16px;*/
     letter-spacing: 0.18vw; /*3px;*/
@@ -71,7 +72,7 @@
   }
   
   .navbar-dark li a:hover {
-    color: #f4f4f4;
+    color: #6969c3;
     text-decoration: none;
     background-color: transparent !important;
   }
@@ -83,9 +84,12 @@
 
   #nav_last {
     margin-right:.5vw;
+ 
   }
   
-
+  #nav_last:hover {
+    color:#6969c3;
+  }
   /*GENERAL FOOTER*/
 
 .footer .footer-content {
