@@ -81,7 +81,7 @@
 .welcome_header {
 	font-family: 'Space Grotesk', sans-serif;
 	position: relative;
-	text-align: left;
+	text-align: center;
 	font-size: 300%;
 	letter-spacing: 0.12vw; /*2px;*/
 	font-weight: 500;
@@ -93,14 +93,15 @@
 .welcome_p_container {
 	margin-top: 3.75vh;
 	width: 80%;
-
+	margin-left: auto;
+	margin-right: auto;
 
 }
 
 .welcome_p {
 	font-family: 'Open Sans', sans-serif;
 	position: relative;
-	text-align: left;
+	text-align: center;
 	font-size: 110%; /*22px;*/
 	color: #2f354a;
 }
