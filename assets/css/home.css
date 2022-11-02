@@ -4,21 +4,21 @@
 
 .main-content {
 	position: relative;
-	height: 112.5vh;
+	height: 115vh;
 	margin-top: -115vh;
 	font-family: 'Montserrat', sans-serif;
 	color: #f4f4f4;
 	z-index: 2;
-	background-color: rgba(43, 39, 16, 0.487);
+	background-color: rgba(17, 34, 48, 0.555);
 	text-align: center;
 }
 
 .title {
 	font-family:  'Space Grotesk', sans-serif;
-	font-size: 1000% !important;
-	letter-spacing: 0.55vw !important;
+	font-size: 1000%;
+	letter-spacing: 0.55vw;
 	font-weight: 700;
-	padding-top: 40vh;
+	padding-top: 45vh;
 }
 
 .subtitle{
@@ -61,61 +61,79 @@
 	color: black;
   }
 
-.new_items {
-	margin-top: 5vh;
-	/* background-color: rgba(255, 0, 0, 0.456); */
-	height: 40vh;
-	padding-top: -20vh;
-}
 .background {
 	background-color: #f3f3f3;
 }
-.welcome_container {
-	height: 90vh;
-	padding-top: 10vh;
-	padding-bottom: 10vh;
 
+/* START OF WELCOME SECTION */
+
+.welcome_container {
+	display: block;
+	overflow: auto;
+	padding-top: 12.5vh;
+	padding-bottom: 10vh;
+	width:70%;
+	margin-left: 15%;
+	margin-right: 15%;
 	background-color: #f3f3f3;
 }
 
 .welcome_header {
 	font-family: 'Space Grotesk', sans-serif;
 	position: relative;
-	text-align: center;
+	text-align: left;
 	font-size: 300%;
 	letter-spacing: 0.12vw; /*2px;*/
 	font-weight: 500;
 	margin-bottom: 0px;
-	padding-top:10vh;
 
 }
 
-.welcome_p_container {
-	margin-top: 3.75vh;
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
 
-}
 
 .welcome_p {
 	font-family: 'Open Sans', sans-serif;
 	position: relative;
-	text-align: center;
-	font-size: 110%; /*22px;*/
+	text-align: left;
+	font-size: 100%; /*22px;*/
 	color: #2f354a;
+	padding-top: 5.0vh;
 }
+
+.counter {
+	padding-top: 7.5vh;
+}
+
+.counter_header {
+	font-family: 'Space Grotesk', sans-serif;
+	position: relative;
+	text-align: left;
+	font-size: 300%;
+	letter-spacing: 0.12vw; /*2px;*/
+	font-weight: 400;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.counter_p{
+	font-family: 'Space Grotesk', sans-serif;
+	position: relative;
+	text-align: left;
+	font-size: 125%;
+	letter-spacing: 0.12vw; /*2px;*/
+	margin-bottom: 0px;
+	text-align: center;
+}
+
 .welcome_photo_container{
-	margin-top: 7.5vh;
-	margin-left: 5%;
-	margin-left: 5%;
+	margin-top: 10.5vh;
 	/* background-color: red; */
-	width: 90%;
+	width: 100%;
 }
 
 .welcome_photo {
 	position: relative;
-	width: 50%;
+	width: 100%;
 	height: auto;
 	border-radius: 10px;
 	display: block;
@@ -125,11 +143,14 @@
 
 
 .three-tenets {
-	height: 100vh;
-	background-color: #f3f3f3;
+	display: block;
+	overflow: auto;	
+	padding-top: 7.5vh;
+	background-color: #e6e6e6;
+	/* background-color: #06067a */
 }
 
-.whatwedo_header {
+.tenets_header {
 	font-family: 'Space Grotesk', sans-serif;
 	position: relative;
 	text-align: center;
@@ -138,13 +159,13 @@
 	font-weight: 500;
 }
 
-.whatwedo_subtitle {
-	font-family: 'Montserrat', sans-serif;
-	padding-top: 2.5vh;
+.tenets_subtitle {
+	font-family: 'Space Grotesk', sans-serif;
+	padding-top: 1.5vh;
 	position: relative;
-	font-size: 200%; /*24px;*/
+	font-size: 150%; /*24px;*/
 	letter-spacing: 0.12vw; /*2px;*/
-	font-weight: 700;
+	font-weight: 400;
 	color: #2f354a;
 	text-align: center;
 }
@@ -153,44 +174,74 @@
 	position: relative;
 	border-radius: 5px;
 	font-size: 5.73vh; /*56px;*/
-	top: 9.42vh; /*92px;*/
 	margin-bottom: 0px;
+}
+.tenet_header{
+	font-family: 'Space Grotesk', sans-serif;
+	letter-spacing: 0.12vw; /*2px;*/
+	position: relative;
+	font-size: 200%; /*24px;*/
+	font-weight: 500;
+	padding-top: 2.5vh;
 }
 
 .three-tenets p {
 	padding-left: 2.14vw; /*36px;*/
 	padding-right: 2.14vw; /*36px;*/
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Space Grotesk', sans-serif;
 	position: relative;
-	top: 12.70vh; /*124px;*/
 	font-size: 1.63vh; /*16px;*/
+	padding-top:1vh;
+	padding-bottom: 2.5vh;
 }
 
-.three-tenets h4 {
-	padding-left: 2.14vw; /*36px;*/
-	padding-right: 2.14vw; /*36px;*/
-	font-family: 'Montserrat', sans-serif;
-	letter-spacing: 0.12vw; /*2px;*/
-	position: relative;
-	top: 11.06vh; /*108px;*/
-	font-size: 2.45vh; /*24px;*/
-	font-weight: 100px;
-	margin-bottom: 0px;
-}
 
-.three-tenets .container .tenet-row {
+.tenet-row {
 	position: relative;
 	text-align: center;
-	top: 3.68vh; /*36px;*/
+	padding-top:7.5vh /*36px;*/
 }
 
-.tenet-image-row {
+/* START OF INTEREST SECTION  */
+
+.interest_container {
+	display: block;
+	overflow: auto;
+	padding-top: 7.5vh;
+	padding-bottom: 10vh;
+	width:70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #f3f3f3;
+}
+.interest_header {
+	font-family: 'Space Grotesk', sans-serif;
 	position: relative;
-	top: 25vh; /*240px;*/
+	text-align: left;
+	font-size: 300%;
+	letter-spacing: 0.12vw; /*2px;*/
+	font-weight: 500;
+	margin-bottom: 0px;
+	padding-top:10vh;
 }
 
-.tenet-image-row .tenet-image img {
-	width: 90%;
+.interest_p{
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	text-align: left;
+	font-size: 100%; /*22px;*/
+	color: #2f354a;
+	padding-top: 4.0vh;
+}
+
+.interest_image_container{
+	position: relative;
+	padding-top: 10vh;
+	
+}
+
+.interest_image {
+	width: 80%;
 	height: auto;
 	border-radius: 10px;
 	display: block;
@@ -198,6 +249,84 @@
 	margin-right: auto;
 }
 
+
+
+@media only screen and (min-width: 10px) and (max-width: 767px) { /* MAX SIZE */
+	.title {
+		font-size:600%
+	}
+	
+	.subtitle {
+		font-size:125%;
+		padding-left: 5vw;
+		padding-right: 5vw;
+	}
+
+	/* START OF WELCOME SECTION */
+
+
+	.welcome_photo_container {
+		display: inherit;
+	}
+
+	/* START OF TENET SECTION */
+
+	/* START OF INTEREST SECTION  */
+
+
+	.interest_header {
+		font-size: 275%
+	}
+	.interest_image {
+		width: 100%;
+		padding-bottom: 5vh;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) { /* MAX SIZE */
+	.title {
+		font-size:900%
+	}
+	
+	.subtitle {
+		font-size:200%;
+		padding-left: 5vw;
+		padding-right: 5vw;
+	}
+
+	/* START OF WELCOME SECTION */
+
+
+	.welcome_header {
+		font-size: 400%;
+	}
+
+	.welcome_p{
+		font-size: 150%;
+	}
+
+
+	.welcome_photo_container {
+		display: inherit;
+	}
+
+	/* START OF TENET SECTION */
+
+	/* START OF INTEREST SECTION  */
+	
+
+	.interest_header {
+		font-size: 400%
+	}
+
+	.interest_p {
+		font-size: 150%
+	}
+	.interest_image {
+		width: 100%;
+		padding-bottom: 5vh;
+	}
+}
 
 @media only screen and (min-width: 1200px) { /* MAX SIZE */
  
