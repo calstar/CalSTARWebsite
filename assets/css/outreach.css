@@ -1,0 +1,64 @@
+.mainBackground {
+    background-color: #efefe3;
+    height: 100vh;
+}
+
+.mainTitleContainer {
+    padding-top: 17.5vh;
+    text-align: center;
+}
+
+.mainTitle{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 350%;
+    letter-spacing: 0.18vw;
+    font-weight: 700;
+    padding-bottom: 0.  5vh;
+
+}
+
+.pageContainer {
+}
+
+.pageLeft{
+    width: 50%;
+    height: 75vh;
+    /* background-color: blue; */
+    float: left;
+    text-align: center;
+}
+
+.problemTitle {
+    padding-top: 5vh;
+    margin-left: -10vw;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 200%;
+    letter-spacing: 0.18vw;
+    font-weight: 700;
+    padding-bottom: 0.  5vh;
+}
+
+.problemParagraph {
+    padding-top: 1vh;
+    margin-left: 12.5vw;
+    text-align: left;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 100%;
+    letter-spacing: 0.18vw;
+    font-weight: 700;
+}
+
+.solutionTitle {
+    margin-left: -10vw;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 200%;
+    letter-spacing: 0.18vw;
+    font-weight: 700;
+    padding-bottom: 0.  5vh;
+}
+.pageRight{
+    width: 50%;
+    /* background-color: red; */
+    height: 75vh;
+    float: right;
+}
